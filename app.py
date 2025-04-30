@@ -17,9 +17,12 @@ def parse_coordinates(coord_str):
     if pd.isna(coord_str) or coord_str == "":
         return None, None
     
+    # Convert to string if not already
+    coord_str = str(coord_str)
+    
     # Try to extract coordinates in format like "12.345, -67.890"
     pattern = r"(-?\d+\.?\d*)[,\s]+(-?\d+\.?\d*)"
-    match = re.search(pattern, str(coord_str))
+    match = re.search(pattern, coord_str)
     
     if match:
         try:
@@ -35,7 +38,35 @@ def parse_coordinates(coord_str):
         except ValueError:
             pass
     
+    # Try to extract coordinates in DMS format like "53°21'N, 4°14'W"
+    dms_pattern = r"(\d+)°(\d+)'([NS])[,\s]+(\d+)°(\d+)'([EW])"
+    dms_match = re.search(dms_pattern, coord_str)
+    
+    if dms_match:
+        try:
+            lat_deg = int(dms_match.group(1))
+            lat_min = int(dms_match.group(2))
+            lat_dir = dms_match.group(3)
+            
+            lon_deg = int(dms_match.group(4))
+            lon_min = int(dms_match.group(5))
+            lon_dir = dms_match.group(6)
+            
+            # Convert to decimal degrees
+            lat = lat_deg + (lat_min / 60)
+            if lat_dir == 'S':
+                lat = -lat
+                
+            lon = lon_deg + (lon_min / 60)
+            if lon_dir == 'W':
+                lon = -lon
+                
+            return lat, lon
+        except (ValueError, IndexError):
+            pass
+    
     return None, None
+
 
 def load_data():
     """Load and process the treasure data from Excel."""
@@ -129,22 +160,22 @@ def main():
         # Display treasure details
         st.subheader("Treasure Details")
         
-        # Allow user to select a specific treasure
-        selected_treasure = st.selectbox(
-            "Select a treasure location:",
-            options=df["Name"].tolist()
-        )
+        # # Allow user to select a specific treasure
+        # selected_treasure = st.selectbox(
+        #     "Select a treasure location:",
+        #     options=df["Name"].tolist()
+        # )
         
-        # Display details for the selected treasure
-        if selected_treasure:
-            treasure_data = df[df["Name"] == selected_treasure].iloc[0]
+        # # Display details for the selected treasure
+        # if selected_treasure:
+        #     treasure_data = df[df["Name"] == selected_treasure].iloc[0]
             
-            st.markdown(f"### {treasure_data['Name']}")
+        #     st.markdown(f"### {treasure_data['Name']}")
             
-            # Display all available fields
-            for column in df.columns:
-                if column not in ["latitude", "longitude"] and not pd.isna(treasure_data[column]):
-                    st.markdown(f"**{column}:** {treasure_data[column]}")
+        #     # Display all available fields
+        #     for column in df.columns:
+        #         if column not in ["latitude", "longitude"] and not pd.isna(treasure_data[column]):
+        #             st.markdown(f"**{column}:** {treasure_data[column]}")
     
     # Display the full dataset as a table (expandable)
     with st.expander("View All Data"):
