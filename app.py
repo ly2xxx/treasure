@@ -135,16 +135,38 @@ def main():
             pitch=0
         )
         
-        # Create a layer with all points
+        # # Create a layer with all points
         layer = pdk.Layer(
             "ScatterplotLayer",
             data=df,
             get_position=["longitude", "latitude"],
             get_color=[255, 165, 0, 200],  # Orange with some transparency
-            get_radius=100000,  # Size of the points
+            get_radius=10000,  # Size of the points
             pickable=True,
             auto_highlight=True
         )
+
+        # # Create a layer with flag icons instead of points
+        # layer = pdk.Layer(
+        #     "IconLayer",
+        #     data=df,
+        #     get_position=["longitude", "latitude"],
+        #     get_icon={
+        #         "url": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/svgs/solid/flag.svg",
+        #         "width": 128,
+        #         "height": 128,
+        #         "anchorY": 128
+        #     },
+        #     get_size=8,
+        #     get_color=[255, 0, 0],  # Orange color for the flags
+        #     pickable=True,
+        #     auto_highlight=True,
+        #     size_scale=15,
+        #     size_min_pixels=150,
+        #     size_max_pixels=400
+        # )
+
+
         
         # Render the map
         map_chart = pdk.Deck(
