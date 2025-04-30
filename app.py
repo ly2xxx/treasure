@@ -105,6 +105,13 @@ def main():
         st.warning("No valid coordinate data found. Please check your Excel file.")
         return
     
+    # Initialize session state for tracking selected treasure and map position
+    if 'selected_treasure' not in st.session_state:
+        st.session_state.selected_treasure = None
+    if 'map_center' not in st.session_state:
+        st.session_state.map_center = (df["latitude"].mean(), df["longitude"].mean())
+        st.session_state.zoom_level = 2
+
     # Create two columns for layout
     col1, col2 = st.columns([7, 3])
     
@@ -129,9 +136,9 @@ def main():
         
         # Create the map with markers
         view_state = pdk.ViewState(
-            latitude=center_lat,
-            longitude=center_lon,
-            zoom=2,
+            latitude=st.session_state.map_center[0],
+            longitude=st.session_state.map_center[1],
+            zoom=st.session_state.zoom_level,
             pitch=0
         )
         
@@ -184,13 +191,31 @@ def main():
         # Display treasure details
         st.subheader("Treasure Details")
         
-        # Check if "Location" column exists, otherwise use the first column as identifier
+        # Allow user to select a specific treasure
         id_column = "Location" if "Location" in df.columns else df.columns[0]
         
-        # Allow user to select a specific treasure
+        # Initialize session state for tracking selected treasure
+        if 'selected_treasure' not in st.session_state:
+            st.session_state.selected_treasure = None
+        if 'map_center' not in st.session_state:
+            st.session_state.map_center = (df["latitude"].mean(), df["longitude"].mean())
+            st.session_state.zoom_level = 2
+        
+        # Function to update map when selection changes
+        def on_treasure_select():
+            selected = st.session_state.treasure_selector
+            if selected:
+                treasure_data = df[df[id_column] == selected].iloc[0]
+                st.session_state.selected_treasure = selected
+                st.session_state.map_center = (treasure_data["latitude"], treasure_data["longitude"])
+                st.session_state.zoom_level = 8  # Zoom level when focused on a location
+        
+        # Create the selectbox with the callback
         selected_treasure = st.selectbox(
             "Select a treasure location:",
-            options=df[id_column].tolist()
+            options=df[id_column].tolist(),
+            key="treasure_selector",
+            on_change=on_treasure_select
         )
         
         # Display details for the selected treasure
