@@ -117,13 +117,15 @@ def main():
         center_lon = df["longitude"].mean()
         
         # Create tooltip for hover information
+        id_column = "Location" if "Location" in df.columns else df.columns[0]
         tooltip = {
-            "html": "<b>{Name}</b><br/>{Description}",
+            "html": f"<b>{{{id_column}}}</b><br/>{{Coordinates (Approximate)}}",
             "style": {
                 "backgroundColor": "steelblue",
                 "color": "white"
             }
         }
+
         
         # Create the map with markers
         view_state = pdk.ViewState(
@@ -160,23 +162,26 @@ def main():
         # Display treasure details
         st.subheader("Treasure Details")
         
-        # # Allow user to select a specific treasure
-        # selected_treasure = st.selectbox(
-        #     "Select a treasure location:",
-        #     options=df["Name"].tolist()
-        # )
+        # Check if "Location" column exists, otherwise use the first column as identifier
+        id_column = "Location" if "Location" in df.columns else df.columns[0]
         
-        # # Display details for the selected treasure
-        # if selected_treasure:
-        #     treasure_data = df[df["Name"] == selected_treasure].iloc[0]
+        # Allow user to select a specific treasure
+        selected_treasure = st.selectbox(
+            "Select a treasure location:",
+            options=df[id_column].tolist()
+        )
+        
+        # Display details for the selected treasure
+        if selected_treasure:
+            treasure_data = df[df[id_column] == selected_treasure].iloc[0]
             
-        #     st.markdown(f"### {treasure_data['Name']}")
+            st.markdown(f"### {selected_treasure}")
             
-        #     # Display all available fields
-        #     for column in df.columns:
-        #         if column not in ["latitude", "longitude"] and not pd.isna(treasure_data[column]):
-        #             st.markdown(f"**{column}:** {treasure_data[column]}")
-    
+            # Display all available fields
+            for column in df.columns:
+                if column not in ["latitude", "longitude", id_column] and not pd.isna(treasure_data[column]):
+                    st.markdown(f"**{column}:** {treasure_data[column]}")
+
     # Display the full dataset as a table (expandable)
     with st.expander("View All Data"):
         st.dataframe(df.drop(columns=["latitude", "longitude"]))
