@@ -71,13 +71,17 @@ def parse_coordinates(coord_str):
 def load_data():
     """Load and process the treasure data from Excel."""
     # file_path = os.path.join("./", "treasure.xlsx")
-    # Get the directory where the current script is located
-    current_dir = os.path.dirname(os.path.abspath(__file__))
-    # Join with the filename to create an absolute path
-    file_path = os.path.join(current_dir, "treasure.xlsx")
+    # # Get the directory where the current script is located
+    # current_dir = os.path.dirname(os.path.abspath(__file__))
+    # # Join with the filename to create an absolute path
+    # file_path = os.path.join(current_dir, "treasure.xlsx")
     
     try:
-        df = pd.read_excel(file_path)
+        # URL to the raw content of the Excel file on GitHub
+        github_url = "https://github.com/ly2xxx/treasure/raw/main/treasure.xlsx"
+        
+        # Read the Excel file directly from GitHub
+        df = pd.read_excel(github_url)
         
         # Process coordinates
         coords = []
