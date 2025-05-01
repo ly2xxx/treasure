@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import pydeck as pdk
 import re
-# import os
+import os
 from math import isnan
 
 # Configuration for point sizes based on likelihood
@@ -27,12 +27,12 @@ def parse_coordinates(coord_str):
     # Convert to string if not already
     coord_str = str(coord_str)
     
-    # Try to extract coordinates in format like "12.345, -67.890"
-    pattern = r"(-?\d+\.?\d*)[,\s]+(-?\d+\.?\d*)"
-    match = re.search(pattern, coord_str)
-    
-    if match:
-        try:
+    try:
+        # Try to extract coordinates in format like "12.345, -67.890"
+        pattern = r"(-?\d+\.?\d*)[,\s]+(-?\d+\.?\d*)"
+        match = re.search(pattern, coord_str)
+        
+        if match:
             lat = float(match.group(1))
             lon = float(match.group(2))
             # Basic validation for lat/lon ranges
@@ -42,15 +42,12 @@ def parse_coordinates(coord_str):
                 # If values are swapped, try to correct them
                 if -90 <= lon <= 90 and -180 <= lat <= 180:
                     return lon, lat
-        except ValueError:
-            pass
-    
-    # Try to extract coordinates in DMS format like "53°21'N, 4°14'W"
-    dms_pattern = r"(\d+)°(\d+)'([NS])[,\s]+(\d+)°(\d+)'([EW])"
-    dms_match = re.search(dms_pattern, coord_str)
-    
-    if dms_match:
-        try:
+        
+        # Try to extract coordinates in DMS format like "53°21'N, 4°14'W"
+        dms_pattern = r"(\d+)°(\d+)'([NS])[,\s]+(\d+)°(\d+)'([EW])"
+        dms_match = re.search(dms_pattern, coord_str)
+        
+        if dms_match:
             lat_deg = int(dms_match.group(1))
             lat_min = int(dms_match.group(2))
             lat_dir = dms_match.group(3)
@@ -69,54 +66,133 @@ def parse_coordinates(coord_str):
                 lon = -lon
                 
             return lat, lon
-        except (ValueError, IndexError):
-            pass
+        
+        # Try to extract coordinates in decimal degrees with direction like "55.2415° N, 6.5167° W"
+        decimal_dir_pattern = r"(\d+\.?\d*)°\s*([NS])[,\s]+(\d+\.?\d*)°\s*([EW])"
+        decimal_dir_match = re.search(decimal_dir_pattern, coord_str)
+        
+        if decimal_dir_match:
+            lat = float(decimal_dir_match.group(1))
+            lat_dir = decimal_dir_match.group(2)
+            lon = float(decimal_dir_match.group(3))
+            lon_dir = decimal_dir_match.group(4)
+            
+            if lat_dir == 'S':
+                lat = -lat
+            if lon_dir == 'W':
+                lon = -lon
+                
+            return lat, lon
+        
+        # Try to extract coordinates in DMS format with seconds like "54° 16' 25" N, 5° 40' 36" W"
+        dms_sec_pattern = r"(\d+)°\s*(\d+)'\s*(\d+)\"?\s*([NS])[,\s]+(\d+)°\s*(\d+)'\s*(\d+)\"?\s*([EW])"
+        dms_sec_match = re.search(dms_sec_pattern, coord_str)
+        
+        if dms_sec_match:
+            lat_deg = int(dms_sec_match.group(1))
+            lat_min = int(dms_sec_match.group(2))
+            lat_sec = int(dms_sec_match.group(3))
+            lat_dir = dms_sec_match.group(4)
+            
+            lon_deg = int(dms_sec_match.group(5))
+            lon_min = int(dms_sec_match.group(6))
+            lon_sec = int(dms_sec_match.group(7))
+            lon_dir = dms_sec_match.group(8)
+            
+            # Convert to decimal degrees
+            lat = lat_deg + (lat_min / 60) + (lat_sec / 3600)
+            if lat_dir == 'S':
+                lat = -lat
+                
+            lon = lon_deg + (lon_min / 60) + (lon_sec / 3600)
+            if lon_dir == 'W':
+                lon = -lon
+                
+            return lat, lon
+        
+        # Try to extract coordinates in format like "54.32° N, 5.72° W"
+        simple_decimal_pattern = r"(\d+\.\d+)°\s*([NS])[,\s]+(\d+\.\d+)°\s*([EW])"
+        simple_decimal_match = re.search(simple_decimal_pattern, coord_str)
+        
+        if simple_decimal_match:
+            lat = float(simple_decimal_match.group(1))
+            lat_dir = simple_decimal_match.group(2)
+            lon = float(simple_decimal_match.group(3))
+            lon_dir = simple_decimal_match.group(4)
+            
+            if lat_dir == 'S':
+                lat = -lat
+            if lon_dir == 'W':
+                lon = -lon
+                
+            return lat, lon
+        
+    except (ValueError, IndexError):
+        pass
     
     return None, None
+
 
 
 def load_data():
     """Load and process the treasure data from Excel."""
     # file_path = os.path.join("./", "treasure.xlsx")
-    # # Get the directory where the current script is located
-    # current_dir = os.path.dirname(os.path.abspath(__file__))
-    # # Join with the filename to create an absolute path
-    # file_path = os.path.join(current_dir, "treasure.xlsx")
+    # Get the directory where the current script is located
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    # Join with the filename to create an absolute path
+    file_path = os.path.join(current_dir, "treasure.xlsx")
+    # # URL to the raw content of the Excel file on GitHub
+    # github_url = "https://github.com/ly2xxx/treasure/raw/main/treasure.xlsx"
     
     try:
-        # URL to the raw content of the Excel file on GitHub
-        github_url = "https://github.com/ly2xxx/treasure/raw/main/treasure.xlsx"
         
-        # Read the Excel file directly from GitHub
-        df = pd.read_excel(github_url)
         
-        # Process coordinates
-        coords = []
-        for coord_str in df["Coordinates (Approximate)"]:
-            lat, lon = parse_coordinates(coord_str)
-            coords.append((lat, lon))
+        # Read all sheets from the Excel file
+        excel_file = pd.ExcelFile(file_path)
+        sheet_names = excel_file.sheet_names
         
-        df["latitude"], df["longitude"] = zip(*coords)
-
-        # Calculate radius based on likelihood
-        df["radius"] = df["Likelihood (%)"].apply(
-            lambda x: LIKELIHOOD_RADIUS_CONFIG["high"] if pd.notna(x) and (
-                        (isinstance(x, str) and float(x.strip('%')) >= 80) or 
-                        (isinstance(x, (int, float)) and x >= 0.8)
-                    ) else (
-                    LIKELIHOOD_RADIUS_CONFIG["medium"] if pd.notna(x) and (
-                        (isinstance(x, str) and float(x.strip('%')) >= 60) or
-                        (isinstance(x, (int, float)) and x >= 0.6)
-                    ) else LIKELIHOOD_RADIUS_CONFIG["low"])
-        )
+        # Create an empty DataFrame to store combined data
+        combined_df = pd.DataFrame()
         
-        # Filter out rows with invalid coordinates
-        df = df.dropna(subset=["latitude", "longitude"])
+        # Process each sheet
+        for sheet_name in sheet_names:
+            # Read the sheet
+            df = pd.read_excel(file_path, sheet_name=sheet_name)
+            
+            # Add the sheet name as "Area"
+            df["Area"] = sheet_name
+            
+            # Process coordinates
+            coords = []
+            for coord_str in df["Coordinates (Approximate)"]:
+                lat, lon = parse_coordinates(coord_str)
+                coords.append((lat, lon))
+            
+            df["latitude"], df["longitude"] = zip(*coords)
+            
+            # Calculate radius based on likelihood
+            df["radius"] = df["Likelihood (%)"].apply(
+                lambda x: LIKELIHOOD_RADIUS_CONFIG["high"] if pd.notna(x) and (
+                            (isinstance(x, str) and float(x.strip('%')) >= 80) or 
+                            (isinstance(x, (int, float)) and x >= 0.8)
+                        ) else (
+                        LIKELIHOOD_RADIUS_CONFIG["medium"] if pd.notna(x) and (
+                            (isinstance(x, str) and float(x.strip('%')) >= 60) or
+                            (isinstance(x, (int, float)) and x >= 0.6)
+                        ) else LIKELIHOOD_RADIUS_CONFIG["low"])
+            )
+            
+            # Filter out rows with invalid coordinates
+            df = df.dropna(subset=["latitude", "longitude"])
+            
+            # Append to the combined DataFrame
+            combined_df = pd.concat([combined_df, df], ignore_index=True)
         
-        return df
+        return combined_df
     except Exception as e:
         st.error(f"Error loading data: {e}")
         return pd.DataFrame()
+
 
 def main():
     st.title("🗺️ Treasure Map Explorer")
