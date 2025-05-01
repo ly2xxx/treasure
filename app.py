@@ -2,8 +2,15 @@ import streamlit as st
 import pandas as pd
 import pydeck as pdk
 import re
-import os
+# import os
 from math import isnan
+
+# Configuration for point sizes based on likelihood
+LIKELIHOOD_RADIUS_CONFIG = {
+    "high": 10000,    # For likelihood >= 80%
+    "medium": 7000,   # For likelihood between 60% and 80%
+    "low": 4000       # For likelihood < 60%
+}
 
 # Set page title and configuration
 st.set_page_config(
@@ -90,6 +97,18 @@ def load_data():
             coords.append((lat, lon))
         
         df["latitude"], df["longitude"] = zip(*coords)
+
+        # Calculate radius based on likelihood
+        df["radius"] = df["Likelihood (%)"].apply(
+            lambda x: LIKELIHOOD_RADIUS_CONFIG["high"] if pd.notna(x) and (
+                        (isinstance(x, str) and float(x.strip('%')) >= 80) or 
+                        (isinstance(x, (int, float)) and x >= 0.8)
+                    ) else (
+                    LIKELIHOOD_RADIUS_CONFIG["medium"] if pd.notna(x) and (
+                        (isinstance(x, str) and float(x.strip('%')) >= 60) or
+                        (isinstance(x, (int, float)) and x >= 0.6)
+                    ) else LIKELIHOOD_RADIUS_CONFIG["low"])
+        )
         
         # Filter out rows with invalid coordinates
         df = df.dropna(subset=["latitude", "longitude"])
@@ -152,7 +171,7 @@ def main():
             data=df,
             get_position=["longitude", "latitude"],
             get_color=[255, 165, 0, 200],  # Orange with some transparency
-            get_radius=10000,  # Size of the points
+            get_radius="radius",  # Size of the points
             pickable=True,
             auto_highlight=True
         )
