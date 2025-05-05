@@ -210,6 +210,8 @@ def main():
     if 'map_center' not in st.session_state:
         st.session_state.map_center = (df["latitude"].mean(), df["longitude"].mean())
         st.session_state.zoom_level = 2
+    if 'map_click_location' not in st.session_state:
+        st.session_state.map_click_location = None
 
     # Create two columns for layout
     col1, col2 = st.columns([7, 3])
@@ -222,18 +224,7 @@ def main():
         center_lat = df["latitude"].mean()
         center_lon = df["longitude"].mean()
         
-        # Create tooltip for hover information
-        id_column = "Location" if "Location" in df.columns else df.columns[0]
-        tooltip = {
-            "html": f"<b>{{{id_column}}}</b><br/>{{Coordinates (Approximate)}}",
-            "style": {
-                "backgroundColor": "steelblue",
-                "color": "white"
-            }
-        }
-
-        
-        # Create the map with markers
+        # Create the view state
         view_state = pdk.ViewState(
             latitude=st.session_state.map_center[0],
             longitude=st.session_state.map_center[1],
@@ -241,18 +232,29 @@ def main():
             pitch=0
         )
         
-        # Create two layers - one for all points and one for the selected point
+        # Create tooltip for hover information
+        id_column = "Location" if "Location" in df.columns else df.columns[0]
+        tooltip = {
+            "html": f"<b>{{{id_column}}}</b><br/>{{Coordinates (Approximate)}}<br/>Click to select",
+            "style": {
+                "backgroundColor": "steelblue",
+                "color": "white",
+                "cursor": "pointer"
+            }
+        }
+
+        # Create two layers with enhanced interaction
         all_points_layer = pdk.Layer(
             "ScatterplotLayer",
             data=df[df[id_column] != st.session_state.selected_treasure] if st.session_state.selected_treasure else df,
             get_position=["longitude", "latitude"],
-            get_color=[255, 165, 0, 200],  # Orange with transparency for unselected points
+            get_color=[255, 165, 0, 200],
             get_radius="radius",
             pickable=True,
-            auto_highlight=True
+            auto_highlight=True,
+            highlight_color=[255, 200, 0, 255]  # Brighter highlight on hover
         )
 
-        # Create layer for selected point if one is selected
         selected_layers = []
         if st.session_state.selected_treasure:
             selected_point = df[df[id_column] == st.session_state.selected_treasure]
@@ -260,24 +262,41 @@ def main():
                 "ScatterplotLayer",
                 data=selected_point,
                 get_position=["longitude", "latitude"],
-                get_color=[30, 144, 255, 230],  # Dodger Blue with slight transparency
+                get_color=[30, 144, 255, 230],
                 get_radius="radius",
                 pickable=True,
-                auto_highlight=True
+                auto_highlight=True,
+                highlight_color=[100, 200, 255, 255]  # Brighter highlight on hover
             )
             selected_layers = [selected_layer]
 
-        # Render the map with both layers
+        # Render the map
         map_chart = pdk.Deck(
             layers=[all_points_layer] + selected_layers,
             initial_view_state=view_state,
             map_style="mapbox://styles/mapbox/satellite-v9",
-            tooltip=tooltip
+            tooltip=tooltip,
+            height=600
         )
 
-        st.pydeck_chart(map_chart)
+        # Show the map and handle clicks through a container
+        map_container = st.pydeck_chart(map_chart)
         
-        st.caption("Click on a marker to see details. Use mouse wheel to zoom in/out.")
+        # Add easy-to-understand instructions
+        st.caption("Click on any marker to select it, or use the dropdown menu on the right. Use mouse wheel to zoom in/out.")
+        
+        # If the container was clicked, update the selection
+        if map_container:
+            # The map was interacted with - update the selection if needed
+            new_selection = st.session_state.get('treasure_selector')
+            if new_selection != st.session_state.selected_treasure:
+                st.session_state.selected_treasure = new_selection
+                # Update map center and zoom
+                if new_selection:
+                    treasure_data = df[df[id_column] == new_selection].iloc[0]
+                    st.session_state.map_center = (treasure_data["latitude"], treasure_data["longitude"])
+                    st.session_state.zoom_level = 8
+                    st.experimental_rerun()
     
     with col2:
         # Display treasure details
@@ -285,13 +304,6 @@ def main():
         
         # Allow user to select a specific treasure
         id_column = "Location" if "Location" in df.columns else df.columns[0]
-        
-        # Initialize session state for tracking selected treasure
-        if 'selected_treasure' not in st.session_state:
-            st.session_state.selected_treasure = None
-        if 'map_center' not in st.session_state:
-            st.session_state.map_center = (df["latitude"].mean(), df["longitude"].mean())
-            st.session_state.zoom_level = 2
         
         # Function to update map when selection changes
         def on_treasure_select():
