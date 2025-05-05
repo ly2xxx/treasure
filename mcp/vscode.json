@@ -1,0 +1,16 @@
+{
+    "git.autofetch": true,
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "mcp": {
+        "inputs": [],
+        "servers": {
+            "playwright": {
+                "command": "npx",
+                "args": [
+                    "@playwright/mcp@latest",
+                    "--vision"
+                ]
+            }
+        }
+    },     
+}
