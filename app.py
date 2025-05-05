@@ -325,12 +325,12 @@ def main():
             
             # Display all available fields
             for column in df.columns:
-                if column not in ["latitude", "longitude", id_column] and not pd.isna(treasure_data[column]):
+                if column not in ["latitude", "longitude", "radius", id_column] and not pd.isna(treasure_data[column]):
                     st.markdown(f"**{column}:** {treasure_data[column]}")
 
     # Display the full dataset as a table (expandable)
     with st.expander("View All Data"):
-        st.dataframe(df.drop(columns=["latitude", "longitude"]))
+        st.dataframe(df.drop(columns=["latitude", "longitude", "radius"]))
 
 if __name__ == "__main__":
     main()
