@@ -260,7 +260,7 @@ def main():
                 "ScatterplotLayer",
                 data=selected_point,
                 get_position=["longitude", "latitude"],
-                get_color=[255, 0, 0, 255],  # Bright red for selected point
+                get_color=[30, 144, 255, 230],  # Dodger Blue with slight transparency
                 get_radius="radius",
                 pickable=True,
                 auto_highlight=True
