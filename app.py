@@ -241,47 +241,40 @@ def main():
             pitch=0
         )
         
-        # # Create a layer with all points
-        layer = pdk.Layer(
+        # Create two layers - one for all points and one for the selected point
+        all_points_layer = pdk.Layer(
             "ScatterplotLayer",
-            data=df,
+            data=df[df[id_column] != st.session_state.selected_treasure] if st.session_state.selected_treasure else df,
             get_position=["longitude", "latitude"],
-            get_color=[255, 165, 0, 200],  # Orange with some transparency
-            get_radius="radius",  # Size of the points
+            get_color=[255, 165, 0, 200],  # Orange with transparency for unselected points
+            get_radius="radius",
             pickable=True,
             auto_highlight=True
         )
 
-        # # Create a layer with flag icons instead of points
-        # layer = pdk.Layer(
-        #     "IconLayer",
-        #     data=df,
-        #     get_position=["longitude", "latitude"],
-        #     get_icon={
-        #         "url": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/svgs/solid/flag.svg",
-        #         "width": 128,
-        #         "height": 128,
-        #         "anchorY": 128
-        #     },
-        #     get_size=8,
-        #     get_color=[255, 0, 0],  # Orange color for the flags
-        #     pickable=True,
-        #     auto_highlight=True,
-        #     size_scale=15,
-        #     size_min_pixels=150,
-        #     size_max_pixels=400
-        # )
+        # Create layer for selected point if one is selected
+        selected_layers = []
+        if st.session_state.selected_treasure:
+            selected_point = df[df[id_column] == st.session_state.selected_treasure]
+            selected_layer = pdk.Layer(
+                "ScatterplotLayer",
+                data=selected_point,
+                get_position=["longitude", "latitude"],
+                get_color=[255, 0, 0, 255],  # Bright red for selected point
+                get_radius="radius",
+                pickable=True,
+                auto_highlight=True
+            )
+            selected_layers = [selected_layer]
 
-
-        
-        # Render the map
+        # Render the map with both layers
         map_chart = pdk.Deck(
-            layers=[layer],
+            layers=[all_points_layer] + selected_layers,
             initial_view_state=view_state,
             map_style="mapbox://styles/mapbox/satellite-v9",
             tooltip=tooltip
         )
-        
+
         st.pydeck_chart(map_chart)
         
         st.caption("Click on a marker to see details. Use mouse wheel to zoom in/out.")
