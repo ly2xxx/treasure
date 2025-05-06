@@ -1,0 +1,55 @@
+[
+    {
+      "Location": "Gannat, Auvergne",
+      "Coordinates (Approximate)": "46°06'N, 3°12'E",
+      "treasure value": "High",
+      "Likelihood (%)": 90,
+      "Recommended reason": "Active Celtic capital excavation with ritual deposits",
+      "Supporting Evidence": "800+ Bronze Age artifacts found in situ, including weapons and jewelry",
+      "Supporting Evidence urls": [
+        "https://www.ancient-origins.net/news-history-archaeology/bronze-age-hoards-france-0015764",
+        "https://learnforpleasure.com/blog/celtic-treasures-unearthed-as-a-lost-ancient-capital-city-is-discovered-in-france/"
+      ]
+    },
+    {
+      "Location": "Lascaux, Dordogne",
+      "Coordinates (Approximate)": "45°03'N, 1°10'E",
+      "treasure value": "Priceless",
+      "Likelihood (%)": 85,
+      "Recommended reason": "UNESCO World Heritage Site with intact Paleolithic art",
+      "Supporting Evidence": "Contains 600+ prehistoric paintings, closed for preservation",
+      "Supporting Evidence urls": []
+    },
+    {
+      "Location": "Berthouville, Normandy",
+      "Coordinates (Approximate)": "49°11'N, 0°35'E",
+      "treasure value": "High",
+      "Likelihood (%)": 80,
+      "Recommended reason": "Documented Roman temple hoard location",
+      "Supporting Evidence": "25kg silver Gallo-Roman votive offerings discovered in 1830",
+      "Supporting Evidence urls": []
+    },
+    {
+      "Location": "Vix, Burgundy",
+      "Coordinates (Approximate)": "47°51'N, 4°34'E",
+      "treasure value": "Exceptional",
+      "Likelihood (%)": 75,
+      "Recommended reason": "Princely burial site with Mediterranean trade links",
+      "Supporting Evidence": "Contains famous 1.64m-high Greek krater and gold diadem",
+      "Supporting Evidence urls": [
+        "https://en.wikipedia.org/wiki/Vix_Grave",
+        "https://www.magzter.com/en/stories/culture/Archaeology/INSIDE-A-MAGNIFICENT-CELTIC-TOMB",
+        "https://www.greece-is.com/the-vix-krater/"
+      ]
+    },
+    {
+      "Location": "Roudouallec, Brittany",
+      "Coordinates (Approximate)": "48°15'N, 3°40'W",
+      "treasure value": "Unknown",
+      "Likelihood (%)": 70,
+      "Recommended reason": "Bronze Age mapping stone indicating multiple sites",
+      "Supporting Evidence": "Saint-Belec slab shows 30km² territory with potential burial mounds/deposits",
+      "Supporting Evidence urls": []
+    }
+  ]
+  

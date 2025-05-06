@@ -182,36 +182,42 @@ def load_data():
             # Append to the combined DataFrame
             combined_df = pd.concat([combined_df, df], ignore_index=True)
         
-        # Load and process JSON data
-        json_path = os.path.join(current_dir, "raw", "Ireland.json")
-        if os.path.exists(json_path):
-            # Read JSON data
-            json_df = pd.read_json(json_path)
+        # Load and process JSON data from all files in raw directory
+        raw_dir = os.path.join(current_dir, "raw")
+        if os.path.exists(raw_dir):
+            # List all JSON files in raw directory
+            json_files = [f for f in os.listdir(raw_dir) if f.endswith('.json')]
             
-            # Add Area column for JSON data
-            json_df["Area"] = "Ireland"
-            
-            # Process coordinates from JSON
-            coords = []
-            for coord_str in json_df["Coordinates (Approximate)"]:
-                lat, lon = parse_coordinates(coord_str)
-                coords.append((lat, lon))
-            
-            json_df["latitude"], json_df["longitude"] = zip(*coords)
-            
-            # Calculate radius based on likelihood for JSON data
-            json_df["radius"] = json_df["Likelihood (%)"].apply(
-                lambda x: LIKELIHOOD_RADIUS_CONFIG["high"] if pd.notna(x) and x >= 80 else (
-                    LIKELIHOOD_RADIUS_CONFIG["medium"] if pd.notna(x) and x >= 60
-                    else LIKELIHOOD_RADIUS_CONFIG["low"]
+            for json_file in json_files:
+                json_path = os.path.join(raw_dir, json_file)
+                # Read JSON data
+                json_df = pd.read_json(json_path)
+                
+                # Add Area column based on JSON filename (without .json extension)
+                area_name = os.path.splitext(json_file)[0]
+                json_df["Area"] = area_name
+                
+                # Process coordinates from JSON
+                coords = []
+                for coord_str in json_df["Coordinates (Approximate)"]:
+                    lat, lon = parse_coordinates(coord_str)
+                    coords.append((lat, lon))
+                
+                json_df["latitude"], json_df["longitude"] = zip(*coords)
+                
+                # Calculate radius based on likelihood for JSON data
+                json_df["radius"] = json_df["Likelihood (%)"].apply(
+                    lambda x: LIKELIHOOD_RADIUS_CONFIG["high"] if pd.notna(x) and x >= 80 else (
+                        LIKELIHOOD_RADIUS_CONFIG["medium"] if pd.notna(x) and x >= 60
+                        else LIKELIHOOD_RADIUS_CONFIG["low"]
+                    )
                 )
-            )
-            
-            # Filter out rows with invalid coordinates
-            json_df = json_df.dropna(subset=["latitude", "longitude"])
-            
-            # Append JSON data to combined DataFrame
-            combined_df = pd.concat([combined_df, json_df], ignore_index=True)
+                
+                # Filter out rows with invalid coordinates
+                json_df = json_df.dropna(subset=["latitude", "longitude"])
+                
+                # Append JSON data to combined DataFrame
+                combined_df = pd.concat([combined_df, json_df], ignore_index=True)
         
         return combined_df
     except Exception as e:
