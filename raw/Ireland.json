@@ -4,9 +4,9 @@
       "Coordinates (Approximate)": "52.567°N, 7.669°W",
       "Treasure Value": "Priceless ecclesiastical silver (10th century)",
       "Likelihood (%)": 90,
-      "Recommend Reason": "Site of 1980 Derrynaflan Hoard discovery - complete altar set hidden by monks",
-      "Support Evidence": "BBC & Wikipedia confirm excavation history",
-      "Support Evidence urls": [
+      "Recommended Reason": "Site of 1980 Derrynaflan Hoard discovery - complete altar set hidden by monks",
+      "Supporting Evidence": "BBC & Wikipedia confirm excavation history",
+      "Supporting Evidence urls": [
         "https://en.wikipedia.org/wiki/Derrynaflan_Chalice",
         "https://www.bbc.com/travel/article/20220731-irelands-priceless-treasure-hidden-by-monks",
         "https://www.worldhistory.org/Derrynaflan_Hoard/"
@@ -17,9 +17,9 @@
       "Coordinates (Approximate)": "52.8°N, 8.9°W",
       "Treasure Value": "Europe's largest Bronze Age gold hoard",
       "Likelihood (%)": 20,
-      "Recommend Reason": "Only 29 of 150+ gold artifacts recovered in 1854 - potential undiscovered remains",
-      "Support Evidence": "IrishCentral & Wikipedia note partial recovery",
-      "Support Evidence urls": [
+      "Recommended Reason": "Only 29 of 150+ gold artifacts recovered in 1854 - potential undiscovered remains",
+      "Supporting Evidence": "IrishCentral & Wikipedia note partial recovery",
+      "Supporting Evidence urls": [
         "https://en.wikipedia.org/wiki/List_of_hoards_in_Ireland",
         "https://www.irishcentral.com/roots/history/mooghaun-hoard-ireland-gold"
       ]
@@ -29,9 +29,9 @@
       "Coordinates (Approximate)": "52.495°N, 9.062°W",
       "Treasure Value": "Priceless 8th-century Ardagh Chalice",
       "Likelihood (%)": 15,
-      "Recommend Reason": "Nearby areas may contain companion pieces to famous 1868 discovery",
-      "Support Evidence": "Wikipedia lists as major Early Medieval hoard site",
-      "Support Evidence urls": [
+      "Recommended Reason": "Nearby areas may contain companion pieces to famous 1868 discovery",
+      "Supporting Evidence": "Wikipedia lists as major Early Medieval hoard site",
+      "Supporting Evidence urls": [
         "https://en.wikipedia.org/wiki/List_of_hoards_in_Ireland",
         "https://en.wikipedia.org/wiki/Ardagh_Hoard"
       ]
@@ -41,9 +41,9 @@
       "Coordinates (Approximate)": "53.726°N, 8.152°W",
       "Treasure Value": "High-value gold lunula (2400-2000 BCE)",
       "Likelihood (%)": 10,
-      "Recommend Reason": "Partial 1945 discovery suggests possible additional ritual deposits",
-      "Support Evidence": "Multiple sources reference incomplete recovery",
-      "Support Evidence urls": [
+      "Recommended Reason": "Partial 1945 discovery suggests possible additional ritual deposits",
+      "Supporting Evidence": "Multiple sources reference incomplete recovery",
+      "Supporting Evidence urls": [
         "http://rmchapple.blogspot.com/2015/03/irelands-bronze-age-gold-ulster-museum.html",
         "https://www.museum.ie/en-IE/Collections-Research/Collection/Irish-Antiquities-Division-Collection/Artefact/Gold-lunula/5f0a8f8b-6e7b-4f7a-8b1d-9b4d00e5f8c0"
       ]
@@ -53,9 +53,9 @@
       "Coordinates (Approximate)": "52.396°N, 6.359°W",
       "Treasure Value": "Bronze Age gold jewelry",
       "Likelihood (%)": 25,
-      "Recommend Reason": "1990 find of dress fasteners indicates ritual deposition area",
-      "Support Evidence": "Wikipedia documents Bronze Age hoard pattern",
-      "Support Evidence urls": [
+      "Recommended Reason": "1990 find of dress fasteners indicates ritual deposition area",
+      "Supporting Evidence": "Wikipedia documents Bronze Age hoard pattern",
+      "Supporting Evidence urls": [
         "https://excavations.ie/report/1990/Wexford/0001055/",
         "https://yourirish.com/history/ancient/bronze-age-ireland"
       ]
@@ -65,9 +65,9 @@
       "Coordinates (Approximate)": "52.567°N, 7.669°W",
       "Treasure Value": "Potential monastic artifacts",
       "Likelihood (%)": 30,
-      "Recommend Reason": "Natural bog preservation properties & previous major find",
-      "Support Evidence": "BBC details ideal preservation conditions in peatlands",
-      "Support Evidence urls": [
+      "Recommended Reason": "Natural bog preservation properties & previous major find",
+      "Supporting Evidence": "BBC details ideal preservation conditions in peatlands",
+      "Supporting Evidence urls": [
         "https://www.bbc.com/travel/article/20220731-irelands-priceless-treasure-hidden-by-monks"
       ]
     }

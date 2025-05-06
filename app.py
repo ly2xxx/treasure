@@ -135,29 +135,23 @@ def parse_coordinates(coord_str):
 
 
 def load_data():
-    """Load and process the treasure data from Excel."""
-    # file_path = os.path.join("./", "treasure.xlsx")
+    """Load and process the treasure data from Excel and JSON files."""
     # Get the directory where the current script is located
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    # Join with the filename to create an absolute path
-    file_path = os.path.join(current_dir, "treasure.xlsx")
-    # # URL to the raw content of the Excel file on GitHub
-    # github_url = "https://github.com/ly2xxx/treasure/raw/main/treasure.xlsx"
+    
+    # Initialize an empty DataFrame to store combined data
+    combined_df = pd.DataFrame()
     
     try:
-        
-        
-        # Read all sheets from the Excel file
-        excel_file = pd.ExcelFile(file_path)
+        # Load and process Excel data
+        excel_path = os.path.join(current_dir, "treasure.xlsx")
+        excel_file = pd.ExcelFile(excel_path)
         sheet_names = excel_file.sheet_names
         
-        # Create an empty DataFrame to store combined data
-        combined_df = pd.DataFrame()
-        
-        # Process each sheet
+        # Process each sheet from Excel
         for sheet_name in sheet_names:
             # Read the sheet
-            df = pd.read_excel(file_path, sheet_name=sheet_name)
+            df = pd.read_excel(excel_path, sheet_name=sheet_name)
             
             # Add the sheet name as "Area"
             df["Area"] = sheet_name
@@ -187,6 +181,37 @@ def load_data():
             
             # Append to the combined DataFrame
             combined_df = pd.concat([combined_df, df], ignore_index=True)
+        
+        # Load and process JSON data
+        json_path = os.path.join(current_dir, "raw", "Ireland.json")
+        if os.path.exists(json_path):
+            # Read JSON data
+            json_df = pd.read_json(json_path)
+            
+            # Add Area column for JSON data
+            json_df["Area"] = "Ireland"
+            
+            # Process coordinates from JSON
+            coords = []
+            for coord_str in json_df["Coordinates (Approximate)"]:
+                lat, lon = parse_coordinates(coord_str)
+                coords.append((lat, lon))
+            
+            json_df["latitude"], json_df["longitude"] = zip(*coords)
+            
+            # Calculate radius based on likelihood for JSON data
+            json_df["radius"] = json_df["Likelihood (%)"].apply(
+                lambda x: LIKELIHOOD_RADIUS_CONFIG["high"] if pd.notna(x) and x >= 80 else (
+                    LIKELIHOOD_RADIUS_CONFIG["medium"] if pd.notna(x) and x >= 60
+                    else LIKELIHOOD_RADIUS_CONFIG["low"]
+                )
+            )
+            
+            # Filter out rows with invalid coordinates
+            json_df = json_df.dropna(subset=["latitude", "longitude"])
+            
+            # Append JSON data to combined DataFrame
+            combined_df = pd.concat([combined_df, json_df], ignore_index=True)
         
         return combined_df
     except Exception as e:
