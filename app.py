@@ -360,9 +360,28 @@ def main():
             st.markdown(f"### {selected_treasure}")
             
             # Display all available fields
+            excluded_columns = ["latitude", "longitude", "radius", id_column]
             for column in df.columns:
-                if column not in ["latitude", "longitude", "radius", id_column] and not pd.isna(treasure_data[column]):
-                    st.markdown(f"**{column}:** {treasure_data[column]}")
+                if column not in excluded_columns:
+                    value = treasure_data[column]
+                    # Handle different types of values
+                    if isinstance(value, (list, tuple)):
+                        # For lists (like Supporting Evidence urls), check if not empty
+                        if value:
+                            if column.endswith('urls'):
+                                # Display URLs as clickable links
+                                st.markdown(f"**{column}:**")
+                                for url in value:
+                                    st.markdown(f"- [{url}]({url})")
+                            else:
+                                # Display other lists as bullet points
+                                st.markdown(f"**{column}:**")
+                                for item in value:
+                                    st.markdown(f"- {item}")
+                    else:
+                        # For scalar values, use pd.isna
+                        if not pd.isna(value):
+                            st.markdown(f"**{column}:** {value}")
 
     # Display the full dataset as a table (expandable)
     with st.expander("View All Data"):
