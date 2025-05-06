@@ -2,9 +2,9 @@
     {
       "Location": "Gannat, Auvergne",
       "Coordinates (Approximate)": "46°06'N, 3°12'E",
-      "treasure value": "High",
+      "Treasure Value": "High",
       "Likelihood (%)": 90,
-      "Recommended reason": "Active Celtic capital excavation with ritual deposits",
+      "Recommended Reason": "Active Celtic capital excavation with ritual deposits",
       "Supporting Evidence": "800+ Bronze Age artifacts found in situ, including weapons and jewelry",
       "Supporting Evidence urls": [
         "https://www.ancient-origins.net/news-history-archaeology/bronze-age-hoards-france-0015764",
@@ -14,27 +14,27 @@
     {
       "Location": "Lascaux, Dordogne",
       "Coordinates (Approximate)": "45°03'N, 1°10'E",
-      "treasure value": "Priceless",
+      "Treasure Value": "Priceless",
       "Likelihood (%)": 85,
-      "Recommended reason": "UNESCO World Heritage Site with intact Paleolithic art",
+      "Recommended Reason": "UNESCO World Heritage Site with intact Paleolithic art",
       "Supporting Evidence": "Contains 600+ prehistoric paintings, closed for preservation",
       "Supporting Evidence urls": []
     },
     {
       "Location": "Berthouville, Normandy",
       "Coordinates (Approximate)": "49°11'N, 0°35'E",
-      "treasure value": "High",
+      "Treasure Value": "High",
       "Likelihood (%)": 80,
-      "Recommended reason": "Documented Roman temple hoard location",
+      "Recommended Reason": "Documented Roman temple hoard location",
       "Supporting Evidence": "25kg silver Gallo-Roman votive offerings discovered in 1830",
       "Supporting Evidence urls": []
     },
     {
       "Location": "Vix, Burgundy",
       "Coordinates (Approximate)": "47°51'N, 4°34'E",
-      "treasure value": "Exceptional",
+      "Treasure Value": "Exceptional",
       "Likelihood (%)": 75,
-      "Recommended reason": "Princely burial site with Mediterranean trade links",
+      "Recommended Reason": "Princely burial site with Mediterranean trade links",
       "Supporting Evidence": "Contains famous 1.64m-high Greek krater and gold diadem",
       "Supporting Evidence urls": [
         "https://en.wikipedia.org/wiki/Vix_Grave",
@@ -45,9 +45,9 @@
     {
       "Location": "Roudouallec, Brittany",
       "Coordinates (Approximate)": "48°15'N, 3°40'W",
-      "treasure value": "Unknown",
+      "Treasure Value": "Unknown",
       "Likelihood (%)": 70,
-      "Recommended reason": "Bronze Age mapping stone indicating multiple sites",
+      "Recommended Reason": "Bronze Age mapping stone indicating multiple sites",
       "Supporting Evidence": "Saint-Belec slab shows 30km² territory with potential burial mounds/deposits",
       "Supporting Evidence urls": []
     }
