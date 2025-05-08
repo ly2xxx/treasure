@@ -4,6 +4,8 @@ import pydeck as pdk
 import re
 import os
 from math import isnan
+import json
+
 
 # Configuration for point sizes based on likelihood
 LIKELIHOOD_RADIUS_CONFIG = {
@@ -190,34 +192,53 @@ def load_data():
             
             for json_file in json_files:
                 json_path = os.path.join(raw_dir, json_file)
-                # Read JSON data
-                json_df = pd.read_json(json_path)
-                
-                # Add Area column based on JSON filename (without .json extension)
-                area_name = os.path.splitext(json_file)[0]
-                json_df["Area"] = area_name
-                
-                # Process coordinates from JSON
-                coords = []
-                for coord_str in json_df["Coordinates (Approximate)"]:
-                    lat, lon = parse_coordinates(coord_str)
-                    coords.append((lat, lon))
-                
-                json_df["latitude"], json_df["longitude"] = zip(*coords)
-                
-                # Calculate radius based on likelihood for JSON data
-                json_df["radius"] = json_df["Likelihood (%)"].apply(
-                    lambda x: LIKELIHOOD_RADIUS_CONFIG["high"] if pd.notna(x) and x >= 80 else (
-                        LIKELIHOOD_RADIUS_CONFIG["medium"] if pd.notna(x) and x >= 60
-                        else LIKELIHOOD_RADIUS_CONFIG["low"]
+                try:
+                    # Read JSON data
+                    with open(json_path, 'r', encoding='utf-8') as f:
+                        json_data = json.load(f)  # Use json.load instead of pd.read_json
+
+                    # Check the format and extract data accordingly
+                    if isinstance(json_data, dict) and 'tables' in json_data:
+                        # Format 1: Italy.json style with tables.data structure
+                        json_df = pd.DataFrame(json_data['tables'][0]['data'])
+                    else:
+                        # Format 2: Spain.json style with direct array
+                        json_df = pd.read_json(json_path)
+
+                    
+                    # Add Area column based on JSON filename (without .json extension)
+                    area_name = os.path.splitext(json_file)[0]
+                    json_df["Area"] = area_name
+                    
+                    # Process coordinates from JSON
+                    coords = []
+                    for coord_str in json_df["Coordinates (Approximate)"]:
+                        lat, lon = parse_coordinates(coord_str)
+                        coords.append((lat, lon))
+                    
+                    json_df["latitude"], json_df["longitude"] = zip(*coords)
+                    
+                    # Calculate radius based on likelihood for JSON data
+                    json_df["radius"] = json_df["Likelihood (%)"].apply(
+                        lambda x: LIKELIHOOD_RADIUS_CONFIG["high"] if pd.notna(x) and (
+                            (isinstance(x, str) and float(x.strip('%')) >= 80) or 
+                            (isinstance(x, (int, float)) and x >= 80)
+                        ) else (
+                            LIKELIHOOD_RADIUS_CONFIG["medium"] if pd.notna(x) and (
+                                (isinstance(x, str) and float(x.strip('%')) >= 60) or
+                                (isinstance(x, (int, float)) and x >= 60)
+                            ) else LIKELIHOOD_RADIUS_CONFIG["low"]
+                        )
                     )
-                )
-                
-                # Filter out rows with invalid coordinates
-                json_df = json_df.dropna(subset=["latitude", "longitude"])
-                
-                # Append JSON data to combined DataFrame
-                combined_df = pd.concat([combined_df, json_df], ignore_index=True)
+                    
+                    # Filter out rows with invalid coordinates
+                    json_df = json_df.dropna(subset=["latitude", "longitude"])
+                    
+                    # Append JSON data to combined DataFrame
+                    combined_df = pd.concat([combined_df, json_df], ignore_index=True)
+                except Exception as e:
+                    st.warning(f"Error processing {json_file}: {e}")
+
         
         return combined_df
     except Exception as e:

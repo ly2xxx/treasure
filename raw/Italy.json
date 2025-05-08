@@ -1,0 +1,45 @@
+{
+  "extraction_time": "2025-05-09T00:04:10.383820",
+  "tables": [
+    {
+      "table_index": 0,
+      "data": [
+        {
+          "Location": "Cosenza (Confluence of Crati and Busento rivers)",
+          "Coordinates (Approximate)": "39°18'N, 16°15'E",
+          "Treasure Value": "1 billion euros (£734 million)",
+          "Likelihood (%)": "30%",
+          "Recommended Reason": "Historical accounts consistently identify this area as the burial site of Alaric with Roman treasure",
+          "Supporting Evidence": "Italian scientists have identified five potential sites where the tomb may be located; Contemporary 5th century historical accounts describe river diversion for burial161718",
+          "Supporting Evidence URLs": [
+            "https://www.thehistoryblog.com/archives/39042",
+            "https://www.telegraph.co.uk/news/worldnews/europe/italy/11945845/Italians-identify-five-locations-where-fabled-Roman-treasure-hoard-may-be-buried.html",
+            "https://www.ibtimes.co.uk/finding-king-alarics-tomb-search-750m-worth-treasure-1526545"
+          ]
+        },
+        {
+          "Location": "Naples (Underground archaeological sites)",
+          "Coordinates (Approximate)": "40°50'N, 14°15'E",
+          "Treasure Value": "Unquantified historical value",
+          "Likelihood (%)": "75%",
+          "Recommended Reason": "Multiple archaeological layers spanning Greek and Roman periods underneath the modern city",
+          "Supporting Evidence": "Excavations at Monastero Santa Chiara revealed a complete Roman bathhouse from 1st century CE; San Lorenzo Maggiore site contains Roman market and Greek agora from 5th-4th century BCE14",
+          "Supporting Evidence URLs": [
+            "https://www.telegraph.co.uk/news/worldnews/europe/italy/11936505/Italy-to-dig-for-ancient-Roman-treasure-sought-by-Nazis.html"
+          ]
+        },
+        {
+          "Location": "Matera (Sassi district)",
+          "Coordinates (Approximate)": "40°40'N, 16°36'E",
+          "Treasure Value": "Unquantified historical and cultural value",
+          "Likelihood (%)": "85%",
+          "Recommended Reason": "One of the world's oldest continuously inhabited settlements with unique cave dwellings and churches",
+          "Supporting Evidence": "UNESCO World Heritage site with approximately 150 rock churches containing Byzantine frescoes and artifacts dating back to Paleolithic times15",
+          "Supporting Evidence URLs": [
+            "https://www.indaily.com.au/life/travel/2014/12/15/ancient-treasures-undisovered-italy"
+          ]
+        }
+      ]
+    }
+  ]
+}
