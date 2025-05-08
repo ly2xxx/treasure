@@ -6,7 +6,7 @@
       "Likelihood (%)": 90,
       "Recommended Reason": "Active Celtic capital excavation with ritual deposits",
       "Supporting Evidence": "800+ Bronze Age artifacts found in situ, including weapons and jewelry",
-      "Supporting Evidence urls": [
+      "Supporting Evidence URLs": [
         "https://www.ancient-origins.net/news-history-archaeology/bronze-age-hoards-france-0015764",
         "https://learnforpleasure.com/blog/celtic-treasures-unearthed-as-a-lost-ancient-capital-city-is-discovered-in-france/"
       ]
@@ -18,7 +18,7 @@
       "Likelihood (%)": 85,
       "Recommended Reason": "UNESCO World Heritage Site with intact Paleolithic art",
       "Supporting Evidence": "Contains 600+ prehistoric paintings, closed for preservation",
-      "Supporting Evidence urls": []
+      "Supporting Evidence URLs": []
     },
     {
       "Location": "Berthouville, Normandy",
@@ -27,7 +27,7 @@
       "Likelihood (%)": 80,
       "Recommended Reason": "Documented Roman temple hoard location",
       "Supporting Evidence": "25kg silver Gallo-Roman votive offerings discovered in 1830",
-      "Supporting Evidence urls": []
+      "Supporting Evidence URLs": []
     },
     {
       "Location": "Vix, Burgundy",
@@ -36,7 +36,7 @@
       "Likelihood (%)": 75,
       "Recommended Reason": "Princely burial site with Mediterranean trade links",
       "Supporting Evidence": "Contains famous 1.64m-high Greek krater and gold diadem",
-      "Supporting Evidence urls": [
+      "Supporting Evidence URLs": [
         "https://en.wikipedia.org/wiki/Vix_Grave",
         "https://www.magzter.com/en/stories/culture/Archaeology/INSIDE-A-MAGNIFICENT-CELTIC-TOMB",
         "https://www.greece-is.com/the-vix-krater/"
@@ -49,7 +49,7 @@
       "Likelihood (%)": 70,
       "Recommended Reason": "Bronze Age mapping stone indicating multiple sites",
       "Supporting Evidence": "Saint-Belec slab shows 30km² territory with potential burial mounds/deposits",
-      "Supporting Evidence urls": []
+      "Supporting Evidence URLs": []
     }
   ]
   

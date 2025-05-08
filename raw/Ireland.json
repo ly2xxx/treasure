@@ -6,7 +6,7 @@
       "Likelihood (%)": 90,
       "Recommended Reason": "Site of 1980 Derrynaflan Hoard discovery - complete altar set hidden by monks",
       "Supporting Evidence": "BBC & Wikipedia confirm excavation history",
-      "Supporting Evidence urls": [
+      "Supporting Evidence URLs": [
         "https://en.wikipedia.org/wiki/Derrynaflan_Chalice",
         "https://www.bbc.com/travel/article/20220731-irelands-priceless-treasure-hidden-by-monks",
         "https://www.worldhistory.org/Derrynaflan_Hoard/"
@@ -19,7 +19,7 @@
       "Likelihood (%)": 20,
       "Recommended Reason": "Only 29 of 150+ gold artifacts recovered in 1854 - potential undiscovered remains",
       "Supporting Evidence": "IrishCentral & Wikipedia note partial recovery",
-      "Supporting Evidence urls": [
+      "Supporting Evidence URLs": [
         "https://en.wikipedia.org/wiki/List_of_hoards_in_Ireland",
         "https://www.irishcentral.com/roots/history/mooghaun-hoard-ireland-gold"
       ]
@@ -31,7 +31,7 @@
       "Likelihood (%)": 15,
       "Recommended Reason": "Nearby areas may contain companion pieces to famous 1868 discovery",
       "Supporting Evidence": "Wikipedia lists as major Early Medieval hoard site",
-      "Supporting Evidence urls": [
+      "Supporting Evidence URLs": [
         "https://en.wikipedia.org/wiki/List_of_hoards_in_Ireland",
         "https://en.wikipedia.org/wiki/Ardagh_Hoard"
       ]
@@ -43,7 +43,7 @@
       "Likelihood (%)": 10,
       "Recommended Reason": "Partial 1945 discovery suggests possible additional ritual deposits",
       "Supporting Evidence": "Multiple sources reference incomplete recovery",
-      "Supporting Evidence urls": [
+      "Supporting Evidence URLs": [
         "http://rmchapple.blogspot.com/2015/03/irelands-bronze-age-gold-ulster-museum.html",
         "https://www.museum.ie/en-IE/Collections-Research/Collection/Irish-Antiquities-Division-Collection/Artefact/Gold-lunula/5f0a8f8b-6e7b-4f7a-8b1d-9b4d00e5f8c0"
       ]
@@ -55,7 +55,7 @@
       "Likelihood (%)": 25,
       "Recommended Reason": "1990 find of dress fasteners indicates ritual deposition area",
       "Supporting Evidence": "Wikipedia documents Bronze Age hoard pattern",
-      "Supporting Evidence urls": [
+      "Supporting Evidence URLs": [
         "https://excavations.ie/report/1990/Wexford/0001055/",
         "https://yourirish.com/history/ancient/bronze-age-ireland"
       ]
@@ -67,7 +67,7 @@
       "Likelihood (%)": 30,
       "Recommended Reason": "Natural bog preservation properties & previous major find",
       "Supporting Evidence": "BBC details ideal preservation conditions in peatlands",
-      "Supporting Evidence urls": [
+      "Supporting Evidence URLs": [
         "https://www.bbc.com/travel/article/20220731-irelands-priceless-treasure-hidden-by-monks"
       ]
     }
