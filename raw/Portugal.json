@@ -1,0 +1,65 @@
+{
+  "extraction_time": "2025-05-09T00:28:38.630429",
+  "tables": [
+    {
+      "table_index": 0,
+      "data": [
+        {
+          "Location": "Nossa Senhora do Rosário shipwreck near Troia",
+          "Coordinates (Approximate)": "38°29'N, 8°54'W",
+          "Treasure Value": "22 tons of gold and silver",
+          "Likelihood (%)": "65%",
+          "Recommended Reason": "High-value treasure confirmed by expert research",
+          "Supporting Evidence": "Marine archaeologist Alexandre Monteiro identified this Spanish ship carrying substantial gold and silver cargo18",
+          "Supporting Evidence URLs": [
+            "https://greekreporter.com/2024/12/27/shipwreck-gold-treasure-portugal/"
+          ]
+        },
+        {
+          "Location": "Continental Portuguese Coast",
+          "Coordinates (Approximate)": "39°30'N, 9°30'W",
+          "Treasure Value": "Multiple shipwrecks with precious metals",
+          "Likelihood (%)": "50%",
+          "Recommended Reason": "High concentration of documented valuable shipwrecks",
+          "Supporting Evidence": "Monteiro's database documenting over 7,500 shipwrecks along Portugal's continental coast18",
+          "Supporting Evidence URLs": [
+            "https://greekreporter.com/2024/12/27/shipwreck-gold-treasure-portugal/"
+          ]
+        },
+        {
+          "Location": "Azores Maritime Region",
+          "Coordinates (Approximate)": "37°45'N, 25°34'W",
+          "Treasure Value": "Unknown quantity of gold from ~1,000 shipwrecks",
+          "Likelihood (%)": "45%",
+          "Recommended Reason": "Strategic location on historical trade routes",
+          "Supporting Evidence": "Documented evidence of approximately 1,000 shipwrecks near the Azores18",
+          "Supporting Evidence URLs": [
+            "https://greekreporter.com/2024/12/27/shipwreck-gold-treasure-portugal/"
+          ]
+        },
+        {
+          "Location": "Madeira Islands Waters",
+          "Coordinates (Approximate)": "32°45'N, 17°00'W",
+          "Treasure Value": "Unknown quantity of gold from ~120 shipwrecks",
+          "Likelihood (%)": "35%",
+          "Recommended Reason": "Key stopping point for treasure-laden vessels",
+          "Supporting Evidence": "Monteiro's research identifying 120 shipwrecks near Madeira18",
+          "Supporting Evidence URLs": [
+            "https://greekreporter.com/2024/12/27/shipwreck-gold-treasure-portugal/"
+          ]
+        },
+        {
+          "Location": "Conímbriga Roman Settlement",
+          "Coordinates (Approximate)": "40°05'34.80\"N, 8°29'21.59\"W",
+          "Treasure Value": "Archaeological artifacts of historical significance",
+          "Likelihood (%)": "75%",
+          "Recommended Reason": "Well-preserved ancient Roman city",
+          "Supporting Evidence": "Extensive archaeological remains within 1,500-meter walled settlement14",
+          "Supporting Evidence URLs": [
+            "https://www.luisa-paixao.eu/blogs/la-vie-au-portugal/portugal-hidden-treasures-finally-revealed"
+          ]
+        }
+      ]
+    }
+  ]
+}
