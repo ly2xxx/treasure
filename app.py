@@ -326,7 +326,8 @@ def main():
         map_chart = pdk.Deck(
             layers=[all_points_layer] + selected_layers,
             initial_view_state=view_state,
-            map_style="mapbox://styles/mapbox/satellite-v9",
+            # map_style="mapbox://styles/mapbox/satellite-v9",
+            map_style=None,
             tooltip=tooltip,
             height=600
         )
