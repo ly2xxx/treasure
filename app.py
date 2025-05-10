@@ -327,7 +327,7 @@ def main():
             layers=[all_points_layer] + selected_layers,
             initial_view_state=view_state,
             # map_style="mapbox://styles/mapbox/satellite-v9",
-            map_style=None,
+            map_style='road',
             tooltip=tooltip,
             height=600
         )
