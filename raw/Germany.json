@@ -1,0 +1,80 @@
+[
+  {
+      "Location": "Rhine Gorge",
+      "Coordinates (Approximate)": "50°05'N, 7°45'E",
+      "Treasure Value": "$100M - $1B+",
+      "Likelihood (%)": "10",
+      "Recommended Reason": "Legendary Nibelungen Treasure",
+      "Supporting Evidence": "Medieval sagas link the treasure to the Rhine; sporadic Roman/Germanic artifact finds.",
+      "Supporting Evidence URLs": [
+          "https://www.britannica.com/topic/Nibelungenlied",
+          "https://www.dw.com/en/rhine-gorge-a-treasure-trove-of-legends-and-history/a-18547011",
+          "https://www.ancient-origins.net/news-history-archaeology/rhine-gold-0013201"
+      ]
+  },
+  {
+      "Location": "Jonas Valley, Thuringia",
+      "Coordinates (Approximate)": "50°45'N, 10°30'E",
+      "Treasure Value": "$500M+ (Amber Room)",
+      "Likelihood (%)": "25",
+      "Recommended Reason": "Nazi-era hidden loot",
+      "Supporting Evidence": "WWII records note art storage in mines; unverified 1945 inventories.",
+      "Supporting Evidence URLs": [
+          "https://www.nationalgeographic.com/history/article/amber-room-legendary-treasure-lost-war",
+          "https://www.smithsonianmag.com/history/searching-for-amber-room-160126013/",
+          "https://www.bbc.com/travel/article/20220123-the-unsolved-mystery-of-the-amber-room"
+      ]
+  },
+  {
+      "Location": "Trier Region",
+      "Coordinates (Approximate)": "49°45'N, 6°38'E",
+      "Treasure Value": "$10M - $50M",
+      "Likelihood (%)": "35",
+      "Recommended Reason": "Roman imperial hoards",
+      "Supporting Evidence": "Roman capital with frequent coin/artifact discoveries; intact villas suspected.",
+      "Supporting Evidence URLs": [
+          "https://www.bbc.com/travel/article/20200902-trier-germanys-oldest-city",
+          "https://www.livescience.com/roman-treasure-hoard-germany",
+          "https://www.archaeology.org/news/9472-200924-germany-roman-coins"
+      ]
+  },
+  {
+      "Location": "Aachen Cathedral",
+      "Coordinates (Approximate)": "50°46'N, 6°05'E",
+      "Treasure Value": "Priceless artifacts",
+      "Likelihood (%)": "15",
+      "Recommended Reason": "Charlemagne’s lost relics",
+      "Supporting Evidence": "Historical texts describe buried regalia; limited excavations due to site sanctity.",
+      "Supporting Evidence URLs": [
+          "https://www.aachenerdom.de/en/",
+          "https://www.worldhistory.org/Charlemagne/",
+          "https://www.thehistoryblog.com/archives/charlemagnes-palatine-chapel"
+      ]
+  },
+  {
+      "Location": "Quedlinburg, Harz",
+      "Coordinates (Approximate)": "51°48'N, 11°09'E",
+      "Treasure Value": "$50M - $100M",
+      "Likelihood (%)": "20",
+      "Recommended Reason": "Missing medieval relics",
+      "Supporting Evidence": "1945 theft of ecclesiastical treasures; partial recovery suggests more hidden.",
+      "Supporting Evidence URLs": [
+          "https://www.nytimes.com/1991/07/14/arts/german-treasure-stolen-in-1945-is-found-in-texas.html",
+          "https://www.latimes.com/archives/la-xpm-1990-09-13-mn-738-story.html",
+          "https://www.smithsonianmag.com/history/the-quest-to-recover-quedlinburgs-stolen-treasure-180980160/"
+      ]
+  },
+  {
+      "Location": "Bernburg Salt Mines",
+      "Coordinates (Approximate)": "51°48'N, 11°43'E",
+      "Treasure Value": "$200M+",
+      "Likelihood (%)": "30",
+      "Recommended Reason": "Nazi gold/art caches",
+      "Supporting Evidence": "Documented use for loot storage; post-war Allied reports of unsearched chambers.",
+      "Supporting Evidence URLs": [
+          "https://www.history.com/news/nazi-wwii-looted-art-treasures",
+          "https://www.theguardian.com/world/2013/nov/14/nazi-gold-train-hidden-poland-berlin",
+          "https://www.nationalgeographic.com/history/article/nazi-loot-art-hidden-salt-mine"
+      ]
+  }
+]
