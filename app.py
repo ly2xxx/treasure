@@ -322,7 +322,7 @@ def main():
             )
             selected_layers = [selected_layer]
 
-        # Render the map
+        # Render the map with selection handling
         map_chart = pdk.Deck(
             layers=[all_points_layer] + selected_layers,
             initial_view_state=view_state,
@@ -332,24 +332,30 @@ def main():
             height=600
         )
 
-        # Show the map and handle clicks through a container
-        map_container = st.pydeck_chart(map_chart)
+        # Use the newer on_select parameter to handle clicks
+        # This will trigger a rerun when a point is clicked
+        selected_data = st.pydeck_chart(map_chart, selection_mode="single-object", on_select="rerun")
         
         # Add easy-to-understand instructions
         st.caption("Click on any marker to select it, or use the dropdown menu on the right. Use mouse wheel to zoom in/out.")
         
-        # If the container was clicked, update the selection
-        if map_container:
-            # The map was interacted with - update the selection if needed
-            new_selection = st.session_state.get('treasure_selector')
-            if new_selection != st.session_state.selected_treasure:
-                st.session_state.selected_treasure = new_selection
-                # Update map center and zoom
-                if new_selection:
-                    treasure_data = df[df[id_column] == new_selection].iloc[0]
+        # Handle the selection from the map
+        if selected_data is not None:
+            # Store the selected data in session state
+            if id_column in selected_data:
+                clicked_location = selected_data[id_column]
+                
+                # Update the dropdown selection to match the clicked point
+                if clicked_location != st.session_state.get('treasure_selector'):
+                    st.session_state.treasure_selector = clicked_location
+                    st.session_state.selected_treasure = clicked_location
+                    
+                    # Update map center and zoom
+                    treasure_data = df[df[id_column] == clicked_location].iloc[0]
                     st.session_state.map_center = (treasure_data["latitude"], treasure_data["longitude"])
                     st.session_state.zoom_level = 8
-                    st.experimental_rerun()
+                    st.rerun()
+
     
     with col2:
         # Display treasure details
