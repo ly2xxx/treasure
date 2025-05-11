@@ -296,8 +296,11 @@ def main():
                 "cursor": "pointer"
             }
         }
-        if id_column in df.columns:
-            st.session_state.hovered_id_column = id_column
+        # Define a callback function for hover events
+        def handle_hover_event(hover_info):
+            if hover_info and 'object' in hover_info and id_column in hover_info['object']:
+                st.session_state.hovered_id_column = hover_info['object'][id_column]
+            return True
 
         # Create two layers with enhanced interaction
         all_points_layer = pdk.Layer(
@@ -333,12 +336,35 @@ def main():
             # map_style="mapbox://styles/mapbox/satellite-v9",
             map_style='road',
             tooltip=tooltip,
-            height=600
+            height=600,
+            # on_hover=handle_hover_event
         )
+
+        def handle_selection(selection_data=None):
+            if selection_data is not None:
+                # Debug output to see what's in selection_data
+                print(f"Selection data: {selection_data}")
+                
+                # Check if id_column exists in the selection data
+                if id_column in selection_data:
+                    # Store the clicked location's id in session state
+                    st.session_state.hovered_id_column = selection_data[id_column]
+                    # Print debug info
+                    print(f"Selected {id_column}: {selection_data[id_column]}")
+                else:
+                    # Print what keys are available in selection_data
+                    print(f"Available keys in selection_data: {selection_data.keys()}")
+            else:
+                print("No selection_data received")
+            
+            # Always rerun to update the UI
+            st.rerun()
+            return selection_data
+
 
         # Use the newer on_select parameter to handle clicks
         # This will trigger a rerun when a point is clicked
-        selected_data = st.pydeck_chart(map_chart, selection_mode="single-object", on_select="rerun")
+        selected_data = st.pydeck_chart(map_chart, selection_mode="single-object", on_select=handle_selection)
         
         # Add easy-to-understand instructions
         st.caption("Click on any marker to select it, or use the dropdown menu on the right. Use mouse wheel to zoom in/out.")
@@ -346,8 +372,9 @@ def main():
         # Handle the selection from the map
         if selected_data is not None:
             # First check if we have a hovered location
-            if st.session_state.hovered_id_column:
-                clicked_location = st.session_state.hovered_id_column
+            if st.session_state.hovered_id_column and id_column in selected_data:
+                st.session_state.hovered_id_column = selected_data[id_column]
+                clicked_location = selected_data[id_column]
                 
                 # Check if the clicked_location exists in the dataframe
                 matching_rows = df[df[id_column] == clicked_location]
@@ -365,6 +392,9 @@ def main():
                     
                     # Reset the hovered location
                     st.session_state.hovered_id_column = None
+                    
+                    # Explicitly call the on_treasure_select function
+                    on_treasure_select()
                     
                     # Force a rerun to update the UI with the new selection
                     st.rerun()
@@ -385,8 +415,12 @@ def main():
                     st.session_state.map_center = (treasure_data["latitude"], treasure_data["longitude"])
                     st.session_state.zoom_level = 8
                     
+                    # Explicitly call the on_treasure_select function
+                    on_treasure_select()
+                    
                     # Force a rerun to update the UI with the new selection
                     st.rerun()
+
 
 
     

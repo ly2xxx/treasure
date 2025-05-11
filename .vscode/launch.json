@@ -29,7 +29,7 @@
             "module": "streamlit",
             "args": [
                  "run",
-                 "app.py",
+                 "app_poc.py",
                  "--server.port",
                  "8505"
             ]
