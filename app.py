@@ -295,36 +295,32 @@ def main():
             }
         }
 
-        # Create two layers with enhanced interaction
-        all_points_layer = pdk.Layer(
+        # Create a single layer with all points
+        # Add color based on selection
+        def get_color(row):
+            if row[id_column] == st.session_state.selected_treasure:
+                return [30, 144, 255, 230]  # Blue for selected
+            else:
+                return [255, 165, 0, 200]   # Orange for unselected
+        
+        df_display = df.copy()
+        df_display['color'] = df_display.apply(get_color, axis=1)
+        
+        # Create the layer
+        scatter_layer = pdk.Layer(
             "ScatterplotLayer",
-            data=df[df[id_column] != st.session_state.selected_treasure] if st.session_state.selected_treasure else df,
+            data=df_display,
             get_position=["longitude", "latitude"],
-            get_color=[255, 165, 0, 200],
+            get_color="color",
             get_radius="radius",
             pickable=True,
             auto_highlight=True,
-            highlight_color=[255, 200, 0, 255]  # Brighter highlight on hover
+            highlight_color=[255, 255, 0, 255]
         )
-
-        selected_layers = []
-        if st.session_state.selected_treasure:
-            selected_point = df[df[id_column] == st.session_state.selected_treasure]
-            selected_layer = pdk.Layer(
-                "ScatterplotLayer",
-                data=selected_point,
-                get_position=["longitude", "latitude"],
-                get_color=[30, 144, 255, 230],
-                get_radius="radius",
-                pickable=True,
-                auto_highlight=True,
-                highlight_color=[100, 200, 255, 255]  # Brighter highlight on hover
-            )
-            selected_layers = [selected_layer]
 
         # Render the map with selection handling
         map_chart = pdk.Deck(
-            layers=[all_points_layer] + selected_layers,
+            layers=[scatter_layer],
             initial_view_state=view_state,
             # map_style="mapbox://styles/mapbox/satellite-v9",
             map_style='road',
@@ -332,29 +328,30 @@ def main():
             height=600
         )
 
-        # Use the newer on_select parameter to handle clicks
-        # This will trigger a rerun when a point is clicked
-        selected_data = st.pydeck_chart(map_chart, selection_mode="single-object", on_select="rerun")
+        # Display the map
+        st.pydeck_chart(map_chart, use_container_width=True)
         
-        # Add easy-to-understand instructions
-        st.caption("Click on any marker to select it, or use the dropdown menu on the right. Use mouse wheel to zoom in/out.")
+        # Add a row of clickable buttons for quick selection
+        st.write("**Quick Select:**")
         
-        # Handle the selection from the map
-        if selected_data is not None:
-            # Store the selected data in session state
-            if id_column in selected_data:
-                clicked_location = selected_data[id_column]
-                
-                # Update the dropdown selection to match the clicked point
-                if clicked_location != st.session_state.get('treasure_selector'):
-                    st.session_state.treasure_selector = clicked_location
-                    st.session_state.selected_treasure = clicked_location
+        # Create buttons for the first few locations
+        cols = st.columns(min(4, len(df)))
+        for i, (idx, row) in enumerate(df.head(4).iterrows()):
+            if i < len(cols):
+                location_name = row[id_column]
+                if cols[i].button(f"📍 {location_name[:15]}{'...' if len(location_name) > 15 else ''}", 
+                                 key=f"btn_{idx}"):
+                    # Update selection
+                    st.session_state.treasure_selector = location_name
+                    st.session_state.selected_treasure = location_name
                     
                     # Update map center and zoom
-                    treasure_data = df[df[id_column] == clicked_location].iloc[0]
-                    st.session_state.map_center = (treasure_data["latitude"], treasure_data["longitude"])
+                    st.session_state.map_center = (row["latitude"], row["longitude"])
                     st.session_state.zoom_level = 8
                     st.rerun()
+        
+        # Add instructions
+        st.caption("Use the dropdown menu on the right to select a treasure location, or click the quick select buttons above.")
 
     
     with col2:
@@ -376,7 +373,8 @@ def main():
         # Create the selectbox with the callback
         selected_treasure = st.selectbox(
             "Select a treasure location:",
-            options=df[id_column].tolist(),
+            options=[None] + df[id_column].tolist(),
+            format_func=lambda x: "Choose a location..." if x is None else x,
             key="treasure_selector",
             on_change=on_treasure_select
         )
