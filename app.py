@@ -331,16 +331,68 @@ def main():
         # Display the map
         st.pydeck_chart(map_chart, use_container_width=True)
         
-        # Add a row of clickable buttons for quick selection
-        st.write("**Quick Select:**")
+        # Add dynamic quick select buttons based on current map view
+        st.write("**Quick Select (Nearby Locations):**")
         
-        # Create buttons for the first few locations
-        cols = st.columns(min(4, len(df)))
-        for i, (idx, row) in enumerate(df.head(4).iterrows()):
-            if i < len(cols):
+        # Calculate distances from current map center to find nearby locations
+        import math
+        
+        def haversine_distance(lat1, lon1, lat2, lon2):
+            """Calculate the great circle distance between two points on Earth"""
+            R = 6371  # Earth's radius in kilometers
+            dlat = math.radians(lat2 - lat1)
+            dlon = math.radians(lon2 - lon1)
+            a = (math.sin(dlat/2)**2 + 
+                 math.cos(math.radians(lat1)) * math.cos(math.radians(lat2)) * 
+                 math.sin(dlon/2)**2)
+            c = 2 * math.asin(math.sqrt(a))
+            return R * c
+        
+        # Calculate distances from current map center
+        current_center_lat, current_center_lon = st.session_state.map_center
+        df_with_distance = df.copy()
+        df_with_distance['distance_from_center'] = df_with_distance.apply(
+            lambda row: haversine_distance(
+                current_center_lat, current_center_lon,
+                row['latitude'], row['longitude']
+            ), axis=1
+        )
+        
+        # Get the closest locations (adjust number based on zoom level)
+        if st.session_state.zoom_level >= 6:
+            # When zoomed in, show more nearby locations
+            num_buttons = min(6, len(df))
+            button_label = "Nearby"
+        else:
+            # When zoomed out, show fewer but more spread out locations
+            num_buttons = min(4, len(df))
+            button_label = "Quick Select"
+        
+        # Sort by distance and get the closest ones
+        nearby_locations = df_with_distance.nsmallest(num_buttons, 'distance_from_center')
+        
+        # Create buttons in rows of 3
+        rows = (num_buttons + 2) // 3  # Ceiling division
+        for row_idx in range(rows):
+            cols = st.columns(3)
+            start_idx = row_idx * 3
+            end_idx = min(start_idx + 3, num_buttons)
+            
+            for col_idx, (idx, row) in enumerate(nearby_locations.iloc[start_idx:end_idx].iterrows()):
                 location_name = row[id_column]
-                if cols[i].button(f"📍 {location_name[:15]}{'...' if len(location_name) > 15 else ''}", 
-                                 key=f"btn_{idx}"):
+                distance = row['distance_from_center']
+                
+                # Format button text with distance info
+                if distance < 1:
+                    distance_text = f"{distance*1000:.0f}m"
+                else:
+                    distance_text = f"{distance:.1f}km"
+                
+                button_text = f"📍 {location_name[:12]}{'...' if len(location_name) > 12 else ''}"
+                if st.session_state.zoom_level >= 6:  # Show distance when zoomed in
+                    button_text += f" ({distance_text})"
+                
+                if cols[col_idx].button(button_text, key=f"btn_nearby_{idx}"):
                     # Update selection
                     st.session_state.treasure_selector = location_name
                     st.session_state.selected_treasure = location_name
@@ -351,7 +403,8 @@ def main():
                     st.rerun()
         
         # Add instructions
-        st.caption("Use the dropdown menu on the right to select a treasure location, or click the quick select buttons above.")
+        zoom_instruction = "zoomed in view" if st.session_state.zoom_level >= 6 else "current view"
+        st.caption(f"Quick select buttons show locations nearest to your {zoom_instruction}. Use the dropdown menu on the right for full selection.")
 
     
     with col2:
