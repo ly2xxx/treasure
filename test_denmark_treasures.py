@@ -8,8 +8,9 @@ from unittest.mock import patch, mock_open
 # Add the parent directory to the path to import the app module
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-# Import the app module
+# Import the app module and security module
 import app
+from treasure_security import TreasureDataValidator, secure_load_treasure_data
 
 
 class TestDenmarkTreasureLocations:
@@ -152,47 +153,221 @@ class TestDenmarkTreasureLocations:
                 assert pd.notna(row['longitude']), "Longitude should be parsed"
                 assert 54.5 <= row['latitude'] <= 57.5, "Latitude should be in Denmark range"
                 assert 8.0 <= row['longitude'] <= 15.5, "Longitude should be in Denmark range"
+
+
+class TestTreasureSecurityValidation:
+    """Security-focused test suite for treasure location data validation."""
     
-    def test_treasure_value_categories(self):
-        """Test that treasure values follow expected categories."""
-        valid_treasure_values = [
-            "High", "Exceptional", "Priceless", "Medium", "Low", "Unknown"
+    def test_text_sanitization(self):
+        """Test that malicious text inputs are properly sanitized."""
+        # Test XSS prevention
+        malicious_inputs = [
+            "<script>alert('xss')</script>",
+            "Normal text with <script> tags",
+            "Text with 'quotes' and \"double quotes\"",
+            "Text with > and < symbols"
         ]
         
-        # Test with sample Denmark data
-        test_values = ["Exceptional", "High", "Priceless"]
-        
-        for value in test_values:
-            assert value in valid_treasure_values, f"'{value}' is not a valid treasure value"
+        for malicious_text in malicious_inputs:
+            sanitized = TreasureDataValidator.sanitize_text(malicious_text, 100)
+            assert '<' not in sanitized, f"Failed to sanitize: {malicious_text}"
+            assert '>' not in sanitized, f"Failed to sanitize: {malicious_text}"
+            assert '"' not in sanitized, f"Failed to sanitize: {malicious_text}"
+            assert "'" not in sanitized, f"Failed to sanitize: {malicious_text}"
     
-    def test_supporting_evidence_urls_format(self):
-        """Test that Supporting Evidence URLs are properly formatted."""
-        # Test URL validation
-        test_urls = [
+    def test_url_validation_security(self):
+        """Test URL validation against malicious URLs."""
+        # Test malicious URL schemes
+        malicious_urls = [
+            "javascript:alert('xss')",
+            "data:text/html,<script>alert('xss')</script>",
+            "file:///etc/passwd",
+            "vbscript:msgbox('test')",
+            "ftp://malicious.com/file.txt"
+        ]
+        
+        for url in malicious_urls:
+            is_valid, message = TreasureDataValidator.validate_url(url)
+            assert not is_valid, f"Should reject malicious URL: {url}"
+            assert "malicious" in message.lower() or "invalid" in message.lower()
+    
+    def test_url_validation_legitimate(self):
+        """Test that legitimate URLs pass validation."""
+        legitimate_urls = [
             "https://www.livescience.com/gold-hoard-sixth-century-denmark",
             "https://vejlemuseerne.dk/en/",
-            "https://www.ancient-origins.net/news-history-archaeology/viking-coins-0018325"
+            "http://archaeology.org/news/2023/04/21/230424-denmark-viking-hoard/",
+            "https://en.wikipedia.org/wiki/Rispebjerg"
         ]
         
-        for url in test_urls:
-            assert url.startswith(('http://', 'https://')), f"URL '{url}' should start with http:// or https://"
-            assert '.' in url, f"URL '{url}' should contain a domain"
+        for url in legitimate_urls:
+            is_valid, message = TreasureDataValidator.validate_url(url)
+            assert is_valid, f"Should accept legitimate URL: {url} - {message}"
     
-    def test_danish_location_names(self):
-        """Test that Danish location names are properly formatted."""
-        # Test location name validation
-        test_locations = [
-            "Vindelev, Central Jutland",
-            "Fyrkat Viking Ring Fortress, North Jutland", 
-            "Bornholm Island - Multiple Sites",
-            "Jelling, Central Jutland"
+    def test_coordinate_boundary_validation(self):
+        """Test that coordinates outside Denmark are rejected."""
+        # Test coordinates outside Denmark
+        invalid_coordinates = [
+            "60°00'N, 10°00'E",  # Norway
+            "52°00'N, 5°00'E",   # Netherlands  
+            "50°00'N, 14°00'E",  # Czech Republic
+            "45°00'N, 2°00'E"    # France
         ]
         
-        for location in test_locations:
-            assert len(location) > 0, "Location name should not be empty"
-            assert len(location) <= 100, f"Location name '{location}' too long"
-            assert not location.startswith(' '), f"Location name '{location}' should not start with space"
-            assert not location.endswith(' '), f"Location name '{location}' should not end with space"
+        for coord in invalid_coordinates:
+            is_valid, lat, lon, message = TreasureDataValidator.validate_coordinates(coord)
+            assert not is_valid, f"Should reject coordinates outside Denmark: {coord}"
+            assert "outside Denmark" in message
+    
+    def test_coordinate_boundary_validation_valid(self):
+        """Test that valid Danish coordinates pass validation."""
+        valid_coordinates = [
+            "55°43'N, 9°08'E",   # Vindelev
+            "56°36'N, 9°58'E",   # Fyrkat
+            "55°10'N, 14°55'E",  # Bornholm
+            "55°45'N, 9°25'E"    # Jelling
+        ]
+        
+        for coord in valid_coordinates:
+            is_valid, lat, lon, message = TreasureDataValidator.validate_coordinates(coord)
+            assert is_valid, f"Should accept valid Danish coordinates: {coord}"
+            assert lat is not None and lon is not None
+    
+    def test_treasure_entry_validation(self):
+        """Test validation of complete treasure entries."""
+        # Valid entry
+        valid_entry = {
+            "Location": "Test Location, Denmark",
+            "Coordinates (Approximate)": "55°43'N, 9°08'E",
+            "Treasure Value": "High",
+            "Likelihood (%)": 85,
+            "Recommended Reason": "Test reason for treasure location",
+            "Supporting Evidence": "Test evidence description",
+            "Supporting Evidence URLs": ["https://www.livescience.com/test"]
+        }
+        
+        is_valid, sanitized, errors = TreasureDataValidator.validate_treasure_entry(valid_entry)
+        assert is_valid, f"Valid entry should pass validation. Errors: {errors}"
+        assert len(sanitized) == len(valid_entry), "All fields should be present in sanitized entry"
+    
+    def test_treasure_entry_validation_missing_fields(self):
+        """Test that entries with missing required fields are rejected."""
+        incomplete_entry = {
+            "Location": "Test Location",
+            "Treasure Value": "High"
+            # Missing other required fields
+        }
+        
+        is_valid, sanitized, errors = TreasureDataValidator.validate_treasure_entry(incomplete_entry)
+        assert not is_valid, "Entry with missing fields should fail validation"
+        assert len(errors) > 0, "Should report missing field errors"
+        
+        # Check that all missing fields are reported
+        missing_fields = [
+            "Coordinates (Approximate)",
+            "Likelihood (%)", 
+            "Recommended Reason",
+            "Supporting Evidence",
+            "Supporting Evidence URLs"
+        ]
+        
+        error_text = " ".join(errors)
+        for field in missing_fields:
+            assert field in error_text, f"Should report missing field: {field}"
+    
+    def test_treasure_value_validation(self):
+        """Test validation of treasure value categories."""
+        valid_values = ["High", "Exceptional", "Priceless", "Medium", "Low", "Unknown"]
+        invalid_values = ["Super High", "AMAZING", "treasure", ""]
+        
+        base_entry = {
+            "Location": "Test Location",
+            "Coordinates (Approximate)": "55°43'N, 9°08'E",
+            "Likelihood (%)": 85,
+            "Recommended Reason": "Test reason",
+            "Supporting Evidence": "Test evidence",
+            "Supporting Evidence URLs": []
+        }
+        
+        # Test valid values
+        for value in valid_values:
+            entry = base_entry.copy()
+            entry["Treasure Value"] = value
+            is_valid, sanitized, errors = TreasureDataValidator.validate_treasure_entry(entry)
+            assert is_valid, f"Should accept valid treasure value: {value}"
+        
+        # Test invalid values
+        for value in invalid_values:
+            entry = base_entry.copy()
+            entry["Treasure Value"] = value
+            is_valid, sanitized, errors = TreasureDataValidator.validate_treasure_entry(entry)
+            assert not is_valid, f"Should reject invalid treasure value: {value}"
+    
+    def test_likelihood_percentage_validation(self):
+        """Test validation of likelihood percentages."""
+        base_entry = {
+            "Location": "Test Location",
+            "Coordinates (Approximate)": "55°43'N, 9°08'E",
+            "Treasure Value": "High",
+            "Recommended Reason": "Test reason",
+            "Supporting Evidence": "Test evidence",
+            "Supporting Evidence URLs": []
+        }
+        
+        # Test valid percentages
+        valid_percentages = [0, 50, 85, 100, "75", "90%"]
+        for pct in valid_percentages:
+            entry = base_entry.copy()
+            entry["Likelihood (%)"] = pct
+            is_valid, sanitized, errors = TreasureDataValidator.validate_treasure_entry(entry)
+            assert is_valid, f"Should accept valid likelihood: {pct}"
+        
+        # Test invalid percentages
+        invalid_percentages = [-5, 150, "invalid", "", None]
+        for pct in invalid_percentages:
+            entry = base_entry.copy()
+            entry["Likelihood (%)"] = pct
+            is_valid, sanitized, errors = TreasureDataValidator.validate_treasure_entry(entry)
+            assert not is_valid, f"Should reject invalid likelihood: {pct}"
+    
+    def test_path_traversal_protection(self):
+        """Test protection against path traversal attacks."""
+        malicious_paths = [
+            "../../../etc/passwd",
+            "..\\..\\windows\\system32\\config\\sam",
+            "/etc/passwd",
+            "C:\\Windows\\System32\\drivers\\etc\\hosts"
+        ]
+        
+        for path in malicious_paths:
+            is_valid, data, errors = TreasureDataValidator.validate_json_file(path)
+            assert not is_valid, f"Should reject malicious path: {path}"
+            assert any("Invalid file path" in error for error in errors)
+    
+    def test_large_content_protection(self):
+        """Test protection against DoS via large content."""
+        # Test text length limits
+        very_long_text = "A" * 5000  # Exceeds max lengths
+        
+        sanitized = TreasureDataValidator.sanitize_text(very_long_text, 100)
+        assert len(sanitized) <= 103, "Should truncate long text (100 + '...')"
+        assert sanitized.endswith("..."), "Should add ellipsis for truncated text"
+    
+    def test_too_many_urls_protection(self):
+        """Test protection against DoS via too many URLs."""
+        base_entry = {
+            "Location": "Test Location",
+            "Coordinates (Approximate)": "55°43'N, 9°08'E",
+            "Treasure Value": "High",
+            "Likelihood (%)": 85,
+            "Recommended Reason": "Test reason",
+            "Supporting Evidence": "Test evidence",
+            "Supporting Evidence URLs": ["https://example.com"] * 20  # Too many URLs
+        }
+        
+        is_valid, sanitized, errors = TreasureDataValidator.validate_treasure_entry(base_entry)
+        assert not is_valid, "Should reject entry with too many URLs"
+        assert any("Too many URLs" in error for error in errors)
 
 
 if __name__ == "__main__":
