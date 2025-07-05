@@ -86,7 +86,7 @@ def parse_coordinates(coord_str):
                 
             return lat, lon
         
-        # Try to extract coordinates in DMS format with seconds like "54° 16' 25" N, 5° 40' 36" W"
+        # Try to extract coordinates in DMS format with seconds like "54° 16' 25\" N, 5° 40' 36\" W"
         dms_sec_pattern = r"(\d+)°\s*(\d+)'\s*(\d+)\"?\s*([NS])[,\s]+(\d+)°\s*(\d+)'\s*(\d+)\"?\s*([EW])"
         dms_sec_match = re.search(dms_sec_pattern, coord_str)
         
@@ -134,6 +134,23 @@ def parse_coordinates(coord_str):
     
     return None, None
 
+
+def format_location_with_area(location, area):
+    """Format location name with area in brackets."""
+    if pd.isna(area) or area == "":
+        return location
+    return f"{location} ({area})"
+
+
+def extract_location_from_display(display_text):
+    """Extract the original location name from the display text with area."""
+    if pd.isna(display_text) or display_text == "" or display_text == "Choose a location...":
+        return None
+    
+    # Extract location name from format "Location (Area)"
+    if " (" in display_text and display_text.endswith(")"):
+        return display_text.split(" (")[0]
+    return display_text
 
 
 def load_data():
@@ -331,8 +348,8 @@ def main():
         # Display the map
         st.pydeck_chart(map_chart, use_container_width=True)
         
-        # Add dynamic quick select buttons based on current map view
-        st.write("**Quick Select (Nearby Locations):**")
+        # Add dynamic quick select buttons based on current map view with wider layout
+        st.write("**Quick Select Nearby Locations:**")
         
         # Calculate distances from current map center to find nearby locations
         import math
@@ -362,39 +379,42 @@ def main():
         if st.session_state.zoom_level >= 6:
             # When zoomed in, show more nearby locations
             num_buttons = min(6, len(df))
-            button_label = "Nearby"
         else:
             # When zoomed out, show fewer but more spread out locations
             num_buttons = min(4, len(df))
-            button_label = "Quick Select"
         
         # Sort by distance and get the closest ones
         nearby_locations = df_with_distance.nsmallest(num_buttons, 'distance_from_center')
         
-        # Create buttons in rows of 3
-        rows = (num_buttons + 2) // 3  # Ceiling division
+        # Create buttons in rows of 2 for wider buttons to accommodate area names
+        rows = (num_buttons + 1) // 2  # Ceiling division for 2 columns
         for row_idx in range(rows):
-            cols = st.columns(3)
-            start_idx = row_idx * 3
-            end_idx = min(start_idx + 3, num_buttons)
+            cols = st.columns(2)
+            start_idx = row_idx * 2
+            end_idx = min(start_idx + 2, num_buttons)
             
             for col_idx, (idx, row) in enumerate(nearby_locations.iloc[start_idx:end_idx].iterrows()):
                 location_name = row[id_column]
+                area_name = row["Area"]
                 distance = row['distance_from_center']
                 
-                # Format button text with distance info
+                # Format button text with area and distance info
                 if distance < 1:
                     distance_text = f"{distance*1000:.0f}m"
                 else:
                     distance_text = f"{distance:.1f}km"
                 
-                button_text = f"📍 {location_name[:12]}{'...' if len(location_name) > 12 else ''}"
-                if st.session_state.zoom_level >= 6:  # Show distance when zoomed in
-                    button_text += f" ({distance_text})"
+                # Create more descriptive button text with area
+                button_text = f"📍 {location_name}"
+                if not pd.isna(area_name) and area_name != "":
+                    button_text += f" ({area_name})"
                 
-                if cols[col_idx].button(button_text, key=f"btn_nearby_{idx}"):
-                    # Update selection
-                    st.session_state.treasure_selector = location_name
+                if st.session_state.zoom_level >= 6:  # Show distance when zoomed in
+                    button_text += f" - {distance_text}"
+                
+                if cols[col_idx].button(button_text, key=f"btn_nearby_{idx}", use_container_width=True):
+                    # Update selection - store the location name without area formatting for compatibility
+                    st.session_state.treasure_selector = format_location_with_area(location_name, area_name)
                     st.session_state.selected_treasure = location_name
                     
                     # Update map center and zoom
@@ -404,7 +424,7 @@ def main():
         
         # Add instructions
         zoom_instruction = "zoomed in view" if st.session_state.zoom_level >= 6 else "current view"
-        st.caption(f"Quick select buttons show locations nearest to your {zoom_instruction}. Use the dropdown menu on the right for full selection.")
+        st.caption(f"Quick select buttons show locations nearest to your {zoom_instruction} with area information. Use the dropdown menu on the right for full selection.")
 
     
     with col2:
@@ -414,53 +434,64 @@ def main():
         # Allow user to select a specific treasure
         id_column = "Location" if "Location" in df.columns else df.columns[0]
         
+        # Create options with area in brackets for the dropdown
+        dropdown_options = [None]
+        for _, row in df.iterrows():
+            location_with_area = format_location_with_area(row[id_column], row["Area"])
+            dropdown_options.append(location_with_area)
+        
         # Function to update map when selection changes
         def on_treasure_select():
-            selected = st.session_state.treasure_selector
-            if selected:
-                treasure_data = df[df[id_column] == selected].iloc[0]
-                st.session_state.selected_treasure = selected
-                st.session_state.map_center = (treasure_data["latitude"], treasure_data["longitude"])
-                st.session_state.zoom_level = 8  # Zoom level when focused on a location
+            selected_display = st.session_state.treasure_selector
+            if selected_display:
+                # Extract the actual location name from the display text
+                actual_location = extract_location_from_display(selected_display)
+                if actual_location:
+                    treasure_data = df[df[id_column] == actual_location].iloc[0]
+                    st.session_state.selected_treasure = actual_location
+                    st.session_state.map_center = (treasure_data["latitude"], treasure_data["longitude"])
+                    st.session_state.zoom_level = 8  # Zoom level when focused on a location
         
-        # Create the selectbox with the callback
-        selected_treasure = st.selectbox(
+        # Create the selectbox with the callback and improved formatting
+        selected_treasure_display = st.selectbox(
             "Select a treasure location:",
-            options=[None] + df[id_column].tolist(),
+            options=dropdown_options,
             format_func=lambda x: "Choose a location..." if x is None else x,
             key="treasure_selector",
             on_change=on_treasure_select
         )
         
         # Display details for the selected treasure
-        if selected_treasure:
-            treasure_data = df[df[id_column] == selected_treasure].iloc[0]
-            
-            st.markdown(f"### {selected_treasure}")
-            
-            # Display all available fields
-            excluded_columns = ["latitude", "longitude", "radius", id_column]
-            for column in df.columns:
-                if column not in excluded_columns:
-                    value = treasure_data[column]
-                    # Handle different types of values
-                    if isinstance(value, (list, tuple)):
-                        # For lists (like Supporting Evidence urls), check if not empty
-                        if value:
-                            if column.endswith('urls'):
-                                # Display URLs as clickable links
-                                st.markdown(f"**{column}:**")
-                                for url in value:
-                                    st.markdown(f"- [{url}]({url})")
-                            else:
-                                # Display other lists as bullet points
-                                st.markdown(f"**{column}:**")
-                                for item in value:
-                                    st.markdown(f"- {item}")
-                    else:
-                        # For scalar values, use pd.isna
-                        if not pd.isna(value):
-                            st.markdown(f"**{column}:** {value}")
+        if selected_treasure_display:
+            actual_location = extract_location_from_display(selected_treasure_display)
+            if actual_location:
+                treasure_data = df[df[id_column] == actual_location].iloc[0]
+                
+                st.markdown(f"### {actual_location}")
+                
+                # Display all available fields
+                excluded_columns = ["latitude", "longitude", "radius", id_column]
+                for column in df.columns:
+                    if column not in excluded_columns:
+                        value = treasure_data[column]
+                        # Handle different types of values
+                        if isinstance(value, (list, tuple)):
+                            # For lists (like Supporting Evidence urls), check if not empty
+                            if value:
+                                if column.endswith('urls'):
+                                    # Display URLs as clickable links
+                                    st.markdown(f"**{column}:**")
+                                    for url in value:
+                                        st.markdown(f"- [{url}]({url})")
+                                else:
+                                    # Display other lists as bullet points
+                                    st.markdown(f"**{column}:**")
+                                    for item in value:
+                                        st.markdown(f"- {item}")
+                        else:
+                            # For scalar values, use pd.isna
+                            if not pd.isna(value):
+                                st.markdown(f"**{column}:** {value}")
 
     # Display the full dataset as a table (expandable)
     with st.expander("View All Data"):
