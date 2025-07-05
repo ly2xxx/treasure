@@ -1,0 +1,94 @@
+[
+  {
+    "Location": "Vindelev, Central Jutland",
+    "Coordinates (Approximate)": "55°43'N, 9°08'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 95,
+    "Recommended Reason": "Site of 2021 discovery of largest Iron Age gold hoard in Danish history",
+    "Supporting Evidence": "1.5kg of gold artifacts including bracteates with Odin inscriptions from 6th century AD, buried by Iron Age chieftain",
+    "Supporting Evidence URLs": [
+      "https://www.livescience.com/gold-hoard-sixth-century-denmark",
+      "https://vejlemuseerne.dk/en/"
+    ]
+  },
+  {
+    "Location": "Fyrkat Viking Ring Fortress, North Jutland",
+    "Coordinates (Approximate)": "56°36'N, 9°58'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 85,
+    "Recommended Reason": "Active archaeological site near Harald Bluetooth's fortress with recent Viking treasure discoveries",
+    "Supporting Evidence": "300+ Viking silver coins and jewelry found nearby in 2023, dating to 980 AD during Harald Bluetooth era",
+    "Supporting Evidence URLs": [
+      "https://www.ancient-origins.net/news-history-archaeology/viking-coins-0018325",
+      "https://archaeology.org/news/2023/04/21/230424-denmark-viking-hoard/"
+    ]
+  },
+  {
+    "Location": "Bornholm Island - Multiple Sites",
+    "Coordinates (Approximate)": "55°10'N, 14°55'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 90,
+    "Recommended Reason": "Island with highest concentration of Viking silver hoards in Denmark - 130+ treasures found",
+    "Supporting Evidence": "Approximately one Viking silver treasure found annually, representing half of all Danish Viking age silver discoveries",
+    "Supporting Evidence URLs": [
+      "https://bornholmarch.eu/about/history-ab/",
+      "https://bornholmarch.eu/news/"
+    ]
+  },
+  {
+    "Location": "Jelling, Central Jutland",
+    "Coordinates (Approximate)": "55°45'N, 9°25'E",
+    "Treasure Value": "Priceless",
+    "Likelihood (%)": 80,
+    "Recommended Reason": "UNESCO World Heritage site with royal burial mounds and runestones of Danish kings",
+    "Supporting Evidence": "Contains burial mounds of Gorm the Old and Harald Bluetooth, largest stone ship in Scandinavia beneath mounds",
+    "Supporting Evidence URLs": [
+      "https://thevikingherald.com/article/six-viking-age-sites-granted-world-heritage-status/962"
+    ]
+  },
+  {
+    "Location": "Rispebjerg, Bornholm",
+    "Coordinates (Approximate)": "55°05'N, 14°45'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 75,
+    "Recommended Reason": "5000-year-old Neolithic sun temple with ritual deposits and flint tool caches",
+    "Supporting Evidence": "19 flint axes and 6 chisels found near sacred spring, clay disks with sun symbols buried under wooden poles",
+    "Supporting Evidence URLs": [
+      "https://en.wikipedia.org/wiki/Rispebjerg",
+      "https://bornholmarch.eu/work-proj/cultural-heritage/"
+    ]
+  },
+  {
+    "Location": "Sorte Muld, Bornholm",
+    "Coordinates (Approximate)": "55°07'N, 14°51'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 88,
+    "Recommended Reason": "Largest concentration of gullgubber (gold figurines) in Scandinavia",
+    "Supporting Evidence": "Over 3000 gold foil figurines dating to 550-600 AD found at this Germanic Iron Age site",
+    "Supporting Evidence URLs": [
+      "https://bornholmsmuseum.dk/en/visit/bornholm-museum/permanent-exhibitions/gullgubber-and-archaeology/"
+    ]
+  },
+  {
+    "Location": "Smørenge (Butter Meadows), Bornholm",
+    "Coordinates (Approximate)": "55°08'N, 14°47'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 82,
+    "Recommended Reason": "Sacred spring site with ongoing discoveries of gold figurines and ritual offerings",
+    "Supporting Evidence": "24 gold foil figurines discovered 2009-2013, representing deities sacrificed for health and fertility",
+    "Supporting Evidence URLs": [
+      "https://www.archaeology.org/issues/103-1309/trenches/1147-denmark-bornholm-golden-figurines"
+    ]
+  },
+  {
+    "Location": "Fæsted, Southwest Jutland",
+    "Coordinates (Approximate)": "55°28'N, 8°52'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 78,
+    "Recommended Reason": "Location of largest Viking gold hoard ever found in Denmark",
+    "Supporting Evidence": "1.5kg of Viking Age gold artifacts including oath rings discovered in 2016, indicating powerful chieftain presence",
+    "Supporting Evidence URLs": [
+      "https://www.scientificamerican.com/article/denmark-let-amateurs-dig-for-treasure-and-it-paid-off/"
+    ]
+  }
+]
