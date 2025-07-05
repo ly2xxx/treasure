@@ -14,3 +14,19 @@ Please coordinate this workflow:
 5. Commit the final implementation when you are comfortable with the outcomes, and create pull request to 'main' branch
 
 Execute this workflow step by step.
+https://youtu.be/djqkec6vBE4
+
+https://github.com/ly2xxx/treasure
+
+I need to develop a new feature using my development crew:
+
+Feature: Add Area values to treasure location dropdown items in bracket
+Language: Python
+
+Please coordinate this workflow:
+0. Add Area values to treasure location dropdown items in bracket. For example: "Moelfre, Anglesey" should be "Moelfre, Anglesey (Wales)". Also make the (Nearby Locations) square longer ideally the length should be flexible to fit the location value.
+1. Use MCP_DOCKER tools to create a feature/add-area-to-dropdown branch if doesn't exist. If exist checkout the branch and continue.
+2. Use claude-code-developer to implement suggested improvements.
+3. Use gemini-qa-agent to review the generated code for security.
+4. Use gemini-qa-agent to generate comprehensive tests for changed code.
+5. Commit the final implementation when you are comfortable with the outcomes, and create pull request to 'main' branch using MCP_DOCKER tools
