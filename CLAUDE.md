@@ -14,6 +14,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - Install dependencies: `pip install -r requirements.txt`
 - Main dependencies: streamlit, pandas, pydeck, openpyxl
 
+### Testing
+- Run unit tests: `python -m pytest test_denmark_treasures.py -v`
+- Run comprehensive tests: `python -m pytest test_comprehensive_denmark.py -v`
+- Run all tests: `python -m pytest -v`
+- Test files use pytest framework with mock data for security validation
+
 ### Debugging
 - VS Code debug configurations exist in `.vscode/launch.json` for:
   - Debugging individual Python files
@@ -87,3 +93,39 @@ This is a **Streamlit-based treasure hunt mapping application** that visualizes 
 - **State Management**: Streamlit session state for UI persistence
 - **Coordinate Systems**: Robust regex-based parsing with validation
 - **Layout**: Streamlit columns for responsive design (7:3 ratio)
+- **Security**: `treasure_security.py` module provides data validation, URL sanitization, and input bounds checking
+
+### Security Architecture
+
+The application includes comprehensive security measures via the `TreasureDataValidator` class:
+
+**Data Validation**:
+- Coordinate boundary validation for Denmark (54.5°-57.5°N, 8.0°-15.5°E)
+- Text length limits to prevent DoS attacks
+- JSON schema validation for treasure data structure
+- URL scheme validation (https/http only)
+
+**Input Sanitization**:
+- HTML/script tag removal for XSS prevention
+- Path traversal protection
+- Trusted domain checking for external URLs
+- SQL injection prevention for text inputs
+
+**File Security**:
+- Secure loading of JSON data files with error handling
+- Path validation for data file access
+- Content-type validation for uploaded files
+
+### Testing Strategy
+
+**Unit Tests** (`test_denmark_treasures.py`):
+- Tests core functionality with Denmark treasure data
+- Coordinate parsing validation
+- Security module integration testing
+- Mock data testing for app components
+
+**Comprehensive Tests** (`test_comprehensive_denmark.py`):
+- Edge case testing with malformed data
+- Security validation stress testing
+- Integration testing with full app loading
+- Performance testing with large datasets
