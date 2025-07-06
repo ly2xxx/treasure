@@ -1,0 +1,54 @@
+[
+  {
+    "Location": "Belitung Shipwreck Site",
+    "Coordinates (Approximate)": "2°45'S, 107°38'E",
+    "Treasure Value": "Priceless",
+    "Likelihood (%)": 95,
+    "Recommended Reason": "Tang Dynasty shipwreck with 60,000+ artifacts from Maritime Silk Route",
+    "Supporting Evidence": "1998 discovery of 9th century Arab dhow with largest collection of Tang ceramics and gold",
+    "Supporting Evidence URLs": [
+      "https://www.nationalgeographic.com/history/article/treasure-gold-shipwrecks-jewels",
+      "https://biblioasia.nlb.gov.sg/vol-17/issue-3/oct-dec-2021/ancientgold/"
+    ]
+  },
+  {
+    "Location": "Palembang, South Sumatra",
+    "Coordinates (Approximate)": "2°59'S, 104°45'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 80,
+    "Recommended Reason": "Ancient Srivijaya kingdom capital with documented gold trade",
+    "Supporting Evidence": "Historical capital of maritime empire, archaeological evidence of gold working",
+    "Supporting Evidence URLs": [
+      "https://biblioasia.nlb.gov.sg/vol-17/issue-3/oct-dec-2021/ancientgold/"
+    ]
+  },
+  {
+    "Location": "Bali Temple Complexes",
+    "Coordinates (Approximate)": "8°20'S, 115°05'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 75,
+    "Recommended Reason": "Ancient Hindu-Buddhist temples with potential buried offerings",
+    "Supporting Evidence": "Traditional practices of burying precious offerings, numerous temple treasuries",
+    "Supporting Evidence URLs": []
+  },
+  {
+    "Location": "Borobudur Area, Central Java",
+    "Coordinates (Approximate)": "7°36'S, 110°12'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 70,
+    "Recommended Reason": "Buddhist temple complex with evidence of ancient gold craftsmanship",
+    "Supporting Evidence": "Archaeological findings suggest sophisticated metalworking and ritual deposits",
+    "Supporting Evidence URLs": [
+      "https://biblioasia.nlb.gov.sg/vol-17/issue-3/oct-dec-2021/ancientgold/"
+    ]
+  },
+  {
+    "Location": "Majapahit Sites, East Java",
+    "Coordinates (Approximate)": "7°33'S, 112°25'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 65,
+    "Recommended Reason": "Capital of powerful maritime empire with documented wealth",
+    "Supporting Evidence": "Historical records describe extensive gold trade and royal treasures",
+    "Supporting Evidence URLs": []
+  }
+]
