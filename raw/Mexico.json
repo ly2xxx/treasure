@@ -1,0 +1,56 @@
+[
+  {
+    "Location": "Tenochtitlan (Mexico City)",
+    "Coordinates (Approximate)": "19°26'N, 99°08'W",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 60,
+    "Recommended Reason": "Site of Aztec capital with lost Montezuma treasure and Noche Triste gold",
+    "Supporting Evidence": "Spanish records and recent construction finds, including gold bars discovered in Mexico City",
+    "Supporting Evidence URLs": [
+      "https://www.history.co.uk/articles/the-legend-of-montezuma-s-lost-aztec-treasure",
+      "https://www.livescience.com/60436-most-valuable-treasures-still-missing-lost.html"
+    ]
+  },
+  {
+    "Location": "Chichen Itza, Yucatan",
+    "Coordinates (Approximate)": "20°41'N, 88°34'W",
+    "Treasure Value": "High",
+    "Likelihood (%)": 85,
+    "Recommended Reason": "Major Maya ceremonial center with cenote sacrificial offerings",
+    "Supporting Evidence": "Sacred Cenote excavations have yielded gold, jade, and precious artifacts",
+    "Supporting Evidence URLs": [
+      "https://nomadgirl.co/top-ancient-ruin-sites-in-central-and-south-america/"
+    ]
+  },
+  {
+    "Location": "Palenque, Chiapas",
+    "Coordinates (Approximate)": "17°29'N, 92°03'W",
+    "Treasure Value": "High",
+    "Likelihood (%)": 80,
+    "Recommended Reason": "Classic Maya city with elaborate royal tombs and jade artifacts",
+    "Supporting Evidence": "Tomb of Pakal the Great contained jade funeral mask and numerous grave goods",
+    "Supporting Evidence URLs": [
+      "https://www.history.co.uk/shows/curse-of-lost-amazon-gold/5-legendary-lost-cities-of-gold-from-akakor-to-el-dorado"
+    ]
+  },
+  {
+    "Location": "Monte Alban, Oaxaca",
+    "Coordinates (Approximate)": "17°02'N, 96°46'W",
+    "Treasure Value": "High",
+    "Likelihood (%)": 75,
+    "Recommended Reason": "Zapotec ceremonial center with rich burial offerings",
+    "Supporting Evidence": "Tomb 7 discovery yielded extensive gold and silver artifacts, suggesting more tombs",
+    "Supporting Evidence URLs": []
+  },
+  {
+    "Location": "Teotihuacan, Mexico State",
+    "Coordinates (Approximate)": "19°41'N, 98°51'W",
+    "Treasure Value": "High",
+    "Likelihood (%)": 70,
+    "Recommended Reason": "Massive pre-Aztec city with unexplored tunnel systems and chambers",
+    "Supporting Evidence": "Recent discoveries of sealed chambers beneath pyramids suggest hidden offerings",
+    "Supporting Evidence URLs": [
+      "https://nomadgirl.co/top-ancient-ruin-sites-in-central-and-south-america/"
+    ]
+  }
+]
