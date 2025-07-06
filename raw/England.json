@@ -1,0 +1,71 @@
+[
+  {
+    "Location": "Sutton Hoo, Suffolk",
+    "Coordinates (Approximate)": "52°05'N, 1°20'E",
+    "Treasure Value": "Priceless",
+    "Likelihood (%)": 95,
+    "Recommended Reason": "Anglo-Saxon ship burial site with exceptional archaeological finds",
+    "Supporting Evidence": "1939 discovery revealed royal burial chamber with gold helmet, weapons, and Byzantine artifacts",
+    "Supporting Evidence URLs": [
+      "https://www.britishmuseum.org/blog/buried-treasure-top-10-finds"
+    ]
+  },
+  {
+    "Location": "Staffordshire Moorlands",
+    "Coordinates (Approximate)": "52°45'N, 2°00'W",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 90,
+    "Recommended Reason": "Site of largest Anglo-Saxon gold hoard ever discovered",
+    "Supporting Evidence": "2009 discovery of 4,600 items including 5.1kg gold, 1.4kg silver, suggesting more sites nearby",
+    "Supporting Evidence URLs": [
+      "https://www.britishmuseum.org/blog/buried-treasure-top-10-finds",
+      "https://en.wikipedia.org/wiki/Staffordshire_Hoard"
+    ]
+  },
+  {
+    "Location": "Hoxne, Suffolk",
+    "Coordinates (Approximate)": "52°20'N, 1°11'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 85,
+    "Recommended Reason": "Site of largest Roman treasure hoard found in Britain",
+    "Supporting Evidence": "1992 discovery of 15,000 coins and 200 silver/gold objects, valued at £4.5M today",
+    "Supporting Evidence URLs": [
+      "https://explorersweb.com/worlds-most-valuable-buried-treasures/",
+      "https://en.wikipedia.org/wiki/Hoxne_Hoard"
+    ]
+  },
+  {
+    "Location": "Cuerdale, Lancashire",
+    "Coordinates (Approximate)": "53°45'N, 2°40'W",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 80,
+    "Recommended Reason": "One of largest Viking silver hoards, suggests more Viking caches",
+    "Supporting Evidence": "1840 discovery of 8,600 items including coins from Scandinavia, Italy, and Byzantium",
+    "Supporting Evidence URLs": [
+      "https://explorersweb.com/worlds-most-valuable-buried-treasures/",
+      "https://www.thearchaeologist.org/blog/here-are-10-of-the-most-valuable-treasures-ever-discovered"
+    ]
+  },
+  {
+    "Location": "Frome, Somerset",
+    "Coordinates (Approximate)": "51°14'N, 2°19'W",
+    "Treasure Value": "High",
+    "Likelihood (%)": 75,
+    "Recommended Reason": "Largest Roman coin hoard found in single vessel",
+    "Supporting Evidence": "2010 discovery of 52,503 Roman coins, indicating Roman settlement activity",
+    "Supporting Evidence URLs": [
+      "https://www.britishmuseum.org/blog/buried-treasure-top-10-finds"
+    ]
+  },
+  {
+    "Location": "Vale of York, Yorkshire", 
+    "Coordinates (Approximate)": "54°00'N, 1°30'W",
+    "Treasure Value": "High",
+    "Likelihood (%)": 85,
+    "Recommended Reason": "Viking silver hoard with unique artifacts and cup",
+    "Supporting Evidence": "2007 discovery included rare gilt silver vessel and 617 coins",
+    "Supporting Evidence URLs": [
+      "https://www.britishmuseum.org/blog/buried-treasure-top-10-finds"
+    ]
+  }
+]
