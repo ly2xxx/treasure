@@ -1,0 +1,45 @@
+[
+  {
+    "Location": "Yamashita's Gold Sites, Luzon",
+    "Coordinates (Approximate)": "16°24'N, 120°48'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 30,
+    "Recommended Reason": "Alleged WWII Japanese treasure caches in caves and tunnels",
+    "Supporting Evidence": "Local testimonies and treasure hunter claims, though disputed by historians",
+    "Supporting Evidence URLs": [
+      "https://www.ancient-origins.net/history-important-events/yamashitas-gold-enormous-war-treasure-hoard-remains-elusive-007246",
+      "https://en.wikipedia.org/wiki/Yamashita's_gold"
+    ]
+  },
+  {
+    "Location": "Tayabas Bay, Luzon",
+    "Coordinates (Approximate)": "13°45'N, 121°30'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 25,
+    "Recommended Reason": "Spanish galleon wreck sites from Manila-Acapulco trade route",
+    "Supporting Evidence": "Historical records of multiple galleon losses in Philippine waters during Spanish colonial period",
+    "Supporting Evidence URLs": [
+      "https://www.nationalgeographic.com/history/article/treasure-gold-shipwrecks-jewels"
+    ]
+  },
+  {
+    "Location": "Baguio, Luzon",
+    "Coordinates (Approximate)": "16°25'N, 120°35'E",
+    "Treasure Value": "Unknown",
+    "Likelihood (%)": 35,
+    "Recommended Reason": "Site of alleged Roxas Buddha treasure discovery",
+    "Supporting Evidence": "Court case testimonies and treasure hunter accounts from 1970s-1980s",
+    "Supporting Evidence URLs": [
+      "https://en.wikipedia.org/wiki/Yamashita's_gold"
+    ]
+  },
+  {
+    "Location": "Palawan Underground River Area",
+    "Coordinates (Approximate)": "10°10'N, 118°55'E",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 40,
+    "Recommended Reason": "Pre-colonial burial sites and potential Spanish era caches",
+    "Supporting Evidence": "Archaeological excavations revealing ancient burial goods and artifacts",
+    "Supporting Evidence URLs": []
+  }
+]
