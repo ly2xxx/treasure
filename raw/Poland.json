@@ -1,0 +1,52 @@
+[
+  {
+    "Location": "Środa Śląska, Lower Silesia",
+    "Coordinates (Approximate)": "51°10'N, 16°34'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 95,
+    "Recommended Reason": "Site of $120M medieval treasure hoard discovery",
+    "Supporting Evidence": "1985-1988 excavations revealed 4,000 silver/gold coins, crown, and jewelry from 14th century",
+    "Supporting Evidence URLs": [
+      "https://explorersweb.com/worlds-most-valuable-buried-treasures/",
+      "https://www.thearchaeologist.org/blog/here-are-10-of-the-most-valuable-treasures-ever-discovered"
+    ]
+  },
+  {
+    "Location": "Wrocław Region, Lower Silesia",
+    "Coordinates (Approximate)": "51°06'N, 17°02'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 70,
+    "Recommended Reason": "Medieval trade route hub with potential merchant hoards",
+    "Supporting Evidence": "Historical records indicate wealthy merchant activity, recent metal detecting finds",
+    "Supporting Evidence URLs": []
+  },
+  {
+    "Location": "Kraków, Lesser Poland",
+    "Coordinates (Approximate)": "50°04'N, 19°56'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 65,
+    "Recommended Reason": "Former royal capital with documented medieval treasure chambers",
+    "Supporting Evidence": "Wawel Castle and cathedral complex known for royal treasures and vaults",
+    "Supporting Evidence URLs": []
+  },
+  {
+    "Location": "Malbork Castle, Pomeranian",
+    "Coordinates (Approximate)": "54°02'N, 19°02'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 60,
+    "Recommended Reason": "Teutonic Knights headquarters with potential hidden treasures",
+    "Supporting Evidence": "Largest brick castle complex in world, documented wealth of Teutonic Order",
+    "Supporting Evidence URLs": []
+  },
+  {
+    "Location": "Lublin Province, Eastern Poland",
+    "Coordinates (Approximate)": "51°15'N, 22°34'E",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 55,
+    "Recommended Reason": "Recent discovery of 17th century copper coin hoard suggests more caches",
+    "Supporting Evidence": "2023 discovery of 1,000 copper coins in clay jug, indicating wartime hiding practice",
+    "Supporting Evidence URLs": [
+      "https://www.livescience.com/archaeology/10-extraordinary-treasures-that-archaeologists-unearthed-this-year"
+    ]
+  }
+]
