@@ -1,0 +1,40 @@
+[
+  {
+    "Location": "Tillya Tepe, Jowzjan Province",
+    "Coordinates (Approximate)": "36°54'N, 65°54'E",
+    "Treasure Value": "Priceless",
+    "Likelihood (%)": 95,
+    "Recommended Reason": "Bactrian gold discovery site with 20,600 artifacts",
+    "Supporting Evidence": "1978 Soviet-Afghan excavation revealed one of richest archaeological finds ever",
+    "Supporting Evidence URLs": [
+      "https://www.thearchaeologist.org/blog/here-are-10-of-the-most-valuable-treasures-ever-discovered"
+    ]
+  },
+  {
+    "Location": "Begram, Parwan Province",
+    "Coordinates (Approximate)": "35°03'N, 69°18'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 75,
+    "Recommended Reason": "Ancient Kushan capital with documented treasure chambers",
+    "Supporting Evidence": "Archaeological evidence of wealthy trading center on Silk Road",
+    "Supporting Evidence URLs": []
+  },
+  {
+    "Location": "Balkh, Balkh Province",
+    "Coordinates (Approximate)": "36°46'N, 66°54'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 70,
+    "Recommended Reason": "Ancient Bactria capital, 'Mother of Cities' with potential buried treasures",
+    "Supporting Evidence": "Historical accounts describe fabulous wealth of ancient Balkh",
+    "Supporting Evidence URLs": []
+  },
+  {
+    "Location": "Bamiyan Valley",
+    "Coordinates (Approximate)": "34°50'N, 67°49'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 65,
+    "Recommended Reason": "Buddhist center with monastery treasuries and potential caches",
+    "Supporting Evidence": "Archaeological evidence of wealthy Buddhist monasteries along Silk Road",
+    "Supporting Evidence URLs": []
+  }
+]
