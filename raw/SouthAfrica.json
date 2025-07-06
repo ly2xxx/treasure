@@ -1,0 +1,38 @@
+[
+  {
+    "Location": "Great Zimbabwe, Masvingo",
+    "Coordinates (Approximate)": "20°16'S, 30°56'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 80,
+    "Recommended Reason": "Ancient African kingdom capital with documented gold trade",
+    "Supporting Evidence": "Archaeological evidence of extensive gold working and trade with Arab merchants",
+    "Supporting Evidence URLs": []
+  },
+  {
+    "Location": "Mapungubwe, Limpopo",
+    "Coordinates (Approximate)": "22°12'S, 29°14'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 85,
+    "Recommended Reason": "First African kingdom south of Sahara with gold burial artifacts",
+    "Supporting Evidence": "1932 discovery of golden rhino and other artifacts, UNESCO World Heritage site",
+    "Supporting Evidence URLs": []
+  },
+  {
+    "Location": "Witwatersrand Gold Fields",
+    "Coordinates (Approximate)": "26°12'S, 27°45'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 70,
+    "Recommended Reason": "Historic gold mining region with potential early mining caches",
+    "Supporting Evidence": "World's largest gold producing region, evidence of ancient mining activities",
+    "Supporting Evidence URLs": []
+  },
+  {
+    "Location": "Kimberley Diamond Fields",
+    "Coordinates (Approximate)": "28°44'S, 24°46'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 60,
+    "Recommended Reason": "Historic diamond mining area with potential hidden caches",
+    "Supporting Evidence": "Site of major diamond discoveries, evidence of early mining operations",
+    "Supporting Evidence URLs": []
+  }
+]
