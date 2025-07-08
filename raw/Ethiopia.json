@@ -1,0 +1,92 @@
+[
+  {
+    "Location": "Aksum Archaeological Site",
+    "Coordinates (Approximate)": "14°08'N, 38°43'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 95,
+    "Recommended Reason": "Ancient Aksumite Empire capital with 100 obelisks, unexplored royal tombs, and Ark of the Covenant legend",
+    "Supporting Evidence": "UNESCO World Heritage site, tallest obelisk 30m high weighing 517 tons, archaeological evidence of extensive gold trade with Egypt and Asia",
+    "Supporting Evidence URLs": [
+      "https://www.archaeologyexpert.co.uk/aksumofethiopia.html",
+      "https://tourhubethiopia.com/discover-axum-ethiopia/"
+    ]
+  },
+  {
+    "Location": "Church of St. Mary of Zion, Aksum",
+    "Coordinates (Approximate)": "14°08'N, 38°43'E",
+    "Treasure Value": "Priceless",
+    "Likelihood (%)": 85,
+    "Recommended Reason": "Legendary resting place of the biblical Ark of the Covenant, guarded by single monk",
+    "Supporting Evidence": "Ethiopian Orthodox tradition claims original Ark brought by Menelik I, first ecclesiastical building in Ethiopia",
+    "Supporting Evidence URLs": [
+      "https://sacredsites.com/africa/ethiopia/sacred_sites_ethiopia.html",
+      "https://gishabayethiopiatour.com/destinations/historic-axum/"
+    ]
+  },
+  {
+    "Location": "Queen of Sheba's Palace Ruins, Aksum",
+    "Coordinates (Approximate)": "14°07'N, 38°42'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 80,
+    "Recommended Reason": "Dungur Palace archaeological site associated with legendary Queen of Sheba",
+    "Supporting Evidence": "Large palace complex ruins with evidence of royal occupation, connection to biblical and Ethiopian legends",
+    "Supporting Evidence URLs": [
+      "https://tourhubethiopia.com/discover-axum-ethiopia/"
+    ]
+  },
+  {
+    "Location": "Lalibela Rock Churches",
+    "Coordinates (Approximate)": "12°02'N, 39°02'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 88,
+    "Recommended Reason": "12th century rock-hewn churches with hidden chambers, religious artifacts, and underground tunnels",
+    "Supporting Evidence": "UNESCO World Heritage site, 11 churches carved from single rock pieces, richly painted biblical murals, mummies in wall cavities",
+    "Supporting Evidence URLs": [
+      "https://sacredsites.com/africa/ethiopia/sacred_sites_ethiopia.html"
+    ]
+  },
+  {
+    "Location": "King Kaleb and King Gebre Meskel Tombs, Aksum",
+    "Coordinates (Approximate)": "14°09'N, 38°44'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 75,
+    "Recommended Reason": "Royal burial complex of Aksumite kings with potential undisturbed burial goods",
+    "Supporting Evidence": "Large masonry tombs beneath obelisk field, archaeological evidence of royal burial practices",
+    "Supporting Evidence URLs": [
+      "https://realafrica.co.uk/blog/axum-and-lalibela-ethiopias-historical-gems/"
+    ]
+  },
+  {
+    "Location": "Adadi Mariam Rock Church",
+    "Coordinates (Approximate)": "8°45'N, 38°45'E",
+    "Treasure Value": "Moderate",
+    "Likelihood (%)": 70,
+    "Recommended Reason": "13th century rock church carved by King Lalibela with religious artifacts",
+    "Supporting Evidence": "Carved from single piece of rock, associated with Lalibela's building campaign",
+    "Supporting Evidence URLs": [
+      "https://gishabayethiopiatour.com/destinations/historic-axum/"
+    ]
+  },
+  {
+    "Location": "Tiya Stone Grave Markers",
+    "Coordinates (Approximate)": "8°27'N, 38°37'E",
+    "Treasure Value": "Moderate",
+    "Likelihood (%)": 65,
+    "Recommended Reason": "UNESCO site with 40 stone monuments marking graves of local heroes from 12th-14th centuries",
+    "Supporting Evidence": "Carved stone stelae with symbols, evidence of medieval burial practices and possible grave goods",
+    "Supporting Evidence URLs": [
+      "https://gishabayethiopiatour.com/destinations/historic-axum/"
+    ]
+  },
+  {
+    "Location": "Melka Kunture Prehistoric Site",
+    "Coordinates (Approximate)": "8°25'N, 38°40'E",
+    "Treasure Value": "Moderate",
+    "Likelihood (%)": 60,
+    "Recommended Reason": "Open-air excavation site with over 1 million years of archaeological findings",
+    "Supporting Evidence": "Stone tools and artifacts spanning vast time periods, evidence of early human activity",
+    "Supporting Evidence URLs": [
+      "https://gishabayethiopiatour.com/destinations/historic-axum/"
+    ]
+  }
+]

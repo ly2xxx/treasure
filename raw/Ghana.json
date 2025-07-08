@@ -1,0 +1,91 @@
+[
+  {
+    "Location": "Asante Royal Palace, Kumasi",
+    "Coordinates (Approximate)": "6°42'N, 1°37'W",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 90,
+    "Recommended Reason": "Heart of Asante Empire with extensive gold regalia, treasures, and Akan goldweights",
+    "Supporting Evidence": "Historical center of Gold Coast, royal gold artifacts, ceremonial items, and traditional goldweight collections",
+    "Supporting Evidence URLs": [
+      "https://www.smithsonianmag.com/arts-culture/west-african-gold-out-of-the-ordinary-109183799/",
+      "https://momaa.org/akan-goldweights/"
+    ]
+  },
+  {
+    "Location": "Cape Coast Castle Gold Vaults",
+    "Coordinates (Approximate)": "5°06'N, 1°15'W",
+    "Treasure Value": "High",
+    "Likelihood (%)": 85,
+    "Recommended Reason": "Former European trading post where gold was stored and weighed, potential hidden caches",
+    "Supporting Evidence": "Major gold trading center for centuries, European fortification designed for gold storage and trade",
+    "Supporting Evidence URLs": [
+      "https://designdash.com/design/the-beauty-and-history-of-akan-goldweights/"
+    ]
+  },
+  {
+    "Location": "Manso Nkwanta Ancient Goldfields",
+    "Coordinates (Approximate)": "6°30'N, 1°45'W",
+    "Treasure Value": "High",
+    "Likelihood (%)": 80,
+    "Recommended Reason": "Traditional Akan gold mining area with ancient workings and goldweight production centers",
+    "Supporting Evidence": "Source of gold for Akan goldweights and trade, evidence of sophisticated mining and metallurgy",
+    "Supporting Evidence URLs": [
+      "https://ghanaremembers.com/stories/history/akan-goldweights-cultural-artifacts-of-trade-and-tradition.html"
+    ]
+  },
+  {
+    "Location": "Begho Ancient Trading City",
+    "Coordinates (Approximate)": "7°55'N, 2°35'W",
+    "Treasure Value": "High",
+    "Likelihood (%)": 75,
+    "Recommended Reason": "Medieval trans-Saharan trade center, archaeological site with gold trade evidence",
+    "Supporting Evidence": "Major trading hub from 11th-19th centuries, connection between forest gold and Saharan trade routes",
+    "Supporting Evidence URLs": [
+      "https://www.tribalgh.com/collections/akan-goldweights"
+    ]
+  },
+  {
+    "Location": "Elmina Castle Gold Rooms",
+    "Coordinates (Approximate)": "5°05'N, 1°21'W",
+    "Treasure Value": "High",
+    "Likelihood (%)": 78,
+    "Recommended Reason": "First European castle in Africa, gold storage and trading center for Portuguese then Dutch",
+    "Supporting Evidence": "Oldest European building in sub-Saharan Africa, central to gold trade for over 500 years",
+    "Supporting Evidence URLs": [
+      "https://www.metmuseum.org/art/collection/search/317689"
+    ]
+  },
+  {
+    "Location": "Tarkwa Gold Mining Region",
+    "Coordinates (Approximate)": "5°18'N, 1°59'W",
+    "Treasure Value": "Moderate",
+    "Likelihood (%)": 70,
+    "Recommended Reason": "Ancient gold mining area with evidence of pre-colonial extraction and Akan goldweight usage",
+    "Supporting Evidence": "Modern mining reveals ancient workings, traditional gold dust weighing with Akan goldweights",
+    "Supporting Evidence URLs": [
+      "http://www.vam.ac.uk/content/articles/a/asante-gold/"
+    ]
+  },
+  {
+    "Location": "Bono State Archaeological Sites",
+    "Coordinates (Approximate)": "7°45'N, 2°25'W",
+    "Treasure Value": "Moderate",
+    "Likelihood (%)": 65,
+    "Recommended Reason": "Early Akan state with gold trading evidence and traditional goldweight centers",
+    "Supporting Evidence": "Archaeological evidence of early gold trade organization and goldweight standardization",
+    "Supporting Evidence URLs": [
+      "https://en.wikipedia.org/wiki/Akan_goldweights"
+    ]
+  },
+  {
+    "Location": "Axim Fort and Trading Post",
+    "Coordinates (Approximate)": "4°52'N, 2°14'W",
+    "Treasure Value": "Moderate",
+    "Likelihood (%)": 60,
+    "Recommended Reason": "Portuguese fort established for gold trade, potential hidden caches from 15th century",
+    "Supporting Evidence": "Early European gold trading post, strategic location for gold collection from interior",
+    "Supporting Evidence URLs": [
+      "https://www.tribalgh.com/collections/akan-goldweights"
+    ]
+  }
+]

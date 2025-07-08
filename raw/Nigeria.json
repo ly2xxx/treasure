@@ -1,0 +1,92 @@
+[
+  {
+    "Location": "Igbo-Ukwu Archaeological Site, Anambra State",
+    "Coordinates (Approximate)": "6°00'N, 7°03'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 95,
+    "Recommended Reason": "9th century AD bronze treasures, world's most sophisticated ancient African metallurgy",
+    "Supporting Evidence": "Over 700 high-quality bronze, copper, and iron artifacts, 165,000 glass and carnelian beads, advanced lost-wax casting technique predating European contact by 500 years",
+    "Supporting Evidence URLs": [
+      "https://smarthistory.org/igbo-ukwu/",
+      "https://ozikoro.com/the-igbo-ukwu-bronze-treasures-a-window-into-africas-ancient-past/"
+    ]
+  },
+  {
+    "Location": "Benin City Royal Palace Complex, Edo State",
+    "Coordinates (Approximate)": "6°20'N, 5°37'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 90,
+    "Recommended Reason": "Source of thousands of Benin Bronzes, many still buried in royal compound",
+    "Supporting Evidence": "Up to 10,000 artifacts originally looted in 1897, active bronze casting guild still operates, royal palace contains undiscovered treasures",
+    "Supporting Evidence URLs": [
+      "https://www.nationalgeographic.com/travel/article/nigeria-stolen-benin-bronzes-london-museum",
+      "https://www.britishmuseum.org/about-us/british-museum-story/contested-objects-collection/benin-bronzes"
+    ]
+  },
+  {
+    "Location": "Nok Valley Archaeological Sites, Kaduna State",
+    "Coordinates (Approximate)": "10°30'N, 8°15'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 85,
+    "Recommended Reason": "Africa's oldest known iron-working civilization (1000 BC-300 AD) with terracotta sculptures",
+    "Supporting Evidence": "Sophisticated iron smelting technology, artistic terracotta heads and figures, evidence of advanced society",
+    "Supporting Evidence URLs": [
+      "https://smarthistory.org/igbo-ukwu/"
+    ]
+  },
+  {
+    "Location": "Ife Ancient City, Osun State",
+    "Coordinates (Approximate)": "7°28'N, 4°34'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 80,
+    "Recommended Reason": "Legendary birthplace of Yoruba civilization with bronze and terracotta art",
+    "Supporting Evidence": "Naturalistic bronze heads and terracotta sculptures, spiritual center of Yoruba culture, ongoing archaeological discoveries",
+    "Supporting Evidence URLs": [
+      "https://www.britishmuseum.org/about-us/british-museum-story/contested-objects-collection/benin-bronzes"
+    ]
+  },
+  {
+    "Location": "Nsukka Iron Smelting Sites, Enugu State",
+    "Coordinates (Approximate)": "6°52'N, 7°24'E",
+    "Treasure Value": "Moderate",
+    "Likelihood (%)": 75,
+    "Recommended Reason": "Ancient iron smelting furnaces dating to 2000 BC, earliest iron technology in West Africa",
+    "Supporting Evidence": "Archaeological sites with iron slag from 750 BC in Opi, 2000 BC in Lejja, advanced metallurgical knowledge",
+    "Supporting Evidence URLs": [
+      "https://en.wikipedia.org/wiki/Archaeology_of_Igbo-Ukwu"
+    ]
+  },
+  {
+    "Location": "Owo Ancient Kingdom, Ondo State",
+    "Coordinates (Approximate)": "7°12'N, 5°36'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 70,
+    "Recommended Reason": "Medieval Yoruba kingdom with ivory and bronze artifacts, royal burial sites",
+    "Supporting Evidence": "Royal graves with ivory tusks, bronze objects, and ceremonial regalia dating to 15th century",
+    "Supporting Evidence URLs": [
+      "https://smarthistory.org/igbo-ukwu/"
+    ]
+  },
+  {
+    "Location": "Ugbo Sacred Grove, Ondo State",
+    "Coordinates (Approximate)": "7°05'N, 5°45'E",
+    "Treasure Value": "Moderate",
+    "Likelihood (%)": 65,
+    "Recommended Reason": "Ancient sacred site with ritual artifacts and sculptures",
+    "Supporting Evidence": "Religious sculptures and artifacts, connection to ancient Yoruba spiritual practices",
+    "Supporting Evidence URLs": [
+      "https://thingsnigeria.com/2018/05/08/igbo-ukwu-bronzes-stunning-art-and-unmatched-metallurgy/"
+    ]
+  },
+  {
+    "Location": "Esie Stone Images Site, Kwara State",
+    "Coordinates (Approximate)": "7°57'N, 4°45'E",
+    "Treasure Value": "Moderate",
+    "Likelihood (%)": 60,
+    "Recommended Reason": "Over 800 stone sculptures of unknown origin and creators",
+    "Supporting Evidence": "Largest collection of ancient stone carvings in Africa, mysterious artistic tradition",
+    "Supporting Evidence URLs": [
+      "https://thingsnigeria.com/2018/05/08/igbo-ukwu-bronzes-stunning-art-and-unmatched-metallurgy/"
+    ]
+  }
+]

@@ -1,38 +1,90 @@
 [
   {
-    "Location": "Great Zimbabwe, Masvingo",
-    "Coordinates (Approximate)": "20°16'S, 30°56'E",
-    "Treasure Value": "High",
-    "Likelihood (%)": 80,
-    "Recommended Reason": "Ancient African kingdom capital with documented gold trade",
-    "Supporting Evidence": "Archaeological evidence of extensive gold working and trade with Arab merchants",
-    "Supporting Evidence URLs": []
-  },
-  {
     "Location": "Mapungubwe, Limpopo",
     "Coordinates (Approximate)": "22°12'S, 29°14'E",
-    "Treasure Value": "High",
-    "Likelihood (%)": 85,
-    "Recommended Reason": "First African kingdom south of Sahara with gold burial artifacts",
-    "Supporting Evidence": "1932 discovery of golden rhino and other artifacts, UNESCO World Heritage site",
-    "Supporting Evidence URLs": []
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 90,
+    "Recommended Reason": "First African kingdom south of Sahara with extensive gold burial artifacts, currently displayed in Javett-UP Art Centre",
+    "Supporting Evidence": "1932 discovery of golden rhino and other artifacts, UNESCO World Heritage site, Mapungubwe National Treasure collection now housed in secure tower",
+    "Supporting Evidence URLs": [
+      "https://www.ancient-origins.net/news-history-archaeology/africa-gold-0012713"
+    ]
   },
   {
-    "Location": "Witwatersrand Gold Fields",
+    "Location": "Great Zimbabwe Ruins, Zimbabwe (near SA border)",
+    "Coordinates (Approximate)": "20°16'S, 30°56'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 85,
+    "Recommended Reason": "Massive stone city ruins with evidence of extensive gold trade, sophisticated irrigation system",
+    "Supporting Evidence": "Largest stone structure in precolonial southern Africa, traded gold, copper and ivory between Africa and Middle East",
+    "Supporting Evidence URLs": [
+      "https://www.livescience.com/archaeology/extraordinary-african-kingdoms-from-ancient-times-to-centuries-ago"
+    ]
+  },
+  {
+    "Location": "Witwatersrand Gold Fields, Johannesburg",
     "Coordinates (Approximate)": "26°12'S, 27°45'E",
     "Treasure Value": "Exceptional",
-    "Likelihood (%)": 70,
-    "Recommended Reason": "Historic gold mining region with potential early mining caches",
-    "Supporting Evidence": "World's largest gold producing region, evidence of ancient mining activities",
-    "Supporting Evidence URLs": []
+    "Likelihood (%)": 75,
+    "Recommended Reason": "World's largest gold producing region with potential ancient mining caches and abandoned workings",
+    "Supporting Evidence": "World's largest gold producing region, evidence of ancient mining activities predating modern operations",
+    "Supporting Evidence URLs": [
+      "https://www.ancient-origins.net/news-history-archaeology/africa-gold-0012713"
+    ]
+  },
+  {
+    "Location": "Thulamela Archaeological Site, Kruger National Park",
+    "Coordinates (Approximate)": "22°39'S, 30°10'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 80,
+    "Recommended Reason": "1400-1700 AD archaeological site, original collection was stolen in 2016 indicating high value",
+    "Supporting Evidence": "Stone-walled settlement with gold artifacts, collection was stolen from museum highlighting its significant value",
+    "Supporting Evidence URLs": [
+      "https://www.ancient-origins.net/news-history-archaeology/africa-gold-0012713"
+    ]
   },
   {
     "Location": "Kimberley Diamond Fields",
     "Coordinates (Approximate)": "28°44'S, 24°46'E",
     "Treasure Value": "High",
+    "Likelihood (%)": 70,
+    "Recommended Reason": "Historic diamond mining area with potential hidden caches from early mining operations",
+    "Supporting Evidence": "Site of major diamond discoveries including some of world's largest diamonds, evidence of early mining operations",
+    "Supporting Evidence URLs": [
+      "https://www.ancient-origins.net/news-history-archaeology/africa-gold-0012713"
+    ]
+  },
+  {
+    "Location": "Barberton Makhonjwa Mountains, Mpumalanga",
+    "Coordinates (Approximate)": "25°47'S, 31°03'E",
+    "Treasure Value": "Moderate",
+    "Likelihood (%)": 65,
+    "Recommended Reason": "UNESCO World Heritage site with 3.6 billion year old geological formations and early gold discoveries",
+    "Supporting Evidence": "World's oldest mountain range with early gold deposits, some of first commercial gold mining in South Africa",
+    "Supporting Evidence URLs": [
+      "https://www.ancient-origins.net/news-history-archaeology/africa-gold-0012713"
+    ]
+  },
+  {
+    "Location": "Makapansgat Archaeological Site, Limpopo",
+    "Coordinates (Approximate)": "24°10'S, 28°57'E",
+    "Treasure Value": "Moderate",
     "Likelihood (%)": 60,
-    "Recommended Reason": "Historic diamond mining area with potential hidden caches",
-    "Supporting Evidence": "Site of major diamond discoveries, evidence of early mining operations",
-    "Supporting Evidence URLs": []
+    "Recommended Reason": "Early hominid site with stone tools and evidence of early human technology",
+    "Supporting Evidence": "Australopithecus africanus fossils and stone tool technology, evidence of early human cultural development",
+    "Supporting Evidence URLs": [
+      "https://www.ancient-origins.net/news-history-archaeology/africa-gold-0012713"
+    ]
+  },
+  {
+    "Location": "Blombos Cave, Western Cape",
+    "Coordinates (Approximate)": "34°25'S, 21°13'E",
+    "Treasure Value": "Moderate",
+    "Likelihood (%)": 55,
+    "Recommended Reason": "Evidence of early human symbolic behavior, ochre art, and shell beads from 100,000 years ago",
+    "Supporting Evidence": "Some of world's earliest evidence of symbolic thinking and artistic expression in prehistoric humans",
+    "Supporting Evidence URLs": [
+      "https://www.ancient-origins.net/news-history-archaeology/africa-gold-0012713"
+    ]
   }
 ]
