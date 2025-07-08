@@ -1,0 +1,92 @@
+[
+  {
+    "Location": "Notion Archaeological Site, Western Anatolia",
+    "Coordinates (Approximate)": "38°15'N, 26°45'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 95,
+    "Recommended Reason": "2024 discovery of Persian gold daric hoard in controlled archaeological excavation, extremely rare find",
+    "Supporting Evidence": "University of Michigan archaeologists found gold daric coins in ceramic pot, likely 5th century BC, depicting kneeling archer design",
+    "Supporting Evidence URLs": [
+      "https://greekreporter.com/2024/10/21/gold-treasure-ancient-greek-city/",
+      "https://www.newsweek.com/ancient-greece-archaeology-hoard-gold-coin-found-too-valuable-1935907"
+    ]
+  },
+  {
+    "Location": "Trapeza Plateau, Aigio, Peloponnese",
+    "Coordinates (Approximate)": "38°14'N, 22°05'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 92,
+    "Recommended Reason": "2024 discovery of 2,300-year-old heroon with gold jewelry including lion motif earrings and winged cupid ornaments",
+    "Supporting Evidence": "Archaeological excavation revealed intact tombs with gold earrings, rings, necklaces, and funerary coins indicating high social status",
+    "Supporting Evidence URLs": [
+      "https://interestingengineering.com/culture/gold-treasure-unearthed-in-greek-building"
+    ]
+  },
+  {
+    "Location": "Temple of Amarysia Artemis, Evia Island",
+    "Coordinates (Approximate)": "38°35'N, 23°50'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 88,
+    "Recommended Reason": "2,700-year-old temple complex with gold, silver, coral, and amber jewelry discovered in 2023 excavations",
+    "Supporting Evidence": "100-foot long 7th century BC temple with altars containing precious jewels, Corinthian alabaster, and bronze figurines",
+    "Supporting Evidence URLs": [
+      "https://www.popularmechanics.com/science/archaeology/a46364582/ancient-greek-temple-gold-and-jewels/"
+    ]
+  },
+  {
+    "Location": "Thessaloniki Byzantine Quarter",
+    "Coordinates (Approximate)": "40°38'N, 22°57'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 85,
+    "Recommended Reason": "Historic Byzantine capital with 1956 discovery of gold cuffs and 1660s merchant hoard on Dodecanesos Street",
+    "Supporting Evidence": "Byzantine gold cuffs with granulated decoration found with Venetian, Austrian, and Ottoman gold ducats, indicating wealthy merchant cache",
+    "Supporting Evidence URLs": [
+      "https://blogs.getty.edu/iris/uncovering-the-history-of-a-long-buried-byzantine-treasure/"
+    ]
+  },
+  {
+    "Location": "Peloponnese Central Mountains",
+    "Coordinates (Approximate)": "37°20'N, 22°30'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 70,
+    "Recommended Reason": "Legendary location of Lykos's treasure hoard from Byzantine resistance fighter, actively sought by treasure hunters",
+    "Supporting Evidence": "Traditional ballads speak of 'golden cache guarded by spirits of old', modern expeditions with electromagnetic equipment have searched area",
+    "Supporting Evidence URLs": [
+      "https://www.thearchaeologist.org/blog/this-is-the-greatest-hidden-treasure-in-greece-gold-seekers-are-desperately-looking-for-it"
+    ]
+  },
+  {
+    "Location": "Thracian Burial Mounds, Northern Greece",
+    "Coordinates (Approximate)": "41°10'N, 24°30'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 87,
+    "Recommended Reason": "Rich Thracian civilization area with gold and silver artifacts, part of broader Thracian treasure tradition",
+    "Supporting Evidence": "Archaeological evidence of Thracian aristocratic burials with gold laurel wreaths, armor, and drinking sets across the region",
+    "Supporting Evidence URLs": [
+      "https://en.wikipedia.org/wiki/Thracian_treasure",
+      "https://www.getty.edu/news/ancient-thrace-and-the-classical-world-discoveries/"
+    ]
+  },
+  {
+    "Location": "Athenian Agora Archaeological Area",
+    "Coordinates (Approximate)": "37°58'N, 23°43'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 80,
+    "Recommended Reason": "Center of ancient Athens with ongoing excavations revealing classical period artifacts and potential buried hoards",
+    "Supporting Evidence": "Major archaeological site with continuous excavation revealing artifacts from classical antiquity, American School of Classical Studies",
+    "Supporting Evidence URLs": [
+      "https://www.ascsa.edu.gr/excavations/agora"
+    ]
+  },
+  {
+    "Location": "Delphi Archaeological Site",
+    "Coordinates (Approximate)": "38°29'N, 22°30'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 75,
+    "Recommended Reason": "Ancient Greece's most important oracle site with treasury buildings and votive offerings from across the Greek world",
+    "Supporting Evidence": "Sacred site where city-states built treasuries to house votive offerings, ongoing excavations continue to reveal artifacts",
+    "Supporting Evidence URLs": [
+      "https://whc.unesco.org/en/list/393/"
+    ]
+  }
+]
