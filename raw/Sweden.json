@@ -1,0 +1,94 @@
+[
+  {
+    "Location": "Spillings Farm, Northern Gotland",
+    "Coordinates (Approximate)": "57°25'N, 18°35'E",
+    "Treasure Value": "Priceless",
+    "Likelihood (%)": 100,
+    "Recommended Reason": "Site of world's largest Viking silver hoard discovered in 1999, weighing 67kg with over 14,000 coins",
+    "Supporting Evidence": "Largest Viking treasure ever found, contained 14,295 coins, silver jewelry, and artifacts. Enough silver to pay Gotland's tax to Swedish king for 5 years",
+    "Supporting Evidence URLs": [
+      "https://en.wikipedia.org/wiki/Spillings_Hoard",
+      "https://paganheim.com/blogs/archaeology/gotlands-hidden-wealth-exploring-the-largest-viking-silver-hoard"
+    ]
+  },
+  {
+    "Location": "Fröjel Archaeological Site, Western Gotland",
+    "Coordinates (Approximate)": "57°10'N, 18°15'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 92,
+    "Recommended Reason": "Major Viking Age trading port with active excavations revealing extensive international trade connections and ongoing discoveries",
+    "Supporting Evidence": "Archaeological site showing Viking Age metalworking, silver refinement, and international trade. Area larger than 100 football pitches being excavated",
+    "Supporting Evidence URLs": [
+      "https://archaeology.org/issues/january-february-2017/features/sweden-gotland-viking-wealth/",
+      "https://www.britannica.com/video/Overview-archaeologists-efforts-treasure-Viking-Sweden-island/-191919"
+    ]
+  },
+  {
+    "Location": "Gotland Museum Area, Visby",
+    "Coordinates (Approximate)": "57°38'N, 18°17'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 88,
+    "Recommended Reason": "UNESCO World Heritage medieval city with over 700 Viking Age silver hoards discovered on island, highest concentration globally",
+    "Supporting Evidence": "Over 180,000 Viking Age coins found in hoards across Gotland, more than rest of mainland Sweden combined despite being 100x smaller",
+    "Supporting Evidence URLs": [
+      "https://archaeology.org/issues/january-february-2017/features/sweden-gotland-viking-wealth/",
+      "https://paganheim.com/blogs/history/gotland-unearthed-a-journey-through-9-000-years-of-baltic-history"
+    ]
+  },
+  {
+    "Location": "Bornholm-Gotland Strait Waters",
+    "Coordinates (Approximate)": "56°45'N, 17°30'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 75,
+    "Recommended Reason": "Major Viking Age shipping route between Denmark and Sweden with potential shipwreck treasures",
+    "Supporting Evidence": "Key maritime corridor for Viking trade expeditions to eastern Europe and Arab lands, multiple shipwreck sites known",
+    "Supporting Evidence URLs": [
+      "https://archaeology.org/issues/january-february-2017/features/sweden-gotland-viking-wealth/"
+    ]
+  },
+  {
+    "Location": "Sigtuna Archaeological Area",
+    "Coordinates (Approximate)": "59°37'N, 17°43'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 85,
+    "Recommended Reason": "First town of Sweden with extensive Viking Age and medieval archaeology, recent silver treasure discoveries",
+    "Supporting Evidence": "Archaeological site near Stockholm with 2025 discovery of Viking Age silver hoard including 8 neck torcs, coins from England, Persia, and Bavaria",
+    "Supporting Evidence URLs": [
+      "https://archaeology.org/news/2025/06/04/viking-age-silver-treasure-uncovered-near-stockholm/"
+    ]
+  },
+  {
+    "Location": "Birka Archaeological Site, Björkö Island",
+    "Coordinates (Approximate)": "59°19'N, 17°32'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 90,
+    "Recommended Reason": "UNESCO World Heritage Viking Age trading center with extensive burial grounds and ongoing archaeological excavations",
+    "Supporting Evidence": "Major Viking Age trading town with over 3000 graves, international trade connections, and continuous archaeological discoveries",
+    "Supporting Evidence URLs": [
+      "https://whc.unesco.org/en/list/555/",
+      "https://archaeology.org/news/2025/06/04/viking-age-silver-treasure-uncovered-near-stockholm/"
+    ]
+  },
+  {
+    "Location": "Anundshög, Västmanland",
+    "Coordinates (Approximate)": "59°39'N, 16°18'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 78,
+    "Recommended Reason": "Largest burial mound in Sweden with extensive Iron Age and Viking Age ceremonial complex",
+    "Supporting Evidence": "Major ceremonial site with burial mounds, stone circles, and rune stones indicating high-status burials and potential grave goods",
+    "Supporting Evidence URLs": [
+      "https://paganheim.com/blogs/history/gotland-unearthed-a-journey-through-9-000-years-of-baltic-history"
+    ]
+  },
+  {
+    "Location": "Skåne Coastal Region",
+    "Coordinates (Approximate)": "55°50'N, 13°00'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 80,
+    "Recommended Reason": "Southern Sweden coastal area with extensive Viking Age activity and frequent archaeological discoveries",
+    "Supporting Evidence": "Rich archaeological landscape with Viking Age settlements, trade routes, and burial sites across southern Sweden",
+    "Supporting Evidence URLs": [
+      "https://paganheim.com/blogs/archaeology/gotlands-hidden-wealth-exploring-the-largest-viking-silver-hoard"
+    ]
+  }
+]
