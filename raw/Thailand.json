@@ -1,0 +1,58 @@
+[
+  {
+    "Location": "Wat Dhammachak Semaram, Sung Noen, Nakhon Ratchasima",
+    "Coordinates (Approximate)": "14°53'N, 102°02'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 95,
+    "Recommended Reason": "1,300-year-old temple with recently discovered gold, silver, and bronze Dvaravati artifacts beneath oldest reclining Buddha",
+    "Supporting Evidence": "2025 archaeological discovery of 33 ancient ornaments including gold repoussé plaques and Buddhist relics",
+    "Supporting Evidence URLs": [
+      "https://archaeology.org/news/2025/05/12/hidden-treasures-buried-beneath-thailands-oldest-reclining-buddha-statue/",
+      "https://www.popularmechanics.com/science/archaeology/a64758486/buddha-statue-gold-treasure/"
+    ]
+  },
+  {
+    "Location": "Wat Ratchaburana Crypt, Ayutthaya",
+    "Coordinates (Approximate)": "14°22'N, 100°34'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 75,
+    "Recommended Reason": "Three-story underground crypt with documented gold treasures, some items stolen in 1957 but more remains",
+    "Supporting Evidence": "Excavated royal burial chamber revealed over 1,000 gold artifacts including regalia, jewelry, and Buddhist ornaments",
+    "Supporting Evidence URLs": [
+      "https://www.bangkokpost.com/life/travel/2513256/treasures-of-the-past"
+    ]
+  },
+  {
+    "Location": "Sukhothai Historical Park, Sukhothai Province",
+    "Coordinates (Approximate)": "17°01'N, 99°42'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 70,
+    "Recommended Reason": "Ancient capital of Sukhothai Kingdom with temple foundations potentially containing ritual deposits",
+    "Supporting Evidence": "UNESCO World Heritage site with documented royal patronage and temple construction involving precious offerings",
+    "Supporting Evidence URLs": [
+      "https://www.southeastasianarchaeology.com/thailand-archaeology/"
+    ]
+  },
+  {
+    "Location": "Phimai Temple Complex, Nakhon Ratchasima",
+    "Coordinates (Approximate)": "15°13'N, 102°30'E", 
+    "Treasure Value": "High",
+    "Likelihood (%)": 65,
+    "Recommended Reason": "Khmer temple connected to Angkor with potential ceremonial deposits and royal patronage artifacts",
+    "Supporting Evidence": "11th-12th century temple complex with documented royal road to Angkor, similar sites have yielded treasures",
+    "Supporting Evidence URLs": [
+      "https://www.southeastasianarchaeology.com/thailand-archaeology/"
+    ]
+  },
+  {
+    "Location": "Si Thep Ancient Settlement, Phetchabun Province",
+    "Coordinates (Approximate)": "15°40'N, 101°08'E",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 60,
+    "Recommended Reason": "Dvaravati period settlement with later Khmer temples, potential for ritual deposits and trading wealth",
+    "Supporting Evidence": "UNESCO World Heritage site from Dvaravati period with evidence of cultural and trade significance",
+    "Supporting Evidence URLs": [
+      "https://www.southeastasianarchaeology.com/thailand-archaeology/"
+    ]
+  }
+]
