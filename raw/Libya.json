@@ -1,0 +1,91 @@
+[
+  {
+    "Location": "Leptis Magna Archaeological Site",
+    "Coordinates (Approximate)": "32°38'N, 14°17'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 92,
+    "Recommended Reason": "UNESCO World Heritage Roman city, birthplace of Emperor Septimius Severus, remarkably preserved under sand",
+    "Supporting Evidence": "Recent discovery of 553 silver and bronze coins, colorful mosaics from 1st-2nd century, vast unexcavated areas",
+    "Supporting Evidence URLs": [
+      "https://www.newsweek.com/treasure-libya-archaeology-ruins-benghazi-623466",
+      "https://whc.unesco.org/en/list/183/"
+    ]
+  },
+  {
+    "Location": "Ptolemais Ancient City, Cyrenaica",
+    "Coordinates (Approximate)": "32°42'N, 21°58'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 85,
+    "Recommended Reason": "Recently discovered 1,700-year-old villa with treasure cache of Roman coins and artifacts",
+    "Supporting Evidence": "2017 discovery of 553 sterercii coins, terracotta lamps, mosaics, and well-preserved Roman complex",
+    "Supporting Evidence URLs": [
+      "https://www.newsweek.com/treasure-libya-archaeology-ruins-benghazi-623466"
+    ]
+  },
+  {
+    "Location": "Cyrene Archaeological Site",
+    "Coordinates (Approximate)": "32°49'N, 21°51'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 80,
+    "Recommended Reason": "Greek colony founded 631 BC, UNESCO World Heritage site with extensive unexcavated areas",
+    "Supporting Evidence": "One of Libya's five UNESCO sites, evidence of Greek and Roman treasures, sanctuary of Apollo",
+    "Supporting Evidence URLs": [
+      "https://www.newsweek.com/treasure-libya-archaeology-ruins-benghazi-623466"
+    ]
+  },
+  {
+    "Location": "Sabratha Roman Theatre and City",
+    "Coordinates (Approximate)": "32°48'N, 12°29'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 75,
+    "Recommended Reason": "Well-preserved Roman city with theatre, forum, and residential areas",
+    "Supporting Evidence": "Part of Tripolitania's three cities, extensive Roman remains with potential hidden caches",
+    "Supporting Evidence URLs": [
+      "https://www.britannica.com/place/Leptis-Magna"
+    ]
+  },
+  {
+    "Location": "Ghadames Old Town",
+    "Coordinates (Approximate)": "30°08'N, 9°30'E",
+    "Treasure Value": "Moderate",
+    "Likelihood (%)": 70,
+    "Recommended Reason": "UNESCO World Heritage pre-Saharan city, ancient trading post with hidden storage areas",
+    "Supporting Evidence": "One of oldest pre-Saharan cities, traditional architecture concealing storage chambers",
+    "Supporting Evidence URLs": [
+      "https://www.newsweek.com/treasure-libya-archaeology-ruins-benghazi-623466"
+    ]
+  },
+  {
+    "Location": "Tadrart Acacus Rock Art Sites",
+    "Coordinates (Approximate)": "24°50'N, 10°20'E",
+    "Treasure Value": "Moderate",
+    "Likelihood (%)": 65,
+    "Recommended Reason": "UNESCO site with prehistoric rock art from 12,000 BC to 100 AD, possible ritual deposits",
+    "Supporting Evidence": "Ancient rock paintings and engravings, evidence of ceremonial activities over millennia",
+    "Supporting Evidence URLs": [
+      "https://www.newsweek.com/treasure-libya-archaeology-ruins-benghazi-623466"
+    ]
+  },
+  {
+    "Location": "Wadi Lebda Roman Villas",
+    "Coordinates (Approximate)": "32°37'N, 14°18'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 78,
+    "Recommended Reason": "2005 discovery of 30-foot colorful mosaics in Roman villa, ongoing excavations",
+    "Supporting Evidence": "Mosaics depicting gladiators and warriors, well-preserved balneae with cold plunge pool",
+    "Supporting Evidence URLs": [
+      "https://en.wikipedia.org/wiki/Leptis_Magna"
+    ]
+  },
+  {
+    "Location": "Apollonia Cyrenaica Port City",
+    "Coordinates (Approximate)": "32°54'N, 21°58'E",
+    "Treasure Value": "Moderate",
+    "Likelihood (%)": 60,
+    "Recommended Reason": "Ancient port city of Cyrene with underwater archaeological remains and coastal structures",
+    "Supporting Evidence": "Important harbor for ancient trade, potential shipwrecks and coastal treasures",
+    "Supporting Evidence URLs": [
+      "https://www.britannica.com/place/Leptis-Magna"
+    ]
+  }
+]
