@@ -1,0 +1,91 @@
+[
+  {
+    "Location": "Fort Jesus, Mombasa",
+    "Coordinates (Approximate)": "4°03'S, 39°41'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 85,
+    "Recommended Reason": "16th century Portuguese fort, UNESCO World Heritage site with underwater archaeological remains",
+    "Supporting Evidence": "Changed hands 9 times between 1631-1895, museum contains Chinese porcelain and shipwreck artifacts from Portuguese era",
+    "Supporting Evidence URLs": [
+      "https://www.lonelyplanet.com/kenya/the-coast/mombasa/attractions/fort-jesus/a/poi-sig/1043265/355339",
+      "https://en.wikipedia.org/wiki/Fort_Jesus"
+    ]
+  },
+  {
+    "Location": "Gedi Ruins Archaeological Site",
+    "Coordinates (Approximate)": "3°18'S, 40°01'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 80,
+    "Recommended Reason": "13th-17th century Swahili town ruins with mosque, palace, and houses containing artifacts",
+    "Supporting Evidence": "Well-preserved Swahili settlement with evidence of extensive Indian Ocean trade, Chinese ceramics, and Islamic artifacts",
+    "Supporting Evidence URLs": [
+      "https://livinglovingkenya.com/exploring-kenyas-rich-historical-heritage-in-tourism/"
+    ]
+  },
+  {
+    "Location": "Lamu Old Town",
+    "Coordinates (Approximate)": "2°16'S, 40°54'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 75,
+    "Recommended Reason": "Oldest Swahili settlement in East Africa, UNESCO site with traditional architecture and artifacts",
+    "Supporting Evidence": "700+ years of continuous habitation, major reservoir of Swahili culture, carved wooden doors and traditional buildings",
+    "Supporting Evidence URLs": [
+      "https://artsandculture.google.com/story/kenya-s-7-unesco-world-heritage-sites-national-museums-of-kenya/lAXBTGlZs2y9Ig?hl=en"
+    ]
+  },
+  {
+    "Location": "Jumba la Mtwana Ruins",
+    "Coordinates (Approximate)": "3°55'S, 39°47'E",
+    "Treasure Value": "Moderate",
+    "Likelihood (%)": 70,
+    "Recommended Reason": "14th-15th century Swahili ruins north of Mtwapa Creek with mosque and residential remains",
+    "Supporting Evidence": "Archaeological grandeur comparable to Gedi ruins, evidence of coastal Swahili civilization",
+    "Supporting Evidence URLs": [
+      "https://www.lonelyplanet.com/kenya/the-coast/mombasa/attractions/fort-jesus/a/poi-sig/1043265/355339"
+    ]
+  },
+  {
+    "Location": "Takwa Ruins, Manda Island",
+    "Coordinates (Approximate)": "2°15'S, 40°59'E",
+    "Treasure Value": "Moderate",
+    "Likelihood (%)": 68,
+    "Recommended Reason": "15th-17th century Swahili town ruins with mosque, tombs, and houses",
+    "Supporting Evidence": "Important Swahili archaeological site with evidence of Indian Ocean trade connections",
+    "Supporting Evidence URLs": [
+      "https://abiri.home.blog/historic-sites-at-the-coast/"
+    ]
+  },
+  {
+    "Location": "Siyu Fort and Town, Pate Island",
+    "Coordinates (Approximate)": "2°10'S, 41°01'E",
+    "Treasure Value": "Moderate",
+    "Likelihood (%)": 65,
+    "Recommended Reason": "19th century fort and ancient Swahili town with manuscripts and traditional architecture",
+    "Supporting Evidence": "Historical Islamic center with scholarly traditions and architectural heritage",
+    "Supporting Evidence URLs": [
+      "https://abiri.home.blog/historic-sites-at-the-coast/"
+    ]
+  },
+  {
+    "Location": "Koobi Fora Archaeological Site, Lake Turkana",
+    "Coordinates (Approximate)": "3°55'N, 36°10'E",
+    "Treasure Value": "Moderate",
+    "Likelihood (%)": 60,
+    "Recommended Reason": "UNESCO site with early human evolution artifacts and fossil discoveries",
+    "Supporting Evidence": "Important paleontological site with artifacts spanning millions of years of human evolution",
+    "Supporting Evidence URLs": [
+      "https://livinglovingkenya.com/exploring-kenyas-rich-historical-heritage-in-tourism/"
+    ]
+  },
+  {
+    "Location": "Thimlich Ohinga Stone Structures",
+    "Coordinates (Approximate)": "0°45'S, 34°16'E",
+    "Treasure Value": "Moderate",
+    "Likelihood (%)": 55,
+    "Recommended Reason": "UNESCO World Heritage stone enclosures built over 500 years ago with walls up to 4.2m high",
+    "Supporting Evidence": "Ancient dry stone walling technique, archaeological materials indicate occupation beyond 500 years",
+    "Supporting Evidence URLs": [
+      "https://artsandculture.google.com/story/kenya-s-7-unesco-world-heritage-sites-national-museums-of-kenya/lAXBTGlZs2y9Ig?hl=en"
+    ]
+  }
+]
