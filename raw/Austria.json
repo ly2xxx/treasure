@@ -1,0 +1,94 @@
+[
+  {
+    "Location": "Ebreichsdorf, Lower Austria",
+    "Coordinates (Approximate)": "47°57'N, 16°23'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 95,
+    "Recommended Reason": "Site of 2019/2020 Bronze Age gold treasure discovery now displayed in Natural History Museum Vienna",
+    "Supporting Evidence": "5-piece gold treasure including gold bowl and jewelry fragments discovered during ÖBB construction work, dating to Bronze Age",
+    "Supporting Evidence URLs": [
+      "https://www.goldundco.at/en/lexikon/goldschatz-gefunden/",
+      "https://www.nhm-wien.ac.at/"
+    ]
+  },
+  {
+    "Location": "Redl Zipf, Upper Austria",
+    "Coordinates (Approximate)": "47°54'N, 13°37'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 82,
+    "Recommended Reason": "Gallery 16 underground tunnel network used for Operation Bernhard Nazi counterfeit operation with potential hidden caches",
+    "Supporting Evidence": "Former Nazi underground facility where banknote presses were stored, part of extensive Alpine tunnel system for hiding valuables",
+    "Supporting Evidence URLs": [
+      "https://www.detecting.org.uk/html/Hidden_Treasure_Hoards_in_the_Mountains_of_Austria.html"
+    ]
+  },
+  {
+    "Location": "Lake Toplitz, Salzkammergut",
+    "Coordinates (Approximate)": "47°38'N, 13°57'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 75,
+    "Recommended Reason": "Nazi dumping site for Operation Bernhard counterfeit notes and potentially other wartime treasures",
+    "Supporting Evidence": "Millions in forged banknotes were dumped here, and the lake remains largely unexplored due to its depth and dangerous conditions",
+    "Supporting Evidence URLs": [
+      "https://www.detecting.org.uk/html/Hidden_Treasure_Hoards_in_the_Mountains_of_Austria.html"
+    ]
+  },
+  {
+    "Location": "Salzburg Alpine Region",
+    "Coordinates (Approximate)": "47°20'N, 13°02'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 70,
+    "Recommended Reason": "Part of planned Nazi National Redoubt with multiple tunnel systems and treasure caches hidden in mountains",
+    "Supporting Evidence": "Extensive tunnel networks were built for hiding gold, art, and valuables from advancing Allied forces, many remain unexplored",
+    "Supporting Evidence URLs": [
+      "https://www.detecting.org.uk/html/Hidden_Treasure_Hoards_in_the_Mountains_of_Austria.html"
+    ]
+  },
+  {
+    "Location": "Manching Border Region, Upper Austria",
+    "Coordinates (Approximate)": "48°43'N, 13°22'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 85,
+    "Recommended Reason": "Near the Celtic gold treasure of Manching, one of the most important finds in German-speaking countries",
+    "Supporting Evidence": "Celtic settlements and trade routes extended across this border region, with potential for undiscovered hoards",
+    "Supporting Evidence URLs": [
+      "https://www.goldundco.at/en/lexikon/goldschatz-gefunden/"
+    ]
+  },
+  {
+    "Location": "Hallstatt, Upper Austria",
+    "Coordinates (Approximate)": "47°33'N, 13°39'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 78,
+    "Recommended Reason": "Center of ancient Hallstatt culture with extensive Iron Age and Bronze Age settlements and burial sites",
+    "Supporting Evidence": "Archaeological site of the Hallstatt culture with rich burial traditions and metalworking, ongoing excavations reveal artifacts",
+    "Supporting Evidence URLs": [
+      "https://whc.unesco.org/en/list/806/",
+      "https://www.ancient-origins.net/artifacts-other-artifacts-news-history-archaeology/metal-hoards-found-hungary-0022091"
+    ]
+  },
+  {
+    "Location": "Vienna Historical Center",
+    "Coordinates (Approximate)": "48°12'N, 16°22'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 80,
+    "Recommended Reason": "Historic Habsburg capital with Roman foundations and medieval hoards frequently discovered during construction",
+    "Supporting Evidence": "Major European capital with continuous occupation since Roman times, recent archaeological finds during construction projects",
+    "Supporting Evidence URLs": [
+      "https://www.nhm-wien.ac.at/",
+      "https://www.goldundco.at/en/lexikon/goldschatz-gefunden/"
+    ]
+  },
+  {
+    "Location": "Carnuntum Archaeological Park",
+    "Coordinates (Approximate)": "48°07'N, 16°52'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 88,
+    "Recommended Reason": "Major Roman city and legionary fortress, ongoing excavations revealing significant artifacts and potential hoards",
+    "Supporting Evidence": "One of the most important Roman archaeological sites in Austria, with amphitheater, civilian city, and military camp remains",
+    "Supporting Evidence URLs": [
+      "https://www.carnuntum.at/en",
+      "https://www.goldundco.at/en/lexikon/goldschatz-gefunden/"
+    ]
+  }
+]
