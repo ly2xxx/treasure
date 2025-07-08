@@ -1,0 +1,90 @@
+[
+  {
+    "Location": "Volubilis Archaeological Site, Meknes",
+    "Coordinates (Approximate)": "34°04'N, 5°33'W",
+    "Treasure Value": "High",
+    "Likelihood (%)": 85,
+    "Recommended Reason": "UNESCO World Heritage Roman ruins with extensive mosaics, carved columns, and unexplored areas",
+    "Supporting Evidence": "Main Roman ruins of Africa with multiple civilizations' traces, ongoing excavations since 19th century",
+    "Supporting Evidence URLs": [
+      "https://www.visitmorocco.com/en/discover-morocco/archaeological-treasures-morocco"
+    ]
+  },
+  {
+    "Location": "Aghmat Medieval City, Atlas Mountains",
+    "Coordinates (Approximate)": "31°28'N, 7°57'W",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 88,
+    "Recommended Reason": "Recently excavated medieval Islamic capital with gold dinars from 1111 AD, palace and mosque remains",
+    "Supporting Evidence": "Almoravid Dynasty gold coins minted here, large bathhouse and palace complex, water systems and artifacts",
+    "Supporting Evidence URLs": [
+      "https://archaeology.org/issues/may-june-2020/letters-from/morocco-medieval-capital/"
+    ]
+  },
+  {
+    "Location": "Chellah Necropolis, Rabat",
+    "Coordinates (Approximate)": "34°00'N, 6°49'W",
+    "Treasure Value": "High",
+    "Likelihood (%)": 80,
+    "Recommended Reason": "UNESCO World Heritage site built on Roman Sala-Colonia ruins with Merinid royal tombs",
+    "Supporting Evidence": "Multiple occupation layers from Phoenician, Roman, and Islamic periods with burial sites and monuments",
+    "Supporting Evidence URLs": [
+      "https://www.visitmorocco.com/en/discover-morocco/archaeological-treasures-morocco"
+    ]
+  },
+  {
+    "Location": "Lixus Ancient City, Larache",
+    "Coordinates (Approximate)": "35°10'N, 6°09'W",
+    "Treasure Value": "High",
+    "Likelihood (%)": 75,
+    "Recommended Reason": "Phoenician settlement over 2,000 years old, potential Garden of the Hesperides with golden apples legend",
+    "Supporting Evidence": "Roman baths, mosaic floors, amphitheatre, Christian church, multiple civilizations' remains",
+    "Supporting Evidence URLs": [
+      "https://theculturetrip.com/africa/morocco/articles/ancient-sites-in-morocco-that-you-probably-havent-heard-of"
+    ]
+  },
+  {
+    "Location": "Thamusida Roman Port",
+    "Coordinates (Approximate)": "34°15'N, 6°35'W",
+    "Treasure Value": "Moderate",
+    "Likelihood (%)": 70,
+    "Recommended Reason": "Roman port settlement with Berber, Carthaginian, and Roman artifacts from three excavation campaigns",
+    "Supporting Evidence": "Archaeological excavations since 1913, artifacts in Rabat Archaeological Museum, coastal trade route importance",
+    "Supporting Evidence URLs": [
+      "https://www.holidaymoroccotours.com/archaeological-sites-in-morocco/"
+    ]
+  },
+  {
+    "Location": "Tafoughalt Cave (Grotte des Pigeons)",
+    "Coordinates (Approximate)": "34°50'N, 2°20'W",
+    "Treasure Value": "Moderate",
+    "Likelihood (%)": 65,
+    "Recommended Reason": "Africa's oldest cemetery with 17,000-year-old human remains and continuous habitation evidence",
+    "Supporting Evidence": "34 human remains from Upper Paleolithic, 100,000 years of human visitation evidence",
+    "Supporting Evidence URLs": [
+      "https://www.holidaymoroccotours.com/archaeological-sites-in-morocco/"
+    ]
+  },
+  {
+    "Location": "Ait Ouaazik Rock Art Site, Tazzarine",
+    "Coordinates (Approximate)": "30°45'N, 5°40'W",
+    "Treasure Value": "Moderate",
+    "Likelihood (%)": 60,
+    "Recommended Reason": "Part of 300+ rock art sites in Morocco, ancient carvings and potential ritual deposits",
+    "Supporting Evidence": "Extensive Sahara desert region petroglyphs, evidence of ancient civilization and trade routes",
+    "Supporting Evidence URLs": [
+      "https://wildmorocco.com/rock-art-in-morocco/"
+    ]
+  },
+  {
+    "Location": "Msoura Stone Circle, Asilah",
+    "Coordinates (Approximate)": "35°28'N, 6°02'W",
+    "Treasure Value": "Moderate",
+    "Likelihood (%)": 55,
+    "Recommended Reason": "Mysterious stone circle similar to Stonehenge with potential astronomical significance",
+    "Supporting Evidence": "Ancient megalithic monument with unclear purpose, possible ritual or burial site",
+    "Supporting Evidence URLs": [
+      "https://www.holidaymoroccotours.com/archaeological-sites-in-morocco/"
+    ]
+  }
+]
