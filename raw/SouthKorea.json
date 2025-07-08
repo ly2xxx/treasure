@@ -1,0 +1,58 @@
+[
+  {
+    "Location": "Bulguksa Temple, Gyeongju",
+    "Coordinates (Approximate)": "35°47'N, 129°19'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 85,
+    "Recommended Reason": "UNESCO World Heritage temple with National Treasures including stone pagodas and potential buried offerings",
+    "Supporting Evidence": "8th century Silla temple designated as National Treasure, repository of Buddhist artifacts and architectural treasures",
+    "Supporting Evidence URLs": [
+      "https://www.newworldencyclopedia.org/entry/National_treasures_of_South_Korea",
+      "https://en.wikipedia.org/wiki/National_Treasure_(South_Korea)"
+    ]
+  },
+  {
+    "Location": "Heavenly Horse Tomb, Gyeongju",
+    "Coordinates (Approximate)": "35°50'N, 129°13'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 90,
+    "Recommended Reason": "Silla royal tomb with documented gold crown and gilt-bronze artifacts, potential for undiscovered chambers",
+    "Supporting Evidence": "Archaeological excavation revealed gold crown, saddle flap with heavenly horse painting, designated National Treasures",
+    "Supporting Evidence URLs": [
+      "https://www.newworldencyclopedia.org/entry/National_treasures_of_South_Korea"
+    ]
+  },
+  {
+    "Location": "Baekje Royal Tomb Sites, Gongju",
+    "Coordinates (Approximate)": "36°27'N, 127°07'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 80,
+    "Recommended Reason": "Ancient Baekje kingdom capital with gilt-bronze crowns and royal burial artifacts",
+    "Supporting Evidence": "Excavated tombs revealed gilt-bronze crown from Baekje period, designated as National Treasure",
+    "Supporting Evidence URLs": [
+      "https://www.newworldencyclopedia.org/entry/National_treasures_of_South_Korea"
+    ]
+  },
+  {
+    "Location": "Haeinsa Temple, Gayasan National Park",
+    "Coordinates (Approximate)": "35°48'N, 128°06'E",
+    "Treasure Value": "Priceless",
+    "Likelihood (%)": 95,
+    "Recommended Reason": "Houses the Tripitaka Koreana, complete Buddhist scriptures on 81,258 wooden blocks, designated National Treasure",
+    "Supporting Evidence": "13th century complete Buddhist canon preserved on wooden printing blocks, UNESCO World Heritage site",
+    "Supporting Evidence URLs": [
+      "https://en.wikipedia.org/wiki/National_Treasure_(South_Korea)"
+    ]
+  },
+  {
+    "Location": "Seokguram Grotto, Gyeongju",
+    "Coordinates (Approximate)": "35°47'N, 129°21'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 85,
+    "Recommended Reason": "8th century Buddhist cave temple with stone Buddha statue and guardian figures, potential for ritual deposits",
+    "Supporting Evidence": "UNESCO World Heritage artificial grotto with stone Buddha and bodhisattva statues, designated National Treasure",
+    "Supporting Evidence URLs": [
+      "https://en.wikipedia.org/wiki/National_Treasure_(South_Korea)"
+    ]
+  }
+]

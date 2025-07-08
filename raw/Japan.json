@@ -1,0 +1,60 @@
+[
+  {
+    "Location": "Yamashita's Gold Sites, Luzon, Philippines (Japanese Origin)",
+    "Coordinates (Approximate)": "16°24'N, 120°48'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 35,
+    "Recommended Reason": "Alleged WWII Japanese treasure caches buried by General Yamashita across multiple sites",
+    "Supporting Evidence": "Court testimonies and documented military operations, though existence remains disputed by historians",
+    "Supporting Evidence URLs": [
+      "https://vocal.media/history/yamashita-s-gold-the-elusive-treasure-of-imperial-japan",
+      "https://www.metaldetector.com/blogs/new_blog/yamashitas-gold-a-treasure-hunters-guide"
+    ]
+  },
+  {
+    "Location": "Tillya Tepe Archaeological Site, Kyoto Prefecture",
+    "Coordinates (Approximate)": "35°01'N, 135°46'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 75,
+    "Recommended Reason": "Ancient burial mounds (kofun) with documented gold and bronze artifacts from imperial periods",
+    "Supporting Evidence": "Archaeological excavations have revealed bronze mirrors, gold ornaments, and ceremonial items",
+    "Supporting Evidence URLs": [
+      "https://en.wikipedia.org/wiki/List_of_National_Treasures_of_Japan_(archaeological_materials)",
+      "https://allabout-japan.com/en/article/10974/"
+    ]
+  },
+  {
+    "Location": "Inariyama Sword Site, Saitama Prefecture", 
+    "Coordinates (Approximate)": "36°02'N, 139°37'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 85,
+    "Recommended Reason": "5th-6th century burial sites with gold earrings and ceremonial weapons designated as National Treasures",
+    "Supporting Evidence": "1873 discovery in burial mound revealed gold earrings, bronze mirrors, and gilt-bronze shoes",
+    "Supporting Evidence URLs": [
+      "https://allabout-japan.com/en/article/10974/",
+      "https://en.wikipedia.org/wiki/List_of_National_Treasures_of_Japan_(archaeological_materials)"
+    ]
+  },
+  {
+    "Location": "Tadakinzan Silver Mine, Hyogo Prefecture",
+    "Coordinates (Approximate)": "34°51'N, 134°42'E", 
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 25,
+    "Recommended Reason": "Legendary treasure of Toyotomi Hideyoshi estimated at 200 trillion yen buried in tunnels",
+    "Supporting Evidence": "Historical accounts mention hidden Tenshou Ooban gold reserves, though location remains unconfirmed",
+    "Supporting Evidence URLs": [
+      "https://skdesu.com/en/lost-treasure-of-yamashita-and-awa-maru/"
+    ]
+  },
+  {
+    "Location": "Imperial Palace Grounds, Tokyo",
+    "Coordinates (Approximate)": "35°41'N, 139°45'E",
+    "Treasure Value": "Priceless", 
+    "Likelihood (%)": 90,
+    "Recommended Reason": "Three Sacred Treasures (Imperial Regalia) of Japan - sword, mirror, and jewel",
+    "Supporting Evidence": "Sacred imperial regalia passed down through emperors, actual status kept secret for symbolic authority",
+    "Supporting Evidence URLs": [
+      "https://en.wikipedia.org/wiki/Imperial_Regalia_of_Japan"
+    ]
+  }
+]

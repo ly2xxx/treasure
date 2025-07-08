@@ -2,12 +2,12 @@ https://github.com/ly2xxx/treasure
 
 I need to develop a new feature using my development crew:
 
-Feature: Add European treasure locations to Treasure Map Explorer
+Feature: Add Asian treasure locations to Treasure Map Explorer
 Language: Python
 
 Please coordinate this workflow:
-0. Study the format of json files under raw/ folder carefully, your task is to research the likely Treasure Locations in Europe countries according to your knowledge (search internet if necessary) and create [country].json under the same location with your research outcome for each country. Tip: The result should contain the following columns "Location, Coordinates (Approximate), Treasure Value, Likelihood (%), Recommended Reason, Supporting Evidence, Supporting Evidence URLs". If a particular [country].json already exists in raw/ folder, consolidate the content with your research results and remove duplicated treasure locations.
-1. Use MCP_DOCKER tools to create a feature/research_europe_locations branch if doesn't exist. If exist checkout the branch and continue.
+0. Study the format of json files under raw/ folder carefully, your task is to research the likely Treasure Locations in Asian countries according to your knowledge (search internet if necessary) and create [country].json under the same location with your research outcome for each country. Tip: The result should contain the following columns "Location, Coordinates (Approximate), Treasure Value, Likelihood (%), Recommended Reason, Supporting Evidence, Supporting Evidence URLs". If a particular [country].json already exists in raw/ folder, consolidate the content with your research results and remove duplicated treasure locations.
+1. Use MCP_DOCKER tools to create a feature/research_treasure_locations branch if doesn't exist. If exist checkout the branch and continue.
 2. Use claude-code-developer to implement suggested improvements.
 3. Use gemini-qa-agent to adapt test_generic_countries.py to test all [country].json in raw/ folder.
 4. After all [country].json passed gemini-qa-agent tests, commit the final implementation when you are comfortable with the outcomes, and create pull request to 'main' branch using MCP_DOCKER tools
