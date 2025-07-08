@@ -1,0 +1,90 @@
+[
+  {
+    "Location": "Somló Hill, Western Hungary",
+    "Coordinates (Approximate)": "47°15'N, 17°32'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 95,
+    "Recommended Reason": "Site of 2025 discovery of six Bronze and Iron Age hoards with over 900 metal artifacts dating to 15th century BC",
+    "Supporting Evidence": "Hungarian National Museum excavations revealed extensive Hallstatt culture metalworking site with pottery vessels containing bronze artifacts",
+    "Supporting Evidence URLs": [
+      "https://www.ancient-origins.net/artifacts-other-artifacts-news-history-archaeology/metal-hoards-found-hungary-0022091"
+    ]
+  },
+  {
+    "Location": "Sluskow Archaeological Site, Central Hungary",
+    "Coordinates (Approximate)": "47°30'N, 19°15'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 88,
+    "Recommended Reason": "Site of 2021 discovery of over 6,000 pieces of medieval treasure in linen pouches, over 900 years old",
+    "Supporting Evidence": "Archaeological excavation revealed Czech, Danish, Hungarian, and German coins plus jeweled rings including Cyrillic-inscribed gold ring",
+    "Supporting Evidence URLs": [
+      "https://www.mentalfloss.com/article/654848/most-dazzling-hoards-ever-discovered"
+    ]
+  },
+  {
+    "Location": "Szekszárd Hill Country",
+    "Coordinates (Approximate)": "46°21'N, 18°42'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 82,
+    "Recommended Reason": "Roman Pannonia frontier region with extensive archaeological sites and potential Roman military hoards",
+    "Supporting Evidence": "Important Roman provincial area with fortress sites, civilian settlements, and burial grounds containing Roman artifacts",
+    "Supporting Evidence URLs": [
+      "https://www.ancient-origins.net/artifacts-other-artifacts-news-history-archaeology/metal-hoards-found-hungary-0022091"
+    ]
+  },
+  {
+    "Location": "Esztergom Cathedral Hill",
+    "Coordinates (Approximate)": "47°47'N, 18°44'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 85,
+    "Recommended Reason": "Historic seat of Hungarian kings and archbishops with medieval royal treasury and ecclesiastical treasures",
+    "Supporting Evidence": "Royal capital of medieval Hungary with continuous religious and political importance, ongoing archaeological discoveries",
+    "Supporting Evidence URLs": [
+      "https://whc.unesco.org/en/list/1030/"
+    ]
+  },
+  {
+    "Location": "Danube Bend Region, Visegrád",
+    "Coordinates (Approximate)": "47°47'N, 18°58'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 80,
+    "Recommended Reason": "Medieval royal residence of Hungarian kings with Renaissance palace and potential royal treasures",
+    "Supporting Evidence": "Archaeological site of royal palace complex with extensive medieval and Renaissance finds, ongoing excavations",
+    "Supporting Evidence URLs": [
+      "https://www.ancient-origins.net/artifacts-other-artifacts-news-history-archaeology/metal-hoards-found-hungary-0022091"
+    ]
+  },
+  {
+    "Location": "Aquincum Archaeological Site, Budapest",
+    "Coordinates (Approximate)": "47°34'N, 19°02'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 87,
+    "Recommended Reason": "Major Roman civilian town and legionary fortress with extensive archaeological remains and ongoing discoveries",
+    "Supporting Evidence": "Well-preserved Roman settlement with amphitheater, baths, and civilian buildings, continuous archaeological excavations",
+    "Supporting Evidence URLs": [
+      "https://aquincum.hu/en/"
+    ]
+  },
+  {
+    "Location": "Buda Castle Hill",
+    "Coordinates (Approximate)": "47°29'N, 19°02'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 78,
+    "Recommended Reason": "Royal palace complex with medieval and Ottoman period layers, frequent construction discoveries",
+    "Supporting Evidence": "UNESCO World Heritage site with continuous occupation since medieval period, archaeological discoveries during renovations",
+    "Supporting Evidence URLs": [
+      "https://whc.unesco.org/en/list/400/"
+    ]
+  },
+  {
+    "Location": "Pécs Early Christian Necropolis",
+    "Coordinates (Approximate)": "46°04'N, 18°14'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 75,
+    "Recommended Reason": "UNESCO World Heritage Roman and early Christian burial site with extensive archaeological remains",
+    "Supporting Evidence": "4th century Christian cemetery with painted burial chambers and Roman artifacts, ongoing archaeological investigation",
+    "Supporting Evidence URLs": [
+      "https://whc.unesco.org/en/list/853/"
+    ]
+  }
+]
