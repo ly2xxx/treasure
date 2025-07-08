@@ -1,0 +1,93 @@
+[
+  {
+    "Location": "Hoogwoud, West Friesland",
+    "Coordinates (Approximate)": "52°41'N, 4°57'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 95,
+    "Recommended Reason": "Site of 2021 discovery of 1000-year-old gold and silver medieval treasure, now displayed at Rijksmuseum van Oudheden",
+    "Supporting Evidence": "4 gold ear pendants, 2 gold leaf pieces, and 39 silver coins from 11th-13th centuries found by historian Lorenzo Ruijter",
+    "Supporting Evidence URLs": [
+      "https://www.livescience.com/very-very-rare-gold-and-silver-medieval-treasure-unearthed-in-the-netherlands",
+      "https://www.ancient-origins.net/news-history-archaeology/medieval-hoard-0018031"
+    ]
+  },
+  {
+    "Location": "Leiden Archaeological Sites",
+    "Coordinates (Approximate)": "52°09'N, 4°29'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 82,
+    "Recommended Reason": "Historic city with Rijksmuseum van Oudheden and frequent archaeological discoveries during urban development",
+    "Supporting Evidence": "Major archaeological center with Roman and medieval sites, ongoing discoveries from construction and excavation projects",
+    "Supporting Evidence URLs": [
+      "https://www.rmo.nl/en/",
+      "https://www.ancient-origins.net/news-history-archaeology/medieval-hoard-0018031"
+    ]
+  },
+  {
+    "Location": "Dorestad Archaeological Area, Wijk bij Duurstede",
+    "Coordinates (Approximate)": "51°58'N, 5°20'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 88,
+    "Recommended Reason": "Major early medieval trading center, largest town in Northern Europe 7th-9th centuries with extensive Viking and Frankish connections",
+    "Supporting Evidence": "Archaeological site of important Carolingian trading port, excavations reveal extensive commerce and potential buried treasures",
+    "Supporting Evidence URLs": [
+      "https://archaeology.org/news/2025/06/04/viking-age-silver-treasure-uncovered-near-stockholm/",
+      "https://interestingengineering.com/culture/1000-year-old-medieval-treasures"
+    ]
+  },
+  {
+    "Location": "Amsterdam Historical Center",
+    "Coordinates (Approximate)": "52°22'N, 4°54'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 75,
+    "Recommended Reason": "Major trading center since 13th century with Golden Age merchant wealth, frequent construction discoveries",
+    "Supporting Evidence": "Historic capital with extensive merchant history, archaeological finds during canal construction and building renovations",
+    "Supporting Evidence URLs": [
+      "https://interestingengineering.com/culture/1000-year-old-medieval-treasures"
+    ]
+  },
+  {
+    "Location": "Batavia Shipwreck Area, Zeeland",
+    "Coordinates (Approximate)": "51°30'N, 3°31'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 70,
+    "Recommended Reason": "Dutch Golden Age maritime heritage area with potential shipwreck treasures and merchant hoards",
+    "Supporting Evidence": "Rich maritime archaeological heritage from Dutch East India Company era, ongoing underwater archaeological surveys",
+    "Supporting Evidence URLs": [
+      "https://www.ancient-origins.net/news-history-archaeology/medieval-hoard-0018031"
+    ]
+  },
+  {
+    "Location": "Utrecht Roman Castellum Area",
+    "Coordinates (Approximate)": "52°05'N, 5°07'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 80,
+    "Recommended Reason": "Roman fortress Traiectum with continuous occupation, archaeological sites revealing Roman and early medieval artifacts",
+    "Supporting Evidence": "Important Roman frontier fort along Rhine limes, excavations continue to reveal Roman military and civilian artifacts",
+    "Supporting Evidence URLs": [
+      "https://www.rmo.nl/en/"
+    ]
+  },
+  {
+    "Location": "Frisian Terp Mounds, Northern Provinces",
+    "Coordinates (Approximate)": "53°25'N, 6°00'E",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 78,
+    "Recommended Reason": "Ancient Frisian settlement mounds with Iron Age and early medieval artifacts, ongoing archaeological investigations",
+    "Supporting Evidence": "Unique terp (dwelling mound) culture with rich archaeological deposits spanning Iron Age to medieval period",
+    "Supporting Evidence URLs": [
+      "https://www.livescience.com/very-very-rare-gold-and-silver-medieval-treasure-unearthed-in-the-netherlands"
+    ]
+  },
+  {
+    "Location": "Maastricht Roman and Medieval Quarter",
+    "Coordinates (Approximate)": "50°51'N, 5°41'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 85,
+    "Recommended Reason": "Major Roman settlement Mosa Trajectum with medieval additions, frequent archaeological discoveries in historic center",
+    "Supporting Evidence": "One of oldest cities in Netherlands with Roman walls, medieval churches, and continuous archaeological activity",
+    "Supporting Evidence URLs": [
+      "https://www.ancient-origins.net/news-history-archaeology/medieval-hoard-0018031"
+    ]
+  }
+]
