@@ -1,0 +1,92 @@
+[
+  {
+    "Location": "Valley of the Kings, Luxor",
+    "Coordinates (Approximate)": "25°44'N, 32°36'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 95,
+    "Recommended Reason": "Site of Tutankhamun's tomb discovery with continued excavations revealing new tombs and treasures",
+    "Supporting Evidence": "Over 60 royal tombs including KV62 (Tutankhamun) containing 5,398 artifacts, recent discoveries like KV64 and ongoing archaeological work",
+    "Supporting Evidence URLs": [
+      "https://www.nationalgeographic.com/travel/article/valley-of-the-kings-egypt-new-discoveries",
+      "https://www.livescience.com/archaeology/ancient-egyptians/2-600-year-old-jewelry-stash-from-ancient-egypt-includes-gold-statuette-depicting-family-of-gods"
+    ]
+  },
+  {
+    "Location": "Eastern Desert Gold Mines, Wadi Hammamat",
+    "Coordinates (Approximate)": "26°15'N, 33°30'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 85,
+    "Recommended Reason": "Ancient Egyptian gold mining area documented in the Turin Papyrus Map, world's oldest geological map",
+    "Supporting Evidence": "Turin Papyrus Map from 1150 BCE depicts gold mines and quarries, estimated 7.1 tonnes of gold mined by ancient Egyptians",
+    "Supporting Evidence URLs": [
+      "https://www.rockngem.com/egyptian-gold-ancient-treasure/",
+      "https://www.ancient-origins.net/artifacts-ancient-technology-news-history-archaeology/egyptian-gold-0021928"
+    ]
+  },
+  {
+    "Location": "Karnak Temple Complex, Luxor",
+    "Coordinates (Approximate)": "25°43'N, 32°39'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 90,
+    "Recommended Reason": "Recent 2,600-year-old gold jewelry discovery including rare god family statuette, ongoing excavations",
+    "Supporting Evidence": "2025 discovery of pot filled with gold jewelry, statues of gods Amun, Mut, and Khonsu from 26th dynasty",
+    "Supporting Evidence URLs": [
+      "https://www.livescience.com/archaeology/ancient-egyptians/2-600-year-old-jewelry-stash-from-ancient-egypt-includes-gold-statuette-depicting-family-of-gods"
+    ]
+  },
+  {
+    "Location": "Tanis, Nile Delta",
+    "Coordinates (Approximate)": "30°58'N, 31°53'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 88,
+    "Recommended Reason": "Site of Silver Pharaoh Psusennes I tomb with solid silver coffin and gold burial mask",
+    "Supporting Evidence": "Intact 21st Dynasty royal burial discovered by Pierre Montet, treasure rivaling Tutankhamun's tomb",
+    "Supporting Evidence URLs": [
+      "https://www.history.com/articles/ancient-egypt-10-best-discoveries-king-tut-pyramids"
+    ]
+  },
+  {
+    "Location": "Sukari Gold Mine Area, Eastern Desert",
+    "Coordinates (Approximate)": "25°03'N, 34°44'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 75,
+    "Recommended Reason": "Modern mining reveals ancient workings, 3,000-year-old gold mining complex recently fully excavated",
+    "Supporting Evidence": "Ancient gold mining camp with 628 ostraca inscriptions, workshop remains, and continuous mining from pharaonic to Islamic periods",
+    "Supporting Evidence URLs": [
+      "https://www.ancient-origins.net/artifacts-ancient-technology-news-history-archaeology/egyptian-gold-0021928"
+    ]
+  },
+  {
+    "Location": "Tel el-Deir Necropolis, Damietta",
+    "Coordinates (Approximate)": "31°25'N, 31°49'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 80,
+    "Recommended Reason": "Recently discovered intact burials with gold foil artifacts and bronze coins from 26th Dynasty",
+    "Supporting Evidence": "63 untouched tombs with gold foil representations of Isis, Bastet, Horus, and 38 bronze coins",
+    "Supporting Evidence URLs": [
+      "https://www.sciencealert.com/gold-treasure-trove-found-in-untouched-graves-of-ancient-egyptian-necropolis"
+    ]
+  },
+  {
+    "Location": "Giza Pyramid Complex",
+    "Coordinates (Approximate)": "29°58'N, 31°08'E",
+    "Treasure Value": "Priceless",
+    "Likelihood (%)": 70,
+    "Recommended Reason": "Unexplored chambers detected by modern scanning technology, potential hidden treasures",
+    "Supporting Evidence": "Advanced imaging reveals voids in Great Pyramid, intact ship burial discovered in 1954",
+    "Supporting Evidence URLs": [
+      "https://www.history.com/articles/ancient-egypt-10-best-discoveries-king-tut-pyramids"
+    ]
+  },
+  {
+    "Location": "Deir el-Bahari, Luxor",
+    "Coordinates (Approximate)": "25°44'N, 32°36'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 82,
+    "Recommended Reason": "Queen Hatshepsut's mortuary temple with potential undiscovered burial chambers",
+    "Supporting Evidence": "Royal cache of mummies discovered here, ongoing archaeological investigations",
+    "Supporting Evidence URLs": [
+      "https://www.history.com/articles/ancient-egypt-10-best-discoveries-king-tut-pyramids"
+    ]
+  }
+]
