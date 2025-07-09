@@ -1,0 +1,35 @@
+[
+  {
+    "Location": "Brokopondo Gold District",
+    "Coordinates (Approximate)": "4°45'N, 55°10'W",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 60,
+    "Recommended Reason": "Historic and active gold mining area with potential for new discoveries in tributary streams",
+    "Supporting Evidence": "Established gold mining region with ongoing small-scale mining operations",
+    "Supporting Evidence URLs": [
+      "https://www.worldatlas.com/falls/angel-falls-venezuela.html"
+    ]
+  },
+  {
+    "Location": "Maroon Heritage Sites",
+    "Coordinates (Approximate)": "4°00'N, 54°30'W",
+    "Treasure Value": "Low",
+    "Likelihood (%)": 30,
+    "Recommended Reason": "Historic Maroon settlements with potential buried treasures from colonial resistance period",
+    "Supporting Evidence": "Maroon communities established hidden settlements; potential for concealed colonial-era artifacts",
+    "Supporting Evidence URLs": [
+      "https://vivaexpeditions.com/blog/best-archaeological-sites-in-south-america-top-10"
+    ]
+  },
+  {
+    "Location": "Suriname River Bauxite Region",
+    "Coordinates (Approximate)": "5°30'N, 55°00'W",
+    "Treasure Value": "Low",
+    "Likelihood (%)": 20,
+    "Recommended Reason": "Mineral-rich area with potential for undiscovered precious metal deposits beyond bauxite",
+    "Supporting Evidence": "Known mineral deposits suggest potential for other valuable minerals in the region",
+    "Supporting Evidence URLs": [
+      "https://www.worldatlas.com/falls/angel-falls-venezuela.html"
+    ]
+  }
+]
