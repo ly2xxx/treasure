@@ -1,0 +1,58 @@
+[
+  {
+    "Location": "Cueva de los Tayos, Morona-Santiago",
+    "Coordinates (Approximate)": "3°03'S, 78°14'W",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 30,
+    "Recommended Reason": "Legendary cave system rumored to contain golden artifacts and metal library; 1976 expedition with Neil Armstrong",
+    "Supporting Evidence": "Historical gold extraction documented; indigenous Shuar people report sacred golden objects",
+    "Supporting Evidence URLs": [
+      "https://www.ancient-origins.net/ancient-places-americas/tayos-caves-0010972",
+      "https://en.wikipedia.org/wiki/Cueva_de_los_Tayos"
+    ]
+  },
+  {
+    "Location": "Llanganates Mountains",
+    "Coordinates (Approximate)": "1°10'S, 78°20'W",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 25,
+    "Recommended Reason": "Legendary hiding place of Atahualpa's ransom gold, hidden from Spanish conquistadors",
+    "Supporting Evidence": "Historical accounts describe massive gold treasure hidden after Atahualpa's execution; multiple expeditions failed to locate",
+    "Supporting Evidence URLs": [
+      "https://www.nationalgeographic.com/history/article/lost-inca-gold"
+    ]
+  },
+  {
+    "Location": "Sigsig Gold Fields, Azuay",
+    "Coordinates (Approximate)": "3°04'S, 79°04'W",
+    "Treasure Value": "High",
+    "Likelihood (%)": 70,
+    "Recommended Reason": "Ancient Cañari goldworking center, documented as source of exceptional pre-Columbian gold artifacts",
+    "Supporting Evidence": "1924 study documented incalculable gold treasure from tombs; Cañari were among most proficient goldworkers",
+    "Supporting Evidence URLs": [
+      "https://www.ancient-origins.net/ancient-places-americas/tayos-caves-0010972"
+    ]
+  },
+  {
+    "Location": "Ingapirca Vicinity",
+    "Coordinates (Approximate)": "2°33'S, 78°55'W",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 45,
+    "Recommended Reason": "Major Inca and Cañari ceremonial site with potential buried offerings and treasure caches",
+    "Supporting Evidence": "Ecuador's most important Inca ruins with evidence of ceremonial gold use",
+    "Supporting Evidence URLs": [
+      "https://www.metmuseum.org/essays/gold-in-the-ancient-americas"
+    ]
+  },
+  {
+    "Location": "Cordillera del Cóndor",
+    "Coordinates (Approximate)": "3°30'S, 78°00'W",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 35,
+    "Recommended Reason": "Remote mountain range near Peru border with unexplored caves and potential mineral deposits",
+    "Supporting Evidence": "Part of same geological formation as Cueva de los Tayos; contains limestone caves and gold deposits",
+    "Supporting Evidence URLs": [
+      "https://ecuadorecoadventure.com/2023/amazon/facts-or-fiction-the-mythology-behind-cueva-de-los-tayos-in-ecuador/"
+    ]
+  }
+]
