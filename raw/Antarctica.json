@@ -1,0 +1,181 @@
+[
+  {
+    "Location": "Endurance Wreck Site, Weddell Sea",
+    "Coordinates (Approximate)": "68°44'21\"S, 52°19'47\"W",
+    "Treasure Value": "Priceless",
+    "Likelihood (%)": 100,
+    "Recommended Reason": "Shackleton's legendary ship discovered in 2022, perfectly preserved with all artifacts intact",
+    "Supporting Evidence": "3,008 meter deep wreck discovered by Endurance22 expedition with over 25,000 high-resolution photos documenting pristine condition",
+    "Supporting Evidence URLs": [
+      "https://www.nationalgeographic.com/history/article/explorers-found-lost-ship-shackleton-endurance",
+      "https://www.npr.org/2022/03/09/1085432575/endurance-ship-found-ernest-shackleton"
+    ]
+  },
+  {
+    "Location": "San Telmo Wreck Remnants, Livingston Island",
+    "Coordinates (Approximate)": "62°35'S, 60°30'W",
+    "Treasure Value": "High",
+    "Likelihood (%)": 85,
+    "Recommended Reason": "Spanish warship wreck from 1819 with potential naval treasures and 644 crew artifacts",
+    "Supporting Evidence": "Shipwreck remains discovered in 1960 by Argentine expedition, believed to be San Telmo with naval equipment and personal effects",
+    "Supporting Evidence URLs": [
+      "https://www.antarcticacruises.com/guide/antarctica-shipwrecks",
+      "https://en.wikipedia.org/wiki/San_Telmo_(ship)"
+    ]
+  },
+  {
+    "Location": "Scott's Base at Cape Evans, Ross Island",
+    "Coordinates (Approximate)": "77°38'S, 166°24'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 95,
+    "Recommended Reason": "Terra Nova Expedition base with scientific equipment, personal artifacts, and supply caches from 1911-1913",
+    "Supporting Evidence": "Well-preserved hut containing original expedition supplies, scientific instruments, food stores, and personal belongings of Scott's team",
+    "Supporting Evidence URLs": [
+      "https://nzaht.org/conserve/explorer-bases/scotts-hut-cape-evans/",
+      "https://www.coolantarctica.com/Antarctica%20fact%20file/History/terra-nova-expedition.php"
+    ]
+  },
+  {
+    "Location": "One Ton Depot, Ross Ice Shelf",
+    "Coordinates (Approximate)": "79°29'S, 169°00'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 75,
+    "Recommended Reason": "Scott's largest supply depot containing over 1 ton of supplies, fuel, and provisions buried under snow",
+    "Supporting Evidence": "Final major depot laid by Scott expedition containing food, fuel, and equipment; historical significance as intended rescue point",
+    "Supporting Evidence URLs": [
+      "https://www.nls.uk/learning-zone/geography-and-exploration/scotts-last-expedition/expedition-map/",
+      "https://www.amnh.org/exhibitions/race-to-the-end-of-the-earth/scott/timeline"
+    ]
+  },
+  {
+    "Location": "Dufek Intrusion, Pensacola Mountains",
+    "Coordinates (Approximate)": "82°36'S, 51°00'W",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 90,
+    "Recommended Reason": "Massive layered gabbroic complex containing platinum-group metals, chromium, and other valuable minerals",
+    "Supporting Evidence": "Geological surveys confirm similarities to South Africa's Bushveld Complex, a major producer of platinum and chromium deposits",
+    "Supporting Evidence URLs": [
+      "https://www.britannica.com/place/Antarctica/Economic-resources",
+      "https://www.usgs.gov/publications/mineral-resources-antarctica"
+    ]
+  },
+  {
+    "Location": "Transantarctic Mountains Coal Fields",
+    "Coordinates (Approximate)": "85°00'S, 170°00'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 95,
+    "Recommended Reason": "Extensive coal deposits throughout mountain range, including high-quality bituminous coal seams",
+    "Supporting Evidence": "Geological surveys confirm significant coal deposits with estimated reserves in billions of tons across multiple mountain ranges",
+    "Supporting Evidence URLs": [
+      "https://discoveringantarctica.org.uk/oceans-atmosphere-landscape/ice-land-and-sea/antarcticas-geology/",
+      "https://www.britannica.com/place/Antarctica/Economic-resources"
+    ]
+  },
+  {
+    "Location": "Prince Charles Mountains Iron Ore Deposits",
+    "Coordinates (Approximate)": "71°00'S, 68°00'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 88,
+    "Recommended Reason": "Major iron ore deposits near Mackenzie Bay with high-grade magnetite concentrations",
+    "Supporting Evidence": "Scientific expeditions have documented significant iron, copper, and nickel ore deposits suitable for future extraction",
+    "Supporting Evidence URLs": [
+      "https://discoveringantarctica.org.uk/oceans-atmosphere-landscape/ice-land-and-sea/antarcticas-geology/",
+      "https://www.sciencedirect.com/science/article/abs/pii/S0012825222002264"
+    ]
+  },
+  {
+    "Location": "Weddell Sea Petroleum Reserves",
+    "Coordinates (Approximate)": "74°00'S, 35°00'W",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 80,
+    "Recommended Reason": "Potential offshore petroleum and natural gas reserves in sedimentary basins beneath sea floor",
+    "Supporting Evidence": "Geological studies indicate thick sedimentary sequences capable of hydrocarbon generation and accumulation",
+    "Supporting Evidence URLs": [
+      "https://discoveringantarctica.org.uk/challenges/under-pressure/a-treasure-trove-of-resources/",
+      "https://www.britannica.com/place/Antarctica/Economic-resources"
+    ]
+  },
+  {
+    "Location": "Ross Sea Oil and Gas Fields",
+    "Coordinates (Approximate)": "77°00'S, 180°00'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 82,
+    "Recommended Reason": "Continental margin areas with potential for sizable petroleum accumulations in offshore basins",
+    "Supporting Evidence": "Seismic surveys indicate sedimentary rock thicknesses suitable for petroleum generation in continental shelf areas",
+    "Supporting Evidence URLs": [
+      "https://www.britannica.com/place/Antarctica/Economic-resources",
+      "https://www.osti.gov/servlets/purl/6652871"
+    ]
+  },
+  {
+    "Location": "Antarctic Peninsula Gold Deposits",
+    "Coordinates (Approximate)": "65°00'S, 64°00'W",
+    "Treasure Value": "High",
+    "Likelihood (%)": 85,
+    "Recommended Reason": "Extension of South American Andes with copper-rich mineralization and potential gold deposits",
+    "Supporting Evidence": "Geological correlation with productive Andean copper-gold belt suggests similar mineralization potential throughout peninsula",
+    "Supporting Evidence URLs": [
+      "https://www.britannica.com/place/Antarctica/Economic-resources",
+      "https://www.usgs.gov/publications/mineral-resources-antarctica"
+    ]
+  },
+  {
+    "Location": "Governoren Wreck Site, Antarctic Peninsula",
+    "Coordinates (Approximate)": "64°48'S, 62°30'W",
+    "Treasure Value": "High",
+    "Likelihood (%)": 70,
+    "Recommended Reason": "Norwegian whaling factory ship wreck from 1915 with industrial equipment and whale oil processing machinery",
+    "Supporting Evidence": "Factory ship wrecked within days of Endurance disaster, containing valuable whaling equipment and processed whale products",
+    "Supporting Evidence URLs": [
+      "https://www.antarcticacruises.com/guide/antarctica-shipwrecks",
+      "https://www.coolantarctica.com/Antarctica%20fact%20file/History/Robert-Falcon-Scott2.php"
+    ]
+  },
+  {
+    "Location": "Fridtjof Nansen Wreck, South Georgia",
+    "Coordinates (Approximate)": "54°17'S, 36°30'W",
+    "Treasure Value": "High",
+    "Likelihood (%)": 78,
+    "Recommended Reason": "Factory ship sunk in 1906 carrying whaling equipment, copper ingots, and industrial machinery",
+    "Supporting Evidence": "Ship broke into three sections within seven minutes of hitting reef, valuable cargo scattered across Nansen Banks",
+    "Supporting Evidence URLs": [
+      "https://www.antarcticacruises.com/guide/antarctica-shipwrecks"
+    ]
+  },
+  {
+    "Location": "Wilkes Land Mineral Belt",
+    "Coordinates (Approximate)": "70°00'S, 120°00'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 85,
+    "Recommended Reason": "Geological parallel to Australian gold-producing greenstone belts and platinum-bearing intrusions",
+    "Supporting Evidence": "Scientific expeditions found antimony, chromium, copper, gold, lead, molybdenum, tin, uranium, and zinc in scattered locations",
+    "Supporting Evidence URLs": [
+      "https://www.britannica.com/place/Antarctica/Economic-resources",
+      "https://www.sciencedirect.com/science/article/abs/pii/S0012825222002264"
+    ]
+  },
+  {
+    "Location": "Cape Crozier Emperor Penguin Eggs Cache",
+    "Coordinates (Approximate)": "77°27'S, 169°20'E",
+    "Treasure Value": "Priceless",
+    "Likelihood (%)": 95,
+    "Recommended Reason": "Site of Wilson, Bowers, and Cherry-Garrard's winter journey - first emperor penguin eggs collected for science",
+    "Supporting Evidence": "Historic location where three men collected first emperor penguin eggs in 1911, representing milestone in Antarctic exploration and science",
+    "Supporting Evidence URLs": [
+      "https://www.coolantarctica.com/Antarctica%20fact%20file/History/terra-nova-expedition.php",
+      "https://www.amnh.org/exhibitions/race-to-the-end-of-the-earth/scott/timeline"
+    ]
+  },
+  {
+    "Location": "Queen Maud Land Gold Correlation Zone",
+    "Coordinates (Approximate)": "72°00'S, 2°00'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 80,
+    "Recommended Reason": "Geological correlation with South Africa's gold-producing Witwatersrand beds suggests similar gold deposits",
+    "Supporting Evidence": "Geological mapping indicates rock formations similar to world's largest gold-producing region in South Africa",
+    "Supporting Evidence URLs": [
+      "https://www.britannica.com/place/Antarctica/Economic-resources",
+      "https://discoveringantarctica.org.uk/oceans-atmosphere-landscape/ice-land-and-sea/antarcticas-geology/"
+    ]
+  }
+]
