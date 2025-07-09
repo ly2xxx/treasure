@@ -1,0 +1,59 @@
+[
+  {
+    "Location": "Lake Guatavita, Cundinamarca",
+    "Coordinates (Approximate)": "5°15'N, 73°50'W",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 75,
+    "Recommended Reason": "Sacred lake of the Muisca people, site of El Dorado legend with documented gold ceremonies",
+    "Supporting Evidence": "Historical attempts to drain the lake recovered gold artifacts; Spanish chronicles document gold offerings",
+    "Supporting Evidence URLs": [
+      "https://colombia.travel/en/encanto/guatavita-real-lake-and-legend-el-dorado",
+      "https://www.cruisethroughhistory.com/legend-of-the-el-dorado-and-the-gold-lake-of-colombia/"
+    ]
+  },
+  {
+    "Location": "San José Galleon Wreck, Caribbean Coast",
+    "Coordinates (Approximate)": "10°14'N, 75°45'W",
+    "Treasure Value": "Priceless",
+    "Likelihood (%)": 95,
+    "Recommended Reason": "Spanish treasure galleon sunk 1708, estimated $17 billion worth of gold, silver, and emeralds",
+    "Supporting Evidence": "Confirmed location discovered 2015, Colombian government plans recovery operations",
+    "Supporting Evidence URLs": [
+      "https://www.cbsnews.com/news/shipwreck-san-jose-galleon-robot-to-start-recovering-treasure-colombia-says/",
+      "https://abcnews.go.com/International/recovery-17-billion-spanish-shipwreck-1708-begin-april/story?id=108312114"
+    ]
+  },
+  {
+    "Location": "Cartagena Shipwreck Zone",
+    "Coordinates (Approximate)": "10°25'N, 75°30'W",
+    "Treasure Value": "High",
+    "Likelihood (%)": 80,
+    "Recommended Reason": "Multiple Spanish treasure fleet wrecks from colonial period, major Caribbean shipping route",
+    "Supporting Evidence": "Historical records of numerous shipwrecks laden with South American gold and silver",
+    "Supporting Evidence URLs": [
+      "https://www.chimuadventures.com/en/blog/cities-gold-and-pirates-south-americas-top-5-treasure-destinations"
+    ]
+  },
+  {
+    "Location": "Ciudad Perdida (Teyuna), Sierra Nevada",
+    "Coordinates (Approximate)": "11°02'N, 74°00'W",
+    "Treasure Value": "High",
+    "Likelihood (%)": 70,
+    "Recommended Reason": "Ancient Tairona city with potential gold artifacts and ceremonial objects",
+    "Supporting Evidence": "Archaeological site shows evidence of sophisticated goldsmithing culture",
+    "Supporting Evidence URLs": [
+      "https://www.okmdetectors.com/blogs/treasure-finds/colonial-gold-artifact-south-america"
+    ]
+  },
+  {
+    "Location": "Muisca Territory, Bogotá Savanna",
+    "Coordinates (Approximate)": "4°36'N, 74°05'W",
+    "Treasure Value": "High",
+    "Likelihood (%)": 65,
+    "Recommended Reason": "Heart of Muisca civilization known for exceptional goldworking, numerous burial sites",
+    "Supporting Evidence": "Gold Museum in Bogotá contains thousands of Muisca artifacts from this region",
+    "Supporting Evidence URLs": [
+      "https://www.metmuseum.org/essays/gold-in-the-ancient-americas"
+    ]
+  }
+]
