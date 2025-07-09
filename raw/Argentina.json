@@ -1,0 +1,60 @@
+[
+  {
+    "Location": "Tierra del Fuego Gold Fields",
+    "Coordinates (Approximate)": "54°20'S, 67°30'W",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 60,
+    "Recommended Reason": "Site of 1884 gold rush triggered by French steamship wreck, individual miners extracted over 10kg in one month",
+    "Supporting Evidence": "Historical records document extraordinary gold findings at Zanja a Pique; modern placer deposits remain",
+    "Supporting Evidence URLs": [
+      "https://www.quasarex.com/blog/the-gold-rush-of-tierra-del-fuego",
+      "https://en.wikipedia.org/wiki/Tierra_del_Fuego_gold_rush"
+    ]
+  },
+  {
+    "Location": "Patagonia River Systems",
+    "Coordinates (Approximate)": "45°52'S, 67°30'W",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 55,
+    "Recommended Reason": "Andean rivers contain placer gold deposits from mountain erosion, highest concentrations near headwaters",
+    "Supporting Evidence": "Salado, Colorado, Negro, and Chubut Rivers drain gold-bearing Andes Mountains",
+    "Supporting Evidence URLs": [
+      "https://raregoldnuggets.com/?p=1291",
+      "https://howtofindgoldnuggets.com/gold-mining-in-argentina/"
+    ]
+  },
+  {
+    "Location": "Sierra de la Plata Region",
+    "Coordinates (Approximate)": "31°24'S, 64°11'W",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 35,
+    "Recommended Reason": "Legendary silver mountains that gave Argentina its name, based on Cerro Rico de Potosí across border",
+    "Supporting Evidence": "Spanish expeditions and indigenous stories of silver-rich mountains; archaeological evidence of metal trade routes",
+    "Supporting Evidence URLs": [
+      "https://en.wikipedia.org/wiki/Sierra_de_la_Plata",
+      "https://www.sciencedirect.com/science/article/abs/pii/S0278416516300502"
+    ]
+  },
+  {
+    "Location": "Paraná Delta Archaeological Sites",
+    "Coordinates (Approximate)": "34°10'S, 58°30'W",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 50,
+    "Recommended Reason": "Indigenous burial sites with copper and bronze artifacts from Andean trade networks",
+    "Supporting Evidence": "Archaeological excavations reveal metal objects placed in human burials from pre-Columbian period",
+    "Supporting Evidence URLs": [
+      "https://www.sciencedirect.com/science/article/abs/pii/S0278416516300502"
+    ]
+  },
+  {
+    "Location": "Andes Foothills Mining Districts",
+    "Coordinates (Approximate)": "32°30'S, 69°00'W",
+    "Treasure Value": "High",
+    "Likelihood (%)": 70,
+    "Recommended Reason": "Western Argentina contains gold concentrations in Andean volcanic formations with active mining potential",
+    "Supporting Evidence": "Geological surveys confirm gold deposits in volcanic activity zones; 30+ volcanoes aided formation",
+    "Supporting Evidence URLs": [
+      "https://raregoldnuggets.com/?p=1291"
+    ]
+  }
+]
