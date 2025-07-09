@@ -1,0 +1,57 @@
+[
+  {
+    "Location": "Orinoco River Basin",
+    "Coordinates (Approximate)": "8°37'N, 62°15'W",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 35,
+    "Recommended Reason": "Historic search area for El Dorado by Sir Walter Raleigh, potential indigenous gold deposits in tributaries",
+    "Supporting Evidence": "16th century expeditions documented searching for City of Gold; river system drains gold-bearing regions",
+    "Supporting Evidence URLs": [
+      "https://www.chimuadventures.com/en/blog/cities-gold-and-pirates-south-americas-top-5-treasure-destinations"
+    ]
+  },
+  {
+    "Location": "Angel Falls Region, Canaima",
+    "Coordinates (Approximate)": "5°58'N, 62°32'W",
+    "Treasure Value": "Low",
+    "Likelihood (%)": 20,
+    "Recommended Reason": "Remote tepui formations with unexplored geological potential and indigenous sacred sites",
+    "Supporting Evidence": "Isolated table mountains in Guiana Shield; American gold prospector James Angel discovered falls while searching for ore",
+    "Supporting Evidence URLs": [
+      "https://www.beautifulworld.com/south-america/venezuela/angel-falls/"
+    ]
+  },
+  {
+    "Location": "Lake Maracaibo Historical Sites",
+    "Coordinates (Approximate)": "9°50'N, 71°30'W",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 30,
+    "Recommended Reason": "Colonial period reports of hidden pirate and Spanish treasures around lake settlements",
+    "Supporting Evidence": "Strategic location for Spanish treasure routes; historical accounts of buried treasures from colonial conflicts",
+    "Supporting Evidence URLs": [
+      "https://www.chimuadventures.com/en/blog/cities-gold-and-pirates-south-americas-top-5-treasure-destinations"
+    ]
+  },
+  {
+    "Location": "Guiana Highlands",
+    "Coordinates (Approximate)": "6°00'N, 61°00'W",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 25,
+    "Recommended Reason": "Ancient Precambrian geological formation with potential mineral deposits and indigenous artifacts",
+    "Supporting Evidence": "Part of 2-billion-year-old Guiana Shield with documented mineral wealth; difficult access has limited exploration",
+    "Supporting Evidence URLs": [
+      "https://www.worldatlas.com/falls/angel-falls-venezuela.html"
+    ]
+  },
+  {
+    "Location": "Roraima Tepui Border Region",
+    "Coordinates (Approximate)": "5°12'N, 60°44'W",
+    "Treasure Value": "Low",
+    "Likelihood (%)": 15,
+    "Recommended Reason": "Mythical lost world location with potential for undiscovered archaeological sites and mineral formations",
+    "Supporting Evidence": "Isolated ecosystem atop ancient tepui; inspiration for Conan Doyle's 'Lost World'; unexplored potential",
+    "Supporting Evidence URLs": [
+      "https://www.worldatlas.com/falls/angel-falls-venezuela.html"
+    ]
+  }
+]
