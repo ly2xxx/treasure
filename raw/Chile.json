@@ -1,0 +1,46 @@
+[
+  {
+    "Location": "Atacama Desert Gold Fields",
+    "Coordinates (Approximate)": "24°30'S, 69°15'W",
+    "Treasure Value": "High",
+    "Likelihood (%)": 75,
+    "Recommended Reason": "World's driest desert with significant gold mining operations and potential undiscovered deposits",
+    "Supporting Evidence": "Active mining region with numerous gold mines; arid conditions preserve potential archaeological sites",
+    "Supporting Evidence URLs": [
+      "https://raregoldnuggets.com/?p=1291"
+    ]
+  },
+  {
+    "Location": "Tierra del Fuego (Chilean Sector)",
+    "Coordinates (Approximate)": "54°00'S, 69°00'W",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 50,
+    "Recommended Reason": "Western portion of historic gold rush region with potential undiscovered placer deposits",
+    "Supporting Evidence": "Connected to Argentine gold rush; geographic continuity suggests similar geological formations",
+    "Supporting Evidence URLs": [
+      "https://www.quasarex.com/blog/the-gold-rush-of-tierra-del-fuego"
+    ]
+  },
+  {
+    "Location": "Central Valley Colonial Sites",
+    "Coordinates (Approximate)": "33°27'S, 70°40'W",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 40,
+    "Recommended Reason": "Spanish colonial administrative center with potential buried treasures from independence wars",
+    "Supporting Evidence": "Santiago region was colonial capital; historical accounts of hidden treasures during turbulent periods",
+    "Supporting Evidence URLs": [
+      "https://vivaexpeditions.com/blog/best-archaeological-sites-in-south-america-top-10"
+    ]
+  },
+  {
+    "Location": "Easter Island (Rapa Nui)",
+    "Coordinates (Approximate)": "27°07'S, 109°22'W",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 30,
+    "Recommended Reason": "Isolated Polynesian settlement with potential archaeological treasures and ceremonial objects",
+    "Supporting Evidence": "Unique isolated culture with distinctive artifacts; potential for undiscovered archaeological sites",
+    "Supporting Evidence URLs": [
+      "https://vivaexpeditions.com/blog/best-archaeological-sites-in-south-america-top-10"
+    ]
+  }
+]
