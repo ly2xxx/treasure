@@ -1,0 +1,35 @@
+[
+  {
+    "Location": "Jesuit Missions of La Santísima Trinidad",
+    "Coordinates (Approximate)": "27°08'S, 55°42'W",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 40,
+    "Recommended Reason": "UNESCO World Heritage Jesuit mission site with potential hidden colonial treasures",
+    "Supporting Evidence": "Historical Jesuit missions accumulated wealth; rapid abandonment in 1767 suggests hidden treasures",
+    "Supporting Evidence URLs": [
+      "https://vivaexpeditions.com/blog/best-archaeological-sites-in-south-america-top-10"
+    ]
+  },
+  {
+    "Location": "Paraguay River Gold Deposits",
+    "Coordinates (Approximate)": "25°16'S, 57°40'W",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 35,
+    "Recommended Reason": "River system with documented gold deposits and Spanish colonial mining attempts",
+    "Supporting Evidence": "Historical Spanish expeditions searched for gold along Paraguay River system",
+    "Supporting Evidence URLs": [
+      "https://en.wikipedia.org/wiki/Sierra_de_la_Plata"
+    ]
+  },
+  {
+    "Location": "Guaraní Archaeological Sites",
+    "Coordinates (Approximate)": "26°00'S, 56°30'W",
+    "Treasure Value": "Low",
+    "Likelihood (%)": 30,
+    "Recommended Reason": "Pre-Columbian Guaraní settlements with potential ceremonial artifacts and trade goods",
+    "Supporting Evidence": "Archaeological evidence of extensive Guaraní civilization with trade networks extending to Andes",
+    "Supporting Evidence URLs": [
+      "https://www.sciencedirect.com/science/article/abs/pii/S0278416516300502"
+    ]
+  }
+]

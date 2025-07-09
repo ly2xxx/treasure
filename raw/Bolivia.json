@@ -1,0 +1,59 @@
+[
+  {
+    "Location": "Cerro Rico, Potosí",
+    "Coordinates (Approximate)": "19°34'S, 65°45'W",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 90,
+    "Recommended Reason": "World's largest silver deposit in history, produced 60% of global silver in 16th century, still actively mined",
+    "Supporting Evidence": "45,000 tons extracted 1556-1783; UNESCO World Heritage site; current mining operations continue",
+    "Supporting Evidence URLs": [
+      "https://en.wikipedia.org/wiki/Cerro_Rico",
+      "https://www.geologyforinvestors.com/cerro-rico-the-greatest-of-the-great/",
+      "https://lacgeo.com/city-potosi-cerro-rico-bolivia"
+    ]
+  },
+  {
+    "Location": "Lake Titicaca Sacred Sites",
+    "Coordinates (Approximate)": "15°50'S, 69°20'W",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 40,
+    "Recommended Reason": "Sacred lake with potential Inca and Tiwanaku offerings; legendary location of hidden treasures",
+    "Supporting Evidence": "Historical accounts of ritual offerings thrown into lake by pre-Columbian civilizations",
+    "Supporting Evidence URLs": [
+      "https://vivaexpeditions.com/blog/best-archaeological-sites-in-south-america-top-10"
+    ]
+  },
+  {
+    "Location": "Tiwanaku Archaeological Zone",
+    "Coordinates (Approximate)": "16°33'S, 68°40'W",
+    "Treasure Value": "High",
+    "Likelihood (%)": 65,
+    "Recommended Reason": "Capital of influential civilization 500-1000 AD, potential burial sites and treasure caches undiscovered",
+    "Supporting Evidence": "UNESCO site representing one of South America's most significant pre-Columbian archaeological complexes",
+    "Supporting Evidence URLs": [
+      "https://vivaexpeditions.com/blog/best-archaeological-sites-in-south-america-top-10"
+    ]
+  },
+  {
+    "Location": "Bolivian Eastern Cordillera",
+    "Coordinates (Approximate)": "17°30'S, 65°30'W",
+    "Treasure Value": "High",
+    "Likelihood (%)": 75,
+    "Recommended Reason": "Contains richest silver and tin veins in world, geological formations similar to Cerro Rico",
+    "Supporting Evidence": "Geological surveys confirm extensive mineralization throughout eastern Andean range",
+    "Supporting Evidence URLs": [
+      "https://www.geologyforinvestors.com/cerro-rico-the-greatest-of-the-great/"
+    ]
+  },
+  {
+    "Location": "Llanos de Chiquitos",
+    "Coordinates (Approximate)": "17°45'S, 61°30'W",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 30,
+    "Recommended Reason": "Jesuit mission area with potential hidden colonial treasures and indigenous artifacts",
+    "Supporting Evidence": "Historical Jesuit missions established complex networks; potential for buried mission treasures",
+    "Supporting Evidence URLs": [
+      "https://vivaexpeditions.com/blog/best-archaeological-sites-in-south-america-top-10"
+    ]
+  }
+]

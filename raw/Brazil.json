@@ -1,0 +1,58 @@
+[
+  {
+    "Location": "Serra Pelada, Pará",
+    "Coordinates (Approximate)": "5°57'S, 50°12'W",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 85,
+    "Recommended Reason": "Site of massive 1980s gold rush, geological surveys indicate 20-50 tons of gold remain beneath the lake",
+    "Supporting Evidence": "Officially extracted 45 tons of gold; estimated 90% was smuggled out; modern surveys confirm remaining deposits",
+    "Supporting Evidence URLs": [
+      "https://time.com/archive/6858283/brazil-the-treasure-of-serra-pelada/",
+      "https://www.robertnickelsberg.com/brazil-gold"
+    ]
+  },
+  {
+    "Location": "Minas Gerais Historical Gold Region",
+    "Coordinates (Approximate)": "19°55'S, 43°56'W",
+    "Treasure Value": "High",
+    "Likelihood (%)": 70,
+    "Recommended Reason": "Brazil's primary gold mining region during colonial period, extensive underground workings with potential undiscovered veins",
+    "Supporting Evidence": "Historical center of Brazilian gold production from 1693; 10-15 tons annually shipped to Europe in 18th century",
+    "Supporting Evidence URLs": [
+      "https://www.aventuradobrasil.com/blog/the-gold-rush-in-brazil/"
+    ]
+  },
+  {
+    "Location": "Amazon Basin Gold Fields",
+    "Coordinates (Approximate)": "3°10'S, 60°00'W",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 45,
+    "Recommended Reason": "Vast unexplored territory with known gold deposits in river systems and remote areas",
+    "Supporting Evidence": "Modern prospecting continues to find new deposits; region contains some of world's largest gold reserves",
+    "Supporting Evidence URLs": [
+      "https://www.aventuradobrasil.com/blog/the-gold-rush-in-brazil/"
+    ]
+  },
+  {
+    "Location": "Carajás Mineral Province, Pará",
+    "Coordinates (Approximate)": "6°20'S, 50°20'W",
+    "Treasure Value": "High",
+    "Likelihood (%)": 80,
+    "Recommended Reason": "One of world's largest mineral provinces with active gold mining and potential for new discoveries",
+    "Supporting Evidence": "Major mining operations continue to discover new ore bodies in the region",
+    "Supporting Evidence URLs": [
+      "https://www.aventuradobrasil.com/blog/the-gold-rush-in-brazil/"
+    ]
+  },
+  {
+    "Location": "Goiás Gold Fields",
+    "Coordinates (Approximate)": "16°40'S, 49°15'W",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 60,
+    "Recommended Reason": "Historic gold mining area with potential for rediscovering old Spanish and Portuguese mining sites",
+    "Supporting Evidence": "One of the first large gold deposits found in Brazil; extensive colonial mining history",
+    "Supporting Evidence URLs": [
+      "https://www.aventuradobrasil.com/blog/the-gold-rush-in-brazil/"
+    ]
+  }
+]
