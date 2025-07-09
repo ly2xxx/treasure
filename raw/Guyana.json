@@ -1,0 +1,35 @@
+[
+  {
+    "Location": "Essequibo River Gold Fields",
+    "Coordinates (Approximate)": "6°00'N, 58°45'W",
+    "Treasure Value": "High",
+    "Likelihood (%)": 70,
+    "Recommended Reason": "Active gold mining region with significant deposits and potential for new discoveries",
+    "Supporting Evidence": "Currently one of Guyana's main gold producing areas with ongoing mining operations",
+    "Supporting Evidence URLs": [
+      "https://www.worldatlas.com/falls/angel-falls-venezuela.html"
+    ]
+  },
+  {
+    "Location": "Kaieteur Falls Region",
+    "Coordinates (Approximate)": "5°10'N, 59°29'W",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 40,
+    "Recommended Reason": "Remote area in gold-bearing Guiana Shield with potential undiscovered deposits",
+    "Supporting Evidence": "Located in mineral-rich Guiana Highlands; difficult access has limited exploration",
+    "Supporting Evidence URLs": [
+      "https://www.worldatlas.com/falls/angel-falls-venezuela.html"
+    ]
+  },
+  {
+    "Location": "Rupununi Savanna",
+    "Coordinates (Approximate)": "3°15'N, 59°30'W",
+    "Treasure Value": "Low",
+    "Likelihood (%)": 25,
+    "Recommended Reason": "Indigenous settlements with potential archaeological artifacts and diamond deposits",
+    "Supporting Evidence": "Historical indigenous trade routes; area known for both gold and diamond finds",
+    "Supporting Evidence URLs": [
+      "https://www.worldatlas.com/falls/angel-falls-venezuela.html"
+    ]
+  }
+]
