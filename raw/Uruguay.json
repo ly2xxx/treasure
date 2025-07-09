@@ -1,0 +1,35 @@
+[
+  {
+    "Location": "Río de la Plata Estuary",
+    "Coordinates (Approximate)": "34°45'S, 56°10'W",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 45,
+    "Recommended Reason": "Historic shipping route for Spanish treasure fleets with potential shipwrecks",
+    "Supporting Evidence": "Major waterway for colonial silver transport from Potosí; numerous documented shipwrecks",
+    "Supporting Evidence URLs": [
+      "https://en.wikipedia.org/wiki/Sierra_de_la_Plata"
+    ]
+  },
+  {
+    "Location": "Colonia del Sacramento",
+    "Coordinates (Approximate)": "34°28'S, 57°50'W",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 35,
+    "Recommended Reason": "Historic Portuguese colonial town with potential buried treasures from conflict periods",
+    "Supporting Evidence": "UNESCO World Heritage site; strategic location during colonial wars between Spain and Portugal",
+    "Supporting Evidence URLs": [
+      "https://vivaexpeditions.com/blog/best-archaeological-sites-in-south-america-top-10"
+    ]
+  },
+  {
+    "Location": "Tacuarembó Indigenous Sites",
+    "Coordinates (Approximate)": "31°43'S, 55°59'W",
+    "Treasure Value": "Low",
+    "Likelihood (%)": 25,
+    "Recommended Reason": "Pre-Columbian Charrúa indigenous settlements with potential ceremonial artifacts",
+    "Supporting Evidence": "Archaeological evidence of indigenous occupation; potential for undiscovered burial sites",
+    "Supporting Evidence URLs": [
+      "https://www.sciencedirect.com/science/article/abs/pii/S0278416516300502"
+    ]
+  }
+]
