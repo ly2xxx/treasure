@@ -1,0 +1,115 @@
+[
+  {
+    "Location": "Gilt Dragon Shipwreck Site, Ledge Point, Western Australia",
+    "Coordinates (Approximate)": "31°30'S, 115°20'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 85,
+    "Recommended Reason": "1656 Dutch East India Company ship with 8 chests of silver coins worth 78,600 guilders, partially recovered but more remains",
+    "Supporting Evidence": "Historical records confirm 8 chests of silver coins, partial recovery in 1960s-1970s, ongoing archaeological interest",
+    "Supporting Evidence URLs": [
+      "https://oztreasure.weebly.com/lost-treasure-western-australia.html",
+      "https://detectingschool.com/australia-lost-treasures/"
+    ]
+  },
+  {
+    "Location": "Batavia Shipwreck, Houtman Abrolhos Islands, Western Australia",
+    "Coordinates (Approximate)": "28°27'S, 113°47'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 80,
+    "Recommended Reason": "1629 Dutch VOC vessel with silver coins and trade goods, site of Australia's first documented mass murder, ongoing archaeological significance",
+    "Supporting Evidence": "Wreck discovered with silver coins and artifacts, extensive archaeological documentation, UNESCO consideration",
+    "Supporting Evidence URLs": [
+      "https://oztreasure.weebly.com/lost-treasure-western-australia.html",
+      "https://detectingschool.com/australia-lost-treasures/"
+    ]
+  },
+  {
+    "Location": "Tryall Shipwreck, Monte Bello Islands, Western Australia",
+    "Coordinates (Approximate)": "20°25'S, 115°32'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 75,
+    "Recommended Reason": "1622 English East Indies vessel carrying 500 silver reales and gold spangles for King of Siam, first known shipwreck in Australian waters",
+    "Supporting Evidence": "Historical records document silver coins and gold spangles cargo, earliest recorded treasure loss in Western Australia",
+    "Supporting Evidence URLs": [
+      "https://oztreasure.weebly.com/lost-treasure-western-australia.html",
+      "https://www.goldgemtreasure.com.au/articles/in-search-of-lost-treasures"
+    ]
+  },
+  {
+    "Location": "Dampier Archipelago Pearling Camps, Western Australia",
+    "Coordinates (Approximate)": "20°40'S, 116°42'E",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 70,
+    "Recommended Reason": "Historic pearling industry sites with evidence of valuable pearl collections and trade artifacts from 19th-20th centuries",
+    "Supporting Evidence": "Archaeological surveys found bottles, coins, and evidence of pearling operations, multiple graves and camps documented",
+    "Supporting Evidence URLs": [
+      "https://www.goldgemtreasure.com.au/home"
+    ]
+  },
+  {
+    "Location": "Cossack Historic Town, Western Australia",
+    "Coordinates (Approximate)": "20°41'S, 117°12'E",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 65,
+    "Recommended Reason": "Ghost town from pearling era with documented coin finds including 17 coins from 1791-1912 and silver artifacts",
+    "Supporting Evidence": "Personal accounts of multiple coin discoveries including Dutch, English, Chinese and French coins, plus silver Japanese snuff box",
+    "Supporting Evidence URLs": [
+      "https://www.goldgemtreasure.com.au/home"
+    ]
+  },
+  {
+    "Location": "Witwatersrand Gold Fields, New South Wales",
+    "Coordinates (Approximate)": "33°55'S, 151°12'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 60,
+    "Recommended Reason": "Historic gold rush area with potential caches from early prospectors and hidden deposits from 1850s-1860s gold boom",
+    "Supporting Evidence": "Well-documented gold rush history, numerous documented finds of gold nuggets and caches in the region",
+    "Supporting Evidence URLs": [
+      "https://www.goldgemtreasure.com.au/articles/in-search-of-lost-treasures"
+    ]
+  },
+  {
+    "Location": "Torres Strait Islands, Queensland",
+    "Coordinates (Approximate)": "10°35'S, 142°15'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 70,
+    "Recommended Reason": "Historic shipping lane with multiple shipwrecks, Spanish coins and artifacts reported by Trepang fishermen and pearlers",
+    "Supporting Evidence": "Historical accounts of Spanish gold and silver coins, guns, swords sold by local fishermen to ship passengers",
+    "Supporting Evidence URLs": [
+      "https://www.goldgemtreasure.com.au/articles/in-search-of-lost-treasures"
+    ]
+  },
+  {
+    "Location": "Endeavour Cannon Site, Six Mile Reef, Queensland",
+    "Coordinates (Approximate)": "15°46'S, 145°42'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 90,
+    "Recommended Reason": "Cannons jettisoned by Captain Cook's Endeavour in 1770, discovered in 1968 under coral growth, archaeological significance",
+    "Supporting Evidence": "Cannons discovered by Academy of Natural Sciences of Philadelphia team in 1968, confirmed Cook's Endeavour artifacts",
+    "Supporting Evidence URLs": [
+      "https://www.goldgemtreasure.com.au/articles/in-search-of-lost-treasures"
+    ]
+  },
+  {
+    "Location": "Rockhampton Egyptian Artifacts Site, Queensland",
+    "Coordinates (Approximate)": "23°23'S, 150°30'E",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 40,
+    "Recommended Reason": "1966 discovery of gold coins, gold scarabs and Egyptian calendar stone estimated from 2,780 BC, suggesting pre-European contact",
+    "Supporting Evidence": "Reported discovery of gold artifacts and Egyptian calendar stone, though origin disputed by mainstream archaeology",
+    "Supporting Evidence URLs": [
+      "https://www.goldgemtreasure.com.au/articles/in-search-of-lost-treasures"
+    ]
+  },
+  {
+    "Location": "Phoenician Bronze Plate Site, North-West Western Australia",
+    "Coordinates (Approximate)": "22°00'S, 118°00'E",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 35,
+    "Recommended Reason": "Bronze plate found near silver deposits, identified by US university as Phoenician origin 200-700 BC, suggests ancient contact",
+    "Supporting Evidence": "Bronze plate analyzed by US university and identified as Phoenician, found near galena ore deposits indicating silver mining",
+    "Supporting Evidence URLs": [
+      "https://www.goldgemtreasure.com.au/articles/in-search-of-lost-treasures"
+    ]
+  }
+]
