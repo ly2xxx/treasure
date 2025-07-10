@@ -1,0 +1,112 @@
+[
+  {
+    "Location": "Ing-ombe Ilede Archaeological Site, Lusitu",
+    "Coordinates (Approximate)": "16°11'S, 28°19'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 80,
+    "Recommended Reason": "Important Iron Age site near Siavonga with evidence of trade connections and potential burials with grave goods typical of regional kingdoms",
+    "Supporting Evidence": "Documented archaeological site with coordinates, positioned near Lake Kariba in strategic trading location",
+    "Supporting Evidence URLs": [
+      "https://en.wikipedia.org/wiki/Monuments_and_Historic_Sites_of_Zambia"
+    ]
+  },
+  {
+    "Location": "Mumbwa First Copperbelt Heritage Sites, Central Province",
+    "Coordinates (Approximate)": "14°59'S, 27°03'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 75,
+    "Recommended Reason": "First commercial copper mines in Zambia - Sable Antelope and Hippo mines, potential for abandoned mining equipment and copper caches from early operations",
+    "Supporting Evidence": "Heritage sites marking first commercial copper mining in Zambia, historical significance of early mining operations",
+    "Supporting Evidence URLs": [
+      "https://en.wikipedia.org/wiki/Monuments_and_Historic_Sites_of_Zambia"
+    ]
+  },
+  {
+    "Location": "Mufulira Copper Discovery Site, Copperbelt Province",
+    "Coordinates (Approximate)": "12°33'S, 28°14'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 70,
+    "Recommended Reason": "Moir and Bell Monument marks where prospectors discovered copper-bearing ore in 1923, potential for original prospect samples and early mining artifacts",
+    "Supporting Evidence": "Documented discovery site with monument, marking beginning of major copper mining industry in region",
+    "Supporting Evidence URLs": [
+      "https://en.wikipedia.org/wiki/Monuments_and_Historic_Sites_of_Zambia"
+    ]
+  },
+  {
+    "Location": "Kalambo Falls Archaeological Site, Northern Province",
+    "Coordinates (Approximate)": "8°36'S, 31°14'E",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 85,
+    "Recommended Reason": "Early human habitation site shared with Tanzania, evidence of ancient tool-making and potential for prehistoric artifacts and stone age implements",
+    "Supporting Evidence": "Documented archaeological site with evidence of early human habitation, falls serve as natural landmark for ancient settlements",
+    "Supporting Evidence URLs": [
+      "https://en.wikipedia.org/wiki/Monuments_and_Historic_Sites_of_Zambia"
+    ]
+  },
+  {
+    "Location": "Kalundu Mound, Southern Province",
+    "Coordinates (Approximate)": "17°04'S, 26°39'E",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 75,
+    "Recommended Reason": "9th-12th century village site near Kalomo, evidence of Iron Age settlement with potential for buried artifacts and trade goods",
+    "Supporting Evidence": "Documented village site with specific dating from 9th to 12th centuries, indicates established settlement patterns",
+    "Supporting Evidence URLs": [
+      "https://en.wikipedia.org/wiki/Monuments_and_Historic_Sites_of_Zambia"
+    ]
+  },
+  {
+    "Location": "Leopards Hill Cave, Lusaka Province",
+    "Coordinates (Approximate)": "15°25'S, 28°17'E",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 65,
+    "Recommended Reason": "Cave site near Lusaka with potential for prehistoric artifacts, shelter sites often contain tools and evidence of early human occupation",
+    "Supporting Evidence": "Listed as monument site, caves typically preserve artifacts well and serve as long-term occupation sites",
+    "Supporting Evidence URLs": [
+      "https://en.wikipedia.org/wiki/Monuments_and_Historic_Sites_of_Zambia"
+    ]
+  },
+  {
+    "Location": "Makwe Rock Shelter, Eastern Province",
+    "Coordinates (Approximate)": "14°24'S, 31°56'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 90,
+    "Recommended Reason": "Late Stone Age site near Katete with 6,000-year-old tools already recovered, high likelihood of additional prehistoric artifacts",
+    "Supporting Evidence": "Site already yielded many stone tools, specific dating to 6,000 years ago, coordinates provided for exact location",
+    "Supporting Evidence URLs": [
+      "https://en.wikipedia.org/wiki/Monuments_and_Historic_Sites_of_Zambia"
+    ]
+  },
+  {
+    "Location": "Kasamba Stream Grinding Grooves, Northern Province",
+    "Coordinates (Approximate)": "11°20'S, 29°33'E",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 70,
+    "Recommended Reason": "Iron Age site where axes and iron implements were sharpened, potential for lost tools and evidence of iron working technology",
+    "Supporting Evidence": "Specific coordinates provided, evidence of Iron Age tool manufacturing and maintenance activities",
+    "Supporting Evidence URLs": [
+      "https://en.wikipedia.org/wiki/Monuments_and_Historic_Sites_of_Zambia"
+    ]
+  },
+  {
+    "Location": "Chirundu Fossil Forest, Southern Province",
+    "Coordinates (Approximate)": "16°02'S, 28°40'E",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 40,
+    "Recommended Reason": "50,000-year-old fossil trees near Chirundu, paleontological significance with potential for preserved organic materials and early human artifacts",
+    "Supporting Evidence": "Documented fossil site with specific age dating, unique preservation conditions may have protected other materials",
+    "Supporting Evidence URLs": [
+      "https://en.wikipedia.org/wiki/Monuments_and_Historic_Sites_of_Zambia"
+    ]
+  },
+  {
+    "Location": "Victoria Falls Trust Area Archaeological Sites, Southern Province",
+    "Coordinates (Approximate)": "17°55'S, 25°51'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 80,
+    "Recommended Reason": "Early to Later Stone Age sites key for determining Stone Age cultural sequence, near major natural landmark with tourist potential",
+    "Supporting Evidence": "Multiple archaeological sites covering broad time period, key location for understanding regional Stone Age development",
+    "Supporting Evidence URLs": [
+      "https://en.wikipedia.org/wiki/Monuments_and_Historic_Sites_of_Zambia"
+    ]
+  }
+]

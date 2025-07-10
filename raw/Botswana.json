@@ -1,0 +1,113 @@
+[
+  {
+    "Location": "Bosutswe Archaeological Site, Central District",
+    "Coordinates (Approximate)": "24°30'S, 25°45'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 85,
+    "Recommended Reason": "Major Iron Age site with gold objects recovered, connected to Great Zimbabwe trade network with distinct geological gold sources",
+    "Supporting Evidence": "Geochemical studies confirm gold objects from distinct sources different from Great Zimbabwe, indicating separate mining operations",
+    "Supporting Evidence URLs": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10400708/",
+      "https://link.springer.com/article/10.1007/s12520-023-01811-7"
+    ]
+  },
+  {
+    "Location": "Domboshaba Ruins, North-East District",
+    "Coordinates (Approximate)": "21°58'S, 27°40'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 75,
+    "Recommended Reason": "Stone-walled site similar to Great Zimbabwe scale, evidence of regional economic and political importance with trade connections",
+    "Supporting Evidence": "Mentioned alongside Great Zimbabwe as comparable regional site, stone architecture indicates wealth and sophisticated society",
+    "Supporting Evidence URLs": [
+      "https://www.scientificamerican.com/article/great-zimbabwe-2005-01/"
+    ]
+  },
+  {
+    "Location": "Majande Archaeological Site, Central District",
+    "Coordinates (Approximate)": "23°45'S, 26°30'E",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 70,
+    "Recommended Reason": "Regional site connected to Great Zimbabwe cultural complex, evidence of sophisticated Iron Age settlement and trade",
+    "Supporting Evidence": "Listed alongside other major regional sites, indicates participation in wider trade and cultural networks",
+    "Supporting Evidence URLs": [
+      "https://www.scientificamerican.com/article/great-zimbabwe-2005-01/"
+    ]
+  },
+  {
+    "Location": "Kalahari Desert Trade Routes, Central Kalahari",
+    "Coordinates (Approximate)": "22°00'S, 23°00'E",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 50,
+    "Recommended Reason": "Historic trade routes connecting interior to coastal regions, potential for cached goods and lost caravans in desert sands",
+    "Supporting Evidence": "Traditional trade routes through Kalahari connected interior settlements to coastal trade, harsh environment preserves artifacts",
+    "Supporting Evidence URLs": [
+      "https://www.scientificamerican.com/article/great-zimbabwe-2005-01/"
+    ]
+  },
+  {
+    "Location": "Tsodilo Hills Rock Art Sites, North-West District",
+    "Coordinates (Approximate)": "18°45'S, 21°45'E",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 60,
+    "Recommended Reason": "UNESCO World Heritage site with 4,500 rock paintings, sacred significance suggests potential for ritual deposits and offerings",
+    "Supporting Evidence": "Sacred site known as 'Louvre of the Desert', continuous occupation for 100,000 years, spiritual significance indicates ritual importance",
+    "Supporting Evidence URLs": [
+      "https://www.africanbudgetsafaris.com/blog/best-african-people-culture-great-zimbabwe-ruins/"
+    ]
+  },
+  {
+    "Location": "Okavango Delta Traditional Settlements, North-West District",
+    "Coordinates (Approximate)": "19°15'S, 22°45'E",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 55,
+    "Recommended Reason": "Traditional settlement areas of Bayei and Hambukushu peoples with evidence of iron working and trade with regional kingdoms",
+    "Supporting Evidence": "Archaeological evidence of iron age settlements, traditional fishing and farming communities with trade connections",
+    "Supporting Evidence URLs": [
+      "https://www.africanbudgetsafaris.com/blog/best-african-people-culture-great-zimbabwe-ruins/"
+    ]
+  },
+  {
+    "Location": "Makgadikgadi Salt Pans Trading Posts, Central District",
+    "Coordinates (Approximate)": "20°30'S, 25°15'E",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 45,
+    "Recommended Reason": "Historic salt trading area, valuable commodity in pre-colonial Africa with potential for cached salt and trade goods",
+    "Supporting Evidence": "Salt was highly valued trade commodity, vast pans provided mineral resources for regional trade networks",
+    "Supporting Evidence URLs": [
+      "https://www.africanbudgetsafaris.com/blog/best-african-people-culture-great-zimbabwe-ruins/"
+    ]
+  },
+  {
+    "Location": "Limpopo River Valley Trading Sites, South-East District",
+    "Coordinates (Approximate)": "22°15'S, 29°15'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 65,
+    "Recommended Reason": "River valley connected to Mapungubwe and Great Zimbabwe trade networks, evidence of gold and ivory trade through region",
+    "Supporting Evidence": "Strategic location between major kingdoms, archaeological evidence of trade connections to Mapungubwe and Zimbabwe",
+    "Supporting Evidence URLs": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10400708/"
+    ]
+  },
+  {
+    "Location": "Shashe River Gold Workings, North-East District",
+    "Coordinates (Approximate)": "21°45'S, 27°50'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 70,
+    "Recommended Reason": "River system with evidence of ancient gold workings, connected to regional gold trade network supplying Great Zimbabwe complex",
+    "Supporting Evidence": "River valleys in region show evidence of gold extraction, part of network supplying major kingdoms with precious metals",
+    "Supporting Evidence URLs": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10400708/"
+    ]
+  },
+  {
+    "Location": "Francistown Colonial Mining Heritage Sites, North-East District",
+    "Coordinates (Approximate)": "21°10'S, 27°31'E",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 40,
+    "Recommended Reason": "Early 20th century mining town with potential for overlooked deposits and mining equipment from gold rush era",
+    "Supporting Evidence": "Historic mining center established during colonial period, evidence of gold mining operations and related infrastructure",
+    "Supporting Evidence URLs": [
+      "https://www.africanbudgetsafaris.com/blog/best-african-people-culture-great-zimbabwe-ruins/"
+    ]
+  }
+]

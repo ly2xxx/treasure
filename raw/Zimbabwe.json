@@ -1,0 +1,117 @@
+[
+  {
+    "Location": "Great Zimbabwe Hill Complex, Masvingo",
+    "Coordinates (Approximate)": "20°16'S, 30°56'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 85,
+    "Recommended Reason": "11th-13th century capital of Zimbabwe kingdom with documented gold processing, soapstone Zimbabwe Birds, and extensive archaeological evidence of wealth",
+    "Supporting Evidence": "Eight carved soapstone Zimbabwe Birds found, gold processing crucibles discovered, UNESCO World Heritage site with documented treasure finds",
+    "Supporting Evidence URLs": [
+      "https://www.metmuseum.org/essays/great-zimbabwe",
+      "https://www.britannica.com/place/Great-Zimbabwe"
+    ]
+  },
+  {
+    "Location": "Great Zimbabwe Great Enclosure, Masvingo",
+    "Coordinates (Approximate)": "20°16'S, 30°56'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 80,
+    "Recommended Reason": "13th-15th century main residential area with evidence of gold and copper working, trade with Indian Ocean, Chinese ceramics and Syrian glass found",
+    "Supporting Evidence": "Archaeological excavations revealed Chinese celadon dishes, Persian faience bowls, Syrian glass, gold foil and processing equipment",
+    "Supporting Evidence URLs": [
+      "https://www.scientificamerican.com/article/great-zimbabwe-2005-01/",
+      "https://www.metmuseum.org/essays/great-zimbabwe"
+    ]
+  },
+  {
+    "Location": "Great Zimbabwe Valley Complex, Masvingo",
+    "Coordinates (Approximate)": "20°16'S, 30°57'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 75,
+    "Recommended Reason": "14th-16th century settlement area with evidence of gold refining, over 100 gold processing vessels found in recent excavations",
+    "Supporting Evidence": "New excavations yielded fragments of over 100 gold processing vessels, reused pottery and purpose-made crucibles for gold collection",
+    "Supporting Evidence URLs": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10400708/",
+      "https://link.springer.com/article/10.1007/s12520-023-01811-7"
+    ]
+  },
+  {
+    "Location": "Khami Ruins, Bulawayo",
+    "Coordinates (Approximate)": "20°09'S, 28°22'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 70,
+    "Recommended Reason": "15th-17th century capital after Great Zimbabwe's decline, sophisticated stonework and pottery techniques transferred from Great Zimbabwe",
+    "Supporting Evidence": "UNESCO World Heritage site, evidence of continued gold working traditions, sophisticated stone architecture indicating wealth",
+    "Supporting Evidence URLs": [
+      "https://www.scientificamerican.com/article/great-zimbabwe-2005-01/"
+    ]
+  },
+  {
+    "Location": "Danamombe (Dhlo-Dhlo), Gweru",
+    "Coordinates (Approximate)": "19°27'S, 29°49'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 65,
+    "Recommended Reason": "Major stone-walled site with evidence of extensive copper working and trade, individuals buried with large amounts of copper and gold",
+    "Supporting Evidence": "Archaeological evidence shows individuals buried with huge amounts of gold and copper, part of Great Zimbabwe cultural complex",
+    "Supporting Evidence URLs": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10400708/",
+      "https://www.scientificamerican.com/article/great-zimbabwe-2005-01/"
+    ]
+  },
+  {
+    "Location": "Naletale Ruins, Shangani",
+    "Coordinates (Approximate)": "19°23'S, 29°30'E",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 60,
+    "Recommended Reason": "17th century stone-walled settlement with evidence of gold trade and sophisticated architecture, part of regional Zimbabwe culture",
+    "Supporting Evidence": "Stone architecture indicates wealth and trade connections, part of network of sites connected to Great Zimbabwe traditions",
+    "Supporting Evidence URLs": [
+      "https://www.scientificamerican.com/article/great-zimbabwe-2005-01/"
+    ]
+  },
+  {
+    "Location": "Chisikana Spring Sacred Site, Great Zimbabwe",
+    "Coordinates (Approximate)": "20°16'S, 30°56'E",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 70,
+    "Recommended Reason": "Sacred spring considered holy by local communities, associated with foundation myths and potentially ritual deposits of valuables",
+    "Supporting Evidence": "Archaeological research identifies spring as control point for visitors, sacred status suggests potential for ritual offerings",
+    "Supporting Evidence URLs": [
+      "https://www.metmuseum.org/essays/great-zimbabwe"
+    ]
+  },
+  {
+    "Location": "Mujejeje Control Point, Great Zimbabwe",
+    "Coordinates (Approximate)": "20°16'S, 30°56'E",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 65,
+    "Recommended Reason": "Linear-intrusive quartz vein used as control point for access to Great Zimbabwe, potential for tribute and toll collections",
+    "Supporting Evidence": "7.8 meter long quartz ridge used by locals as control point for visitors entering and exiting Great Zimbabwe",
+    "Supporting Evidence URLs": [
+      "https://www.metmuseum.org/essays/great-zimbabwe"
+    ]
+  },
+  {
+    "Location": "Zimbabwe Birds Eastern Enclosure Site, Great Zimbabwe",
+    "Coordinates (Approximate)": "20°16'S, 30°56'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 90,
+    "Recommended Reason": "Six of eight famous Zimbabwe Birds found here, royal authority symbols with potential for additional undiscovered soapstone treasures",
+    "Supporting Evidence": "Six Zimbabwe Birds recovered from Eastern Enclosure, these serve as status and religious symbols emblematic of royal authority",
+    "Supporting Evidence URLs": [
+      "https://www.metmuseum.org/essays/great-zimbabwe"
+    ]
+  },
+  {
+    "Location": "Early Colonial Treasure Hunter Sites, Great Zimbabwe",
+    "Coordinates (Approximate)": "20°16'S, 30°56'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 40,
+    "Recommended Reason": "Areas looted by antiquarians 1890s-1920s left behind items, potential for scattered artifacts and incomplete recoveries",
+    "Supporting Evidence": "Historical accounts confirm large amounts of gold fell into hands of antiquarians, much archaeological evidence destroyed but items may remain",
+    "Supporting Evidence URLs": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10400708/",
+      "https://travellingdane.org/2018/09/22/forgotten-great-zimbabwe/"
+    ]
+  }
+]
