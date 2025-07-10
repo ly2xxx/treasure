@@ -1,0 +1,114 @@
+[
+  {
+    "Location": "Moturua Island Archaeological Site, Bay of Islands",
+    "Coordinates (Approximate)": "35°15'S, 174°10'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 85,
+    "Recommended Reason": "Archaic Maori settlement site with shell pendant from tropical Pacific, one of earliest Polynesian settlements in New Zealand c.1300 CE",
+    "Supporting Evidence": "Archaeological excavations revealed tropical shell pendant, storage pits for kumara, successive occupation periods indicating long-term settlement",
+    "Supporting Evidence URLs": [
+      "https://www.livescience.com/60086-maori-site-earliest-polynesian-settlement.html",
+      "https://www.ancient-origins.net/news-history-archaeology/maori-artifacts-indicate-early-polynesian-settlement-new-zealand-island-021557"
+    ]
+  },
+  {
+    "Location": "Great Barrier Island Pa Sites, Auckland",
+    "Coordinates (Approximate)": "36°11'S, 175°25'E",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 70,
+    "Recommended Reason": "Multiple fortified Maori settlements (pa) from 16th-19th centuries with traditional artifacts and potentially undiscovered taonga",
+    "Supporting Evidence": "Archaeological sites Haratonga (t8/2) and Okiwi (s8/34, s8/35) documented by Heritage New Zealand with c.16th-19th century occupation",
+    "Supporting Evidence URLs": [
+      "https://www.doc.govt.nz/our-work/heritage/heritage-topics/maori-sites/"
+    ]
+  },
+  {
+    "Location": "Chatham Islands Moriori Sites",
+    "Coordinates (Approximate)": "44°00'S, 176°30'W",
+    "Treasure Value": "High",
+    "Likelihood (%)": 75,
+    "Recommended Reason": "Unique Moriori culture artifacts from c.1500 CE settlement by Maori from mainland, distinct cultural development and taonga",
+    "Supporting Evidence": "Separate Moriori people developed from mainland Maori around 1500 CE, J.R. Barker Hapupu National Historic Reserve documented",
+    "Supporting Evidence URLs": [
+      "https://www.doc.govt.nz/our-work/heritage/heritage-topics/maori-sites/",
+      "https://en.wikipedia.org/wiki/Archaeology_of_New_Zealand"
+    ]
+  },
+  {
+    "Location": "Browns Island Archaeological Landscape, Auckland",
+    "Coordinates (Approximate)": "36°47'S, 174°53'E",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 80,
+    "Recommended Reason": "13th century to 1820s Maori occupation with extensive archaeological evidence including storage pits, terraces, and artifacts",
+    "Supporting Evidence": "Continuous occupation from c.13th century documented by Heritage New Zealand, well-preserved archaeological landscape",
+    "Supporting Evidence URLs": [
+      "https://www.doc.govt.nz/our-work/heritage/heritage-topics/maori-sites/"
+    ]
+  },
+  {
+    "Location": "Maungauika/North Head Historic Reserve, Auckland",
+    "Coordinates (Approximate)": "36°50'S, 174°49'E",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 75,
+    "Recommended Reason": "13th century to 1860s occupation site with both Maori pa and later European fortifications, potential for buried taonga",
+    "Supporting Evidence": "Long-term occupation from 13th century through European contact, strategic location with defensive importance",
+    "Supporting Evidence URLs": [
+      "https://www.doc.govt.nz/our-work/heritage/heritage-topics/maori-sites/"
+    ]
+  },
+  {
+    "Location": "Eastland Port Gisborne 14th Century Village Site",
+    "Coordinates (Approximate)": "38°40'S, 178°01'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 90,
+    "Recommended Reason": "14th century Maori village site with obsidian tools and artifacts, historically significant as first Maori landing place in 1350",
+    "Supporting Evidence": "Archaeological excavation yielded obsidian flake tools and village remains, believed to be first Maori landing site in district",
+    "Supporting Evidence URLs": [
+      "https://www.smithsonianmag.com/smart-news/14th-century-maori-village-found-along-new-zealands-south-pacific-coastline-180969219/"
+    ]
+  },
+  {
+    "Location": "Raoul Island East Polynesian Sites, Kermadec Islands",
+    "Coordinates (Approximate)": "29°15'S, 177°55'W",
+    "Treasure Value": "Medium",
+    "Likelihood (%)": 60,
+    "Recommended Reason": "14th-18th century East Polynesian archaeological landscape, remote location may have preserved important artifacts",
+    "Supporting Evidence": "Heritage New Zealand documented East Polynesian archaeological sites from 14th-18th centuries on remote island",
+    "Supporting Evidence URLs": [
+      "https://www.doc.govt.nz/our-work/heritage/heritage-topics/maori-sites/"
+    ]
+  },
+  {
+    "Location": "Traditional Maori Treasure Box Sites, Various North Island Locations",
+    "Coordinates (Approximate)": "37°00'S, 175°00'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 55,
+    "Recommended Reason": "Carved feather boxes (wakahuia) traditionally suspended from house rafters to protect valuable taonga including Huia feathers and greenstone",
+    "Supporting Evidence": "Traditional Maori treasure boxes contained most precious possessions including rare Huia feathers, jade ornaments, and ancestral artifacts",
+    "Supporting Evidence URLs": [
+      "https://www.new-guinea-tribal-arts.com/maori-artifacts/"
+    ]
+  },
+  {
+    "Location": "Soapstone Bird Sites, Various South Island Locations",
+    "Coordinates (Approximate)": "45°00'S, 170°00'E",
+    "Treasure Value": "Exceptional",
+    "Likelihood (%)": 40,
+    "Recommended Reason": "Sources of soapstone used for carving Zimbabwe Birds (New Zealand's national symbol), potential for undiscovered carved artifacts",
+    "Supporting Evidence": "Eight famous soapstone birds found at various sites, carved figures represent ancestors and hold deep spiritual significance",
+    "Supporting Evidence URLs": [
+      "https://www.new-guinea-tribal-arts.com/maori-artifacts/"
+    ]
+  },
+  {
+    "Location": "Historic Greenstone (Pounamu) Trade Routes, South Island",
+    "Coordinates (Approximate)": "42°30'S, 171°30'E",
+    "Treasure Value": "High",
+    "Likelihood (%)": 70,
+    "Recommended Reason": "Traditional sources and trade routes for highly prized greenstone/jade, potential for cached or lost valuable pieces",
+    "Supporting Evidence": "Greenstone traditionally New Zealand's most precious material, elaborate trade networks, hei tiki and tools found throughout islands",
+    "Supporting Evidence URLs": [
+      "https://www.cordys.co.nz/department/tribal-artefacts-new-zealand-historical"
+    ]
+  }
+]
